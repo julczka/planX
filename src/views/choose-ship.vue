@@ -15,14 +15,31 @@
 
   <span> Selected  {{ shipName }}</span>
   <!-- <span> Selected {{ localStrorage.planetName }}</span> -->
+
+<multiselect v-model="value" :options="options"></multiselect>
+
   </div>
+
+
+
+
+
+
 </template>
 
 <script>
+import Multiselect from 'vue-multiselect'
+
+
+
 export default {
+
+  components: { Multiselect },
    data () { 
      return {
-    shipName: ''
+    shipName: '',
+    value: null,
+        options: ['list', 'of', 'options']
     }
   },
   mounted() {
@@ -46,3 +63,6 @@ export default {
   }
 }
 </script> 
+
+
+<style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
