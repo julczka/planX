@@ -9,7 +9,7 @@
   import Multiselect from 'vue-multiselect'
 
   // register globally
-  Vue.component('multiselect', Multiselect)
+ // Vue.component('multiselect', Multiselect)
 
   export default {
     // OR register locally
@@ -28,5 +28,5 @@
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
 
 <style>
-  your styles
+ 
 </style>
