@@ -5,7 +5,11 @@ import router from './router'
 import '@desislavsd/vue-select/dist/vue-select.css'
 import VueSelect from '@desislavsd/vue-select'
 
+
+
+
 Vue.config.productionTip = false
+
 
 Vue.use(VueSelect, { /* options */ } ) 
 

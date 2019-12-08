@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>I'm going to planet {{ planetName }}</h1>
-    <h1>with the ship called {{ shipName }}</h1>
+    <h1>with the ship called {{ selectedShip }}</h1>
   </div>
 </template>
 
@@ -9,21 +9,21 @@
 export default {
   data () { 
      return {
-    shipName: '',
+    selectedShip: '',
     planetName: '',
     }
   },
   mounted() {
-    if (localStorage.shipName) {
-      this.shipName = localStorage.shipName;
+    if (localStorage.selectedShip) {
+      this.selectedShip = localStorage.selectedShip;
     }
      if (localStorage.planetName) {
       this.planetName = localStorage.planetName;
     }
   },
   watch: {
-    shipName(newShipName) {
-      localStorage.shipName = newShipName;
+    selectedShip(newselectedShip) {
+      localStorage.selectedShip = newselectedShip;
     },
     planetName(newPlanetName) {
       localStorage.planetName = newPlanetName;

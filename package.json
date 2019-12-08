@@ -11,6 +11,7 @@
     "@desislavsd/vue-select": "^0.4.6",
     "core-js": "^3.4.3",
     "vue": "^2.6.10",
+    "vue-mouse-parallax": "^1.2.2",
     "vue-multiselect": "^2.1.6",
     "vue-router": "^3.1.3"
   },
