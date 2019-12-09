@@ -2,7 +2,7 @@
   <div class="about">
 
     <h1>I'm going to:</h1>
-    <select v-model="planetName">
+    <select v-model="selectedPlanet">
     <option disabled value="">Please select one</option>
     <option>Kepler</option>
     <option>Planet_X</option>
@@ -60,33 +60,27 @@ components: {
     }
   },
   mounted() {
-    if (localStorage.planetName) {
-      this.planetName = localStorage.planetName;
+    if (localStorage.selectedPlanet) {
+      this.selectedPlanet = localStorage.selectedPlanet;
     }
 
     
   },
   watch: {
-    planetName(newPlanetName) {
-      localStorage.planetName = newPlanetName;
+    selectedPlanet(newselectedPlanet) {
+      localStorage.selectedPlanet = newselectedPlanet;
     }
   },
 
   methods: {
     persist() {
-      localStorage.planetName = this.planetName;
-      console.log(localStorage.planetName + ' localstorage Planet');
-      console.log(this.planetName + ' this planet');
+      localStorage.selectedPlanet = this.selectedPlanet;
+      console.log(localStorage.selectedPlanet + ' localstorage Planet');
+      console.log(this.selectedPlanet + ' this planet');
       console.log(name);
     },
 
-    log (){
-      console.log(name);
-    },
-
-    choosePlanet (value) {
-      this.selectedPlanet = value
-    }
+    
   }
 }
 </script>
