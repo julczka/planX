@@ -47,22 +47,49 @@ const routes = [
   },
 
   {
-    path: '/Speedy Gonzales',
-    name: 'Speedy Gonzales',
+    path: '/Space Cruiser',
+    name: 'Space Cruiser',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Speedy Gonzales.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Space Cruiser.vue')
   },
 
   {
-    path: '/Luxury Cruiser',
-    name: 'Luxury Cruiser',
+    path: '/Space Jet',
+    name: 'Space Jet',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Luxury Cruiser.vue')
-  }
+    component: () => import(/* webpackChunkName: "about" */ '../views/Space Jet.vue')
+  },
+
+  {
+    path: '/Proxima Centauri B',
+    name: 'Proxima Centauri B',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Proxima Centauri B.vue')
+  },
+
+  {
+    path: '/Keppler-22b',
+    name: 'Keppler-22b',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Keppler-22b.vue')
+  },
+
+  {
+    path: '/Gliese 667Cc',
+    name: 'Gliese 667Cc',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Gliese 667Cc.vue')
+  },
 ]
 
 const router = new VueRouter({

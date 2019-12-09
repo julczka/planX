@@ -76,6 +76,7 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
 @import 'https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css';
 
 #app {
@@ -86,8 +87,31 @@ export default {
   color: $color;
   background: $bgcolor;
 
-  //height: 1980px;
+  
+  
 }
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Tomorrow', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1em;
+}
+
 
 figure {
 	margin-block-start: 0;
@@ -100,19 +124,6 @@ body {
 }
 
 
-// #nav {
-//   padding: 30px;
-
-//   a {
-//     font-weight: bold;
-//     color: white;
-//     padding: 10px;
-
-//     &.router-link-exact-active {
-//       color: #42b983;
-//     }
-//   }
-// }
 
 @media screen and (max-width: 1120px) {
 

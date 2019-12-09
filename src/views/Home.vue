@@ -348,7 +348,7 @@ justify-content: flex-end;
   text-align: center;
 
   }
- .text-left .text-right p h1{
+ .text-left .text-right p h1 {
   //justify-content: center;
   text-align: center;
  }

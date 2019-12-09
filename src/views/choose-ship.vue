@@ -1,6 +1,5 @@
 <template>
-   <div class="about">
-
+  <div class="about">
     <!-- <h1>I'm flying with:</h1>
     <select v-model="shipName">
     <option disabled value="">Please select one</option>
@@ -10,50 +9,43 @@
   </select>
 
    -->
- <p>
-   <router-link :to="selectedShip">
-    <button @click="persist">Save</button>
-    </router-link>
-  </p>
+    <p>
+      <router-link :to="selectedShip">
+        <button @click="persist">Save</button>
+      </router-link>
+    </p>
 
-  <span> Selected  {{ selectedShip }}</span>
-  <!-- <span> Selected {{ localStrorage.planetName }}</span> -->
+    <span> Selected {{ selectedShip }}</span>
+    <!-- <span> Selected {{ localStrorage.planetName }}</span> -->
 
-<multiselect v-model="selectedShip" :options="ships" placeholder="Choose ship" >
+    <multiselect
+      v-model="selectedShip"
+      :options="ships"
+      placeholder="Choose ship"
+      :allow-empty="false"
+      :showLabels="false"
+      :preselectFirst="true"
+      
+    >
+    </multiselect>
 
-</multiselect>
-
-<img :src="shipImage" class="imagesize">
-
+    <img :src="shipImage" class="imagesize" />
   </div>
 </template>
 
 <script>
-import Multiselect from 'vue-multiselect'
+import Multiselect from "vue-multiselect";
 
 export default {
-
   components: { Multiselect },
-   data () { 
-     return {
-    selectedShip: '',
-    //value: null,
-    // imgSource:'',
-    //img: require(ships.img),
-        ships: ['Luxury Cruiser', 'Speedy Gonzales'],
-        // ships: [
-
-        //   {name:'Cruiser', 
-        //   type: 'big', 
-        //   img: 'cruiser.jpg' 
-        //   },
-          
-        //   {name: 'Speedy', 
-        //   type: 'fast', 
-        //   img: 'speedy.jpg' 
-        //   },
-        // ]
-    }
+  data() {
+    return {
+      selectedShip: "",
+      //value: null,
+      // imgSource:'',
+      //img: require(ships.img),
+      ships: ["Space Cruiser", "Space Jet"]
+    };
   },
 
   computed: {
@@ -84,30 +76,24 @@ export default {
   methods: {
     persist() {
       localStorage.selectedShip = this.selectedShip;
-      console.log(localStorage.planetName + ' localstorage Planet');
-      console.log(localStorage.selectedShip + ' localStorage Ship');
-      console.log(this.selectedShip + ' this Ship');
-    },
+      console.log(localStorage.planetName + " localstorage Planet");
+      console.log(localStorage.selectedShip + " localStorage Ship");
+      console.log(this.selectedShip + " this Ship");
+    }
 
-//     updateShip() {
-// this.imgSource = this.ship.img
-//     }
-// <style src="vue-multiselect/dist/vue-multiselect.min.css"> </style>
-
+    //     updateShip() {
+    // this.imgSource = this.ship.img
+    //     }
+    // <style src="vue-multiselect/dist/vue-multiselect.min.css"> </style>
   }
-}
-</script>   
-
-
+};
+</script>
 
 <style lang="scss">
-
 @import "@/styles/_multiselect.scss";
 
 .imagesize {
-height: 300px;
-width: 300px;
+  height: 300px;
+  width: 300px;
 }
-
-
 </style>

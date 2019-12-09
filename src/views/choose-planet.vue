@@ -4,32 +4,21 @@
     <h1>I'm going to:</h1>
     <select v-model="selectedPlanet">
     <option disabled value="">Please select one</option>
-    <option>Kepler</option>
-    <option>Planet_X</option>
-    <option>Earth</option>
+    <option>Proxima Centauri B</option>
+    <option>Keppler-22b</option>
+    <option>Gliese 667CC</option>
   </select>
 
-   <p>
+   <router-link :to="selectedPlanet">
     <button @click="persist">Save</button>
-  </p>
+   </router-link>
+ 
 
 
 
   <span> Selected  {{ planetName }} {{ selectedPlanet }} </span>
 
-
-
-  <!-- <v-select 
-    v-model="user.name" 
-    as="name::id" 
-    :from="users"
-    :tagging="tagging"
-    :filter="filter"
-    query="choose the planet  "
-    
-     /> -->
-
-  <!-- <span> Selected {{ localStrorage.planetName }}</span> -->
+  
   </div>
 
 
