@@ -1,6 +1,6 @@
 // TO DO: add class with a prop. in class selected colors. separate prop for animation class
 <template>
-     <button :class="['main-button', color || 'purple', animation]">
+     <button :class="['main-button', color, animation]">
        <slot></slot>
      </button>
 </template>
@@ -8,6 +8,8 @@
 
 <script>
 export default{
+
+name: 'b-button',
 
   props: {
     color: String,

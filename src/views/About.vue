@@ -4,12 +4,12 @@
     <div>
 
        <b-button
-       class="animation"
+       class="red animation"
        >Hello how are you</b-button>
 
-      <v-button bText="go home" bColor="aqua"></v-button>
+      <!-- <v-button bText="go home" bColor="aqua"></v-button>
       <v-button bText="dog is cute" bColor="yellow"></v-button>
-      <v-button bText="i love Pindsvin" bColor="red"></v-button>
+      <v-button bText="i love Pindsvin" bColor="red"></v-button> -->
      
     </div>
   </div>
@@ -18,14 +18,14 @@
 
 <script>
 
-import Button from '@/components/Button.vue'
-import blinking_button from '@/components/blinking_button.vue'
+
+import blinkingButton from '@/components/blinkingButton.vue'
 
 
 export default {
   components: { 
-    'v-button': Button,
-    'b-button': blinking_button
+    
+     'b-button':blinkingButton
     }
 }
 </script>
