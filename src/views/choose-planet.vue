@@ -13,15 +13,11 @@
     <button @click="persist">Save</button>
   </p>
 
-  <div class="image-container">
-    <img :src="img" width="300" height="300">
-  </div>
+
 
   <span> Selected  {{ planetName }} {{ selectedPlanet }} </span>
 
-  <CustomSelect :options="['Kepler', 'Planet_X', 'Earth']"
-  @input="choosePlanet"
- />
+
 
   <!-- <v-select 
     v-model="user.name" 
@@ -41,41 +37,26 @@
 </template>
 
 <script>
-import CustomSelect from "@/components/CustomSelect.vue";
+
 
 export default {
 
 components: {
-    CustomSelect
+    
   },
 
    data () { 
      return {
     planetName: '',
     selectedPlanet: '',
-    tagging: false,
-    filter: false,
-    //selected: '',
-    user: [
-      {id:null,
-      name:''}
-    ],
+
+  
 
     
-    users: [
-      { id:1,
-        name: 'john'},
-      { id:2,
-        name: 'steve'}
-    ],
+   
 
     img: require('@/assets/planets/Earth.jpg'),
 
-    // src: [
-    //   {Kepler: './assets/planet/keppler.jpg'},
-    //   {Earth: './assets/planet/Earth.jpg'},
-    //   {Planet_X:'./assets/planet/Earth.jpg'}
-    // ],
     }
   },
   mounted() {

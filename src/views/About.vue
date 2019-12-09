@@ -4,7 +4,7 @@
     <div>
 
        <b-button
-       class="red animation"
+       class="blue animation"
        >Hello how are you</b-button>
 
       <!-- <v-button bText="go home" bColor="aqua"></v-button>

@@ -1,4 +1,4 @@
-// TO DO: add class with a prop. in class selected colors. separate prop for animation class
+
 <template>
      <button :class="['main-button', color, animation]">
        <slot></slot>
@@ -20,7 +20,7 @@ name: 'b-button',
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 
 .main-button {
