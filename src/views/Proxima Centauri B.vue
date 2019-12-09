@@ -306,12 +306,14 @@ export default {
 
 .attractions_section {
   width: 100%;
-  height: 250vh;
+  height: 170vh;
+  display:flex;
+  align-items:flex-end;
+  flex-direction:column;
   
-
   .hero_image {
     width: 100%;
-    height: 15%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -333,7 +335,7 @@ background: linear-gradient(180deg, rgba(0,0,54,1) 0%, #2D2273 100%);
   .content_container {
     display: flex;
     width: 100%;
-    height: 25%;
+    height: 40%;
     align-items: center;
     &:nth-child(2) {
       flex-direction: row-reverse;
