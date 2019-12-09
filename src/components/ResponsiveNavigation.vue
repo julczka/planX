@@ -23,9 +23,9 @@
 			</li>
 
 			<div class="social">
-				<i class="icon ion-logo-facebook socIcon"></i>
+				<!-- <i class="icon ion-logo-facebook socIcon"></i> -->
 				<i class="icon ion-logo-github socIcon"></i>
-				<i class="icon ion-logo-youtube socIcon"></i>
+				<!-- <i class="icon ion-logo-youtube socIcon"></i> -->
 			</div>
 
 		</ul>
@@ -126,7 +126,7 @@ nav {
 
 	.socIcon {
 		padding: .3em;
-		font-size: 2em;
+		font-size: 2.5em;
 		margin:0;
 		transition: .1s ease-in-out;
 		
@@ -139,7 +139,7 @@ nav {
 	}
 }
 
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 770px) {
 	nav {
 			
 	
