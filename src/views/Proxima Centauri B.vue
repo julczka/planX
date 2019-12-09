@@ -9,61 +9,7 @@
           :rotation="rotation"
           @on-load="onLoad"
         ></model-gltf>
-        <!--         
-          <parallax-container class="container">
-            <parallax-element
-              :parallaxStrength="30"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img1"
-            >
-            </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="30"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img2"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="40"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img3"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="-10"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img4"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="60"
-              type="depth"
-              tag="p"
-              class="absolute"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="20"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img5"
-            >
-            </parallax-element>
-          </parallax-container> -->
       </div>
       <div class="info_container">
         <div class="info-text">
@@ -75,9 +21,7 @@
             <li>290 days to orbit its host star</li>
             <li>2,4x times gravity of Earth</li>
           </ul>
-          <!-- <p>-587.1 light years</p>
-          <p>-290 days to orbit its host star</p>
-          <p>-2,4x times gravity of Earth</p> -->
+         
         </div>
         <div class="stats_container">
           <div class="stars">
@@ -103,7 +47,7 @@
           </div>
 
           <div class="stars">
-            <h2>Life potntial</h2>
+            <h2>Life potential</h2>
             <div class="rating">
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
@@ -171,7 +115,7 @@
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/planets/kepler-22b.png" alt="" />
+          <img class="planet" src="../assets/parallax/eso1333a.jpg" alt="" />
         </div>
       </div>
       <div class="content_container">
@@ -200,17 +144,15 @@
 </template>
 
 <script>
-//import { ParallaxContainer, ParallaxElement } from "vue-mouse-parallax";
+
 import { ModelGltf } from "vue-3d-model";
 
-// Vue.component("parallax-container", ParallaxContainer);
-// Vue.component("parallax-element", ParallaxElement);
+
 
 export default {
   name: "page",
   components: {
-    // ParallaxContainer,
-    // ParallaxElement,
+  
     ModelGltf
   },
   data() {
@@ -245,6 +187,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 .basic_info_section {
   width: 100%;
   height: 95vh;
@@ -253,6 +196,7 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 0 1em;
+  background: linear-gradient(180deg, rgba(0,0,21,1) 0%, #2D2273 100%);
 }
 
 .planet_container {
@@ -288,15 +232,32 @@ export default {
   align-items: flex-start;
   justify-content: space-around;
   flex-direction: column;
+  padding-left: 4em;
   .info-text {
     text-align: left;
+
+    h1 {
+        font-size: 3em;
+        margin-top: 0;
+    }
+
+    ul {
+        list-style-image: require('../assets/icons/bullet.svg')
+    }
+
+    li {
+        font-size: 1.2em; 
+        padding: .3em 0;
+    }
+
   }
 }
 .stats_container {
   display: flex;
-  width: 90%;
+  width: 80%;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   .stars {
     display: flex;
@@ -313,8 +274,10 @@ export default {
 .rating {
   font-size: 1.5rem;
 
+
   i {
     padding: 0.2em;
+    color: #A093F4;
   }
 }
 
@@ -328,21 +291,21 @@ export default {
 }
 
 .environment_section {
-  background-image: url("../assets/parallax/bg1.jpg");
+  background-image: url("../assets/parallax/planet landscape copy.jpg");
   min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+
   .heroimg {
     width: 100px;
     height: 100px;
   }
   h1 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-family: "Tomorrow", sans-serif;
-    font-size: 40px;
+    text-shadow: 0 0 30px $bgcolor;
+    font-size: 3rem;
   }
   .environment_info {
     display: flex;
@@ -350,10 +313,14 @@ export default {
     align-items: center;
     width: 30%;
     height: 40%;
+
     p {
-      margin: 5px;
-      font-family: "Montserrat Alternates", sans-serif;
-      font-size: 16px;
+      margin: .5em;
+      text-shadow: 0 0 4px black;
+      line-height: 1.6;
+      font-size: 1.1rem;
+      
+      
     }
   }
 }
@@ -361,30 +328,33 @@ export default {
 .attractions_section {
   width: 100%;
   height: 250vh;
-  background-color: $bgcolor;
+  
+
   .hero_image {
     width: 100%;
-    height: 11%;
+    height: 15%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    background: rgb(0,0,54);
+background: linear-gradient(180deg, rgba(0,0,54,1) 0%, #2D2273 100%);
+
     .heroimg {
       width: 100px;
       height: 100px;
     }
     h1 {
-      font-family: "Montserrat Alternates", sans-serif;
-      font-family: "Tomorrow", sans-serif;
+      
       color: white;
-      font-size: 40px;
-      margin: 20px;
+      font-size: 3rem;
+      margin: .3em;
     }
   }
   .content_container {
     display: flex;
     width: 100%;
-    height: 40%;
+    height: 25%;
     align-items: center;
     &:nth-child(2) {
       flex-direction: row-reverse;
@@ -392,13 +362,18 @@ export default {
     .graphic_banner {
       width: 50%;
       height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+      
       .planet {
-        width: 700px;
-        height: 600px;
-        margin-right: 100px;
+        width: 100%;
+        
+      }
+
+      img {
+          object-fit: cover;    
+          object-position: 50% 50%;
       }
     }
     .text_banner {
@@ -406,19 +381,20 @@ export default {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: 100%;
-      height: 30%;
-      .text_control {
+      width: 50%;
+      height: 100%;
+   
+    background: #2D2273;
+.text_control {
         width: 50%;
         height: 50%;
       }
       h1 {
-        font-family: "Montserrat Alternates", sans-serif;
-        font-family: "Tomorrow", sans-serif;
+        
         font-size: 40px;
       }
       p {
-        font-family: "Montserrat Alternates", sans-serif;
+        
         font-size: 16px;
         margin: 20px;
       }
