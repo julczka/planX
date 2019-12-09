@@ -59,7 +59,7 @@
     </section>
 
     <div class="environment_section">
-      <img class="heroimg" src="../assets/shit/Tree.svg" alt="" />
+      <img class="heroimg" src="../assets/heroimg/environment_hero.svg" alt="" />
       <h1>Environment</h1>
       <div class="environment_info">
         <p>
@@ -76,7 +76,7 @@
 
     <section class="attractions_section">
       <div class="hero_image">
-        <img class="heroimg" src="../assets/shit/hero.svg" alt="" />
+        <img class="heroimg" src="../assets/heroimg/attractions_hero.svg" alt="" />
         <h1>Attractions</h1>
       </div>
 
@@ -116,23 +116,39 @@
       </div>
     </section>
 
-    <div class="aliens_section"></div>
+    <div class="aliens_section">
+      <div class="aliens_section_text">
+        <h2>Expecting aliens?</h2>
+        <h3>They may look different then you imagined</h3>
+        <p>
+          When we think about extraterrestial life, we usally picture it as
+          little, green men in a flying saucer. Scientist look for life on
+          planets other then earth, but they don't search for aliens as we
+          picture them. They mostly search for creatures impossible to see with
+          a naked eye.
+        </p>
+
+        <h3>Want to know more?</h3>
+
+        <b-button class="purple_hover">Click here</b-button>
+      </div>
+
+      
+    </div>
 
     <section class="section section-dark"></section>
   </div>
 </template>
 
 <script>
-
 import { ModelGltf } from "vue-3d-model";
-
-
+import blinkingButton from "@/components/blinkingButton.vue";
 
 export default {
   name: "page",
   components: {
-  
-    ModelGltf
+    ModelGltf,
+    "b-button": blinkingButton
   },
   data() {
     return {
@@ -166,248 +182,5 @@ export default {
 </script>
 
 <style lang="scss">
-
-.basic_info_section {
-  width: 100%;
-  height: 95vh;
-  background-color: $bgcolor;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1em;
-  background: linear-gradient(180deg, rgba(0,0,21,1) 0%, #2D2273 100%);
-}
-
-.planet_container {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  position: relative;
-  height: 600px;
-  width: 600px;
-  z-index: 1;
-}
-
-.absolute {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.info_container {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  flex-direction: column;
-  padding-left: 4em;
-  .info-text {
-    text-align: left;
-
-    h1 {
-        font-size: 3em;
-        margin-top: 0;
-    }
-
-    ul {
-        list-style-image: require('../assets/icons/bullet.svg')
-    }
-
-    li {
-        font-size: 1.2em; 
-        padding: .3em 0;
-    }
-
-  }
-}
-.stats_container {
-  display: flex;
-  width: 80%;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
-  .stars {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    h2 {
-      margin: 0;
-      padding: 0.5em 0;
-    }
-  }
-}
-
-.rating {
-  font-size: 1.5rem;
-
-
-  i {
-    padding: 0.2em;
-    color: #A093F4;
-  }
-}
-
-.environment_section,
-.aliens_section {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.environment_section {
-  background-image: url("../assets/parallax/planet landscape copy.jpg");
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-
-  .heroimg {
-    width: 100px;
-    height: 100px;
-  }
-  h1 {
-    text-shadow: 0 0 30px $bgcolor;
-    font-size: 3rem;
-  }
-  .environment_info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    height: 40%;
-
-    p {
-      margin: .5em;
-      text-shadow: 0 0 4px black;
-      line-height: 1.6;
-      font-size: 1.1rem;
-      
-      
-    }
-  }
-}
-
-.attractions_section {
-  width: 100%;
-  height: 170vh;
-  display:flex;
-  align-items:flex-end;
-  flex-direction:column;
-  
-  .hero_image {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgb(0,0,54);
-background: linear-gradient(180deg, rgba(0,0,54,1) 0%, #2D2273 100%);
-
-    .heroimg {
-      width: 100px;
-      height: 100px;
-    }
-    h1 {
-      
-      color: white;
-      font-size: 3rem;
-      margin: .3em;
-    }
-  }
-  .content_container {
-    display: flex;
-    width: 100%;
-    height: 40%;
-    align-items: center;
-    &:nth-child(2) {
-      flex-direction: row-reverse;
-    }
-    .graphic_banner {
-      width: 50%;
-      height: 100%;
-    //   display: flex;
-    //   justify-content: center;
-    //   align-items: center;
-      
-      .planet {
-        width: 100%;
-        
-      }
-
-      img {
-          object-fit: cover;    
-          object-position: 50% 50%;
-      }
-    }
-    .text_banner {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      width: 50%;
-      height: 100%;
-   
-    background: #2D2273;
-.text_control {
-        width: 50%;
-        height: 50%;
-      }
-      h1 {
-        
-        font-size: 40px;
-      }
-      p {
-        
-        font-size: 16px;
-        margin: 20px;
-      }
-    }
-  }
-}
-
-.aliens_section {
-  background-image: url("../assets/parallax/bg2.jpg");
-  min-height: 100vh;
-}
-
-@media only screen and (max-width: 736px) {
-  .basic_info_section {
-    display: flex;
-    flex-direction: column;
-    .planet_container {
-      width: 100%;
-    }
-    .info_container {
-      width: 100%;
-    }
-  }
-  .attractions_section {
-    height: 300vh;
-    .content_container {
-      flex-direction: column;
-      display: flex;
-      &:nth-child(2) {
-        flex-direction: column;
-      }
-    }
-  }
-}
+@import "@/styles/_planets.scss";
 </style>
