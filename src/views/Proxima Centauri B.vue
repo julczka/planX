@@ -9,61 +9,6 @@
           :rotation="rotation"
           @on-load="onLoad"
         ></model-gltf>
-        <!--         
-          <parallax-container class="container">
-            <parallax-element
-              :parallaxStrength="30"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img1"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="30"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img2"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="40"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img3"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="-10"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img4"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="60"
-              type="depth"
-              tag="p"
-              class="absolute"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="20"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img5"
-            >
-            </parallax-element>
-          </parallax-container> -->
       </div>
       <div class="info_container">
         <div class="info-text">
@@ -75,9 +20,6 @@
             <li>290 days to orbit its host star</li>
             <li>2,4x times gravity of Earth</li>
           </ul>
-          <!-- <p>-587.1 light years</p>
-          <p>-290 days to orbit its host star</p>
-          <p>-2,4x times gravity of Earth</p> -->
         </div>
         <div class="stats_container">
           <div class="stars">
@@ -112,25 +54,6 @@
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
-
-          <!-- <div class="stars">
-            <h3>Gravity</h3>
-            <img
-              src="../assets/shit/stars.png"
-              alt=""
-              width="200"
-              height="100"
-            />
-          </div>
-          <div class="stars">
-            <h3>Life potential</h3>
-            <img
-              src="../assets/shit/stars.png"
-              alt=""
-              width="200"
-              height="100"
-            />
-          </div> -->
         </div>
       </div>
     </section>

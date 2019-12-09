@@ -4,7 +4,7 @@
     <div>
 
        <b-button
-       class="blue animation"
+       class="purple_hover"
        >Hello how are you</b-button>
 
       <!-- <v-button bText="go home" bColor="aqua"></v-button>
