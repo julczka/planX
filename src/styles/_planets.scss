@@ -275,10 +275,14 @@
   .basic_info_section {
     display: flex;
     flex-direction: column;
+    height: auto;
+
     .planet_container {
+      height: 50%;
       width: 100%;
     }
     .info_container {
+      height: 50%;
       width: 100%;
       align-items: center;
       padding-bottom: 4em;
