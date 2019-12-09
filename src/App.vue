@@ -85,6 +85,7 @@ export default {
   text-align: center;
   color: $color;
   background: $bgcolor;
+
   //height: 1980px;
 }
 

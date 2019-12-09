@@ -52,17 +52,17 @@ nav {
 	position: sticky;
 	top: 0;
 	z-index: 99;
-	//box-shadow: 2px 2px 2px greenyellow;
+	box-shadow: 0px 0px 15px rgba(230,230,218,.1);
 
 	ul {
 		display: flex;
 		height: 100%;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: space-between;	
 		margin-block-start: 0;
 		margin-block-end: 0;
 		padding-inline-start: 0;
-		//box-shadow: 2px 2px 2px #CCC;
+		box-shadow: 0px 0px 15px rgba(230,230,218,.1);
 		
 		
 
@@ -100,6 +100,10 @@ nav {
 			transition: 0.2s linear;
 
 			&:hover {
+				background-size: 100% .2em;
+			}
+
+			&:focus {
 				background-size: 100% .2em;
 			}
 			
