@@ -230,10 +230,10 @@ export default {
 
 .second_section {
   width: 100%;
-  height:auto;
+  height:80vh;
   flex-direction:column;
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
   align-items:center;
   box-sizing: border-box;
   padding: 0 1em;
@@ -248,7 +248,7 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
 
 .second_section_text{
       width:50%;
-      height:30%
+      height:30%;
   }
 
   .heroimg {
@@ -259,7 +259,7 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
 
 .third_section {
   width: 100%;
-  height: 170vh;
+  height: 150vh;
   display:flex;
   align-items:flex-end;
   justify-content:center;
@@ -282,7 +282,7 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
   .content_container {
     display: flex;
     width: 100%;
-    height: 48%;
+    height: 100%;
     align-items: center;
     background-color:#2D2273;
     &:nth-child(2) {
@@ -344,14 +344,15 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
 
 .landing_section{
    width: 100%;
-  height:auto;
+   height:100vh;
   flex-direction:column;
   display: flex;
-  justify-content: center;
+  justify-content:flex-end;
   align-items:center;
   box-sizing: border-box;
   padding: 0 1em;
-  background-color:#2D2273;
+background: rgb(4,3,59);
+background: linear-gradient(0deg, rgba(4,3,59,1) 47%, rgba(45,34,115,1) 92%);
 }
 
 
@@ -368,15 +369,66 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
       width: 100%;
     }
   }
-  .attractions_section {
-    height: 300vh;
+  .third_section {
+    height:300vh;
     .content_container {
       flex-direction: column;
       display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content:flex-start;
+    align-items: center;
+      .graphic_banner{
+          .photo {
+        width: 93.5vh;
+        height:85vh;
+      }
+      
+      }
       &:nth-child(2) {
         flex-direction: column;
       }
+    
+  
+
+   .text_banner {
+      display: flex;
+      justify-content:flex-start;
+      align-items:center;
+      flex-direction:column;
+      width: 100%;
+      height:40%;
+    background: #2D2273;
+    .text_control{
+      width:100%;
+      h1 {
+        
+        font-size: 40px;
+      }
+      p {
+        font-size:18px;
+        margin: 8px;
+      }
     }
-  }
+    }
+     }
 }
+
+
+.landing_section{
+  font-size:18px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  height:120vh;
+}
+
+.second_section_text{
+  font-size:18px;
+  width:100%;
+}
+}
+  
+
+
 </style>
