@@ -31,7 +31,7 @@ export default {
     navLinks: [
       {
         text: 'Home',
-		path: '/',
+		path: '/Home',
 		icon: 'ion-ios-home'
       },
      

@@ -1,7 +1,40 @@
 <template>
   <div class="about">
 
+<div class="choice-row">
+  <div class="choice-container">
 
+    <div class="selector-container">
+       <multiselect
+      v-model="selectedPlanet"
+      :options="planets"
+      placeholder="Choose your destination"
+      :allow-empty="false"
+      :showLabels="false"
+      :preselectFirst="true"
+      
+    >
+    </multiselect>
+
+    </div>
+
+<router-link :to="selectedPlanet"
+>
+     <b-button
+       class="purple_hover"
+       @click.native="persist"
+       >Go to planet</b-button></router-link>
+  </div>
+
+    <div class="img-container">
+ABC
+  </div>
+  
+
+
+  </div>
+<span> Selected {{ selectedPlanet }} </span>
+</div>
 
 
     <!-- <h1>I'm going to:</h1>
@@ -20,26 +53,9 @@
 
 
    -->
-<span> Selected {{ selectedPlanet }} </span>
 
-  <multiselect
-      v-model="selectedPlanet"
-      :options="planets"
-      placeholder="Choose your destination"
-      :allow-empty="false"
-      :showLabels="false"
-      :preselectFirst="true"
-      
-    >
-    </multiselect>
 
-<router-link :to="selectedPlanet"
->
-     <b-button
-       class="purple_hover"
-       @click.native="persist"
-       >Go to planet</b-button></router-link>
-  </div>
+ 
 
 
 
@@ -64,12 +80,6 @@ components: {
     
     selectedPlanet: '',
     planets: ["Gliese 667Cc", "Kepler-22b", "Proxima Centauri B"],
-
-  
-
-    
-   
-
     img: require('@/assets/planets/Earth.jpg'),
 
     }
@@ -103,6 +113,32 @@ components: {
 <style lang="scss">
 
 @import "@/styles/_multiselect.scss";
+
+.choice-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.choice-container {
+  background: blue;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  .selector-container {
+    width: 50%;
+  }
+}
+
+.img-container {
+  background: red;
+  height: 100%;
+  width: 60%;
+}
 
 
 </style>

@@ -2,14 +2,14 @@
 
  <div class="landing_page">
 
-  <div class="bgVideo_container">
+  <!-- <div class="bgVideo_container">
       <video autoplay muted loop id="bgVideo">
         <source src="../assets/bgVideos/bgV2.mp4" type="video/mp4">
       </video>
-  </div>  
+  </div>   -->
 
   <div class="content_container">
-    <img class="logo" src="../assets/logo/logoWhite.svg" alt=""  width="500" height="250">
+    <!-- <img class="logo" src="../assets/logo/logoWhite.svg" alt=""  width="500" height="250"> -->
       <div class="text_container">
         <h1>Interstellar Space Travel Agency</h1>
         <p>
@@ -18,7 +18,7 @@
         </p>
       </div>
   
-      <router-link class="button_container" to="/planet_page">
+      <router-link class="button_container" to="/Home">
         <button class="main-button">Enter</button>
       </router-link>
   </div>
