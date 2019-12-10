@@ -74,12 +74,12 @@ const routes = [
   },
 
   {
-    path: '/Keppler-22b',
-    name: 'Keppler-22b',
+    path: '/Kepler-22b',
+    name: 'Kepler-22b',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Keppler-22b.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Kepler-22b.vue')
   },
 
   {

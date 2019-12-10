@@ -1,7 +1,10 @@
 <template>
   <div class="about">
 
-    <h1>I'm going to:</h1>
+
+
+
+    <!-- <h1>I'm going to:</h1>
     <select v-model="selectedPlanet">
     <option disabled value="">Please select one</option>
     <option>Proxima Centauri B</option>
@@ -16,28 +19,48 @@
 
 
 
-  <span> Selected  {{ planetName }} {{ selectedPlanet }} </span>
+  <span> Selected  {{ planetName }} {{ selectedPlanet }} </span> -->
 
-  
+  <multiselect
+      v-model="selectedPlanet"
+      :options="planets"
+      placeholder="Choose your destination"
+      :allow-empty="false"
+      :showLabels="false"
+      :preselectFirst="true"
+      
+    >
+    </multiselect>
+
+<router-link :to="selectedPlanet">
+     <b-button
+       class="purple_hover"
+       >Go to planet</b-button></router-link>
   </div>
+
 
 
 
 </template>
 
 <script>
-
+import Multiselect from "vue-multiselect";
+import blinkingButton from '@/components/blinkingButton.vue'
 
 export default {
 
 components: {
-    
+    Multiselect,
+    'b-button':blinkingButton,
   },
+
+  
 
    data () { 
      return {
     planetName: '',
     selectedPlanet: '',
+    planets: ["Gliese 667Cc", "Kepler-22b", "Proxima Centauri B"],
 
   
 
@@ -74,22 +97,9 @@ components: {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
-.v-select {
-    --c-base: rgba(0,0,0,0); /* background */
-    --c-theme: pink; /* tags background; options hover */
-    --c-border: red; /* border color of root element and tags */
-    --radius: 0.2em; /* border radius of root element and tags */
-    --padd: 3px; /* tags spacing */
-    --height: 6em; /* minimum height; can grow larger when `:multiple=true` */
-    font-size: inherit;
-    
-}
+@import "@/styles/_multiselect.scss";
 
-.image-container {
-  background-color: aquamarine;
-  height: 50%;
-  width: 50%;
-}
+
 </style>
