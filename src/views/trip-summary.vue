@@ -60,8 +60,64 @@
       </div>
     </section>
 
-    <div class="fourth_section"></div>
+    <div class="fourth_section">
 
+    </div>
+
+<section class="second_section">
+        <img class="heroimg1" src="../assets/heroimg/getready_hero.svg" alt="">
+        <h1>Prepare yourself!</h1>
+        <div class="second_section_text">
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Veniam, odit nemo. Voluptatem placeat doloribus minima assumenda 
+            laborum praesentium incidunt ipsum itaque quis, explicabo, illo
+            repellat, consequatur veritatis soluta excepturi. Quod.
+            </p>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="third_section">
+      <div class="content_container">
+        <div class="text_banner">
+          <div class="text_control">
+            <h1>Launch from earth</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
+              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
+              assumenda culpa corporis excepturi provident, quis quos debitis
+              nobis vero cumque quam?
+            </p>
+          </div>
+        </div>
+
+        <div class="graphic_banner">
+          <img class="photo" src="../assets/photos/rocketlaunch.jpg" alt="" />
+        </div>
+      </div>
+      <div class="content_container">
+        <div class="text_banner">
+          <div class="text_control">
+            <h1>Trip to the orbit</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
+              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
+              assumenda culpa corporis excepturi provident, quis quos debitis
+              nobis vero cumque quam?
+            </p>
+          </div>
+        </div>
+        <div class="graphic_banner">
+          <img class="photo" src="../assets/photos/orbitrip.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    
    
   </div>
 </template>
@@ -221,6 +277,8 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
   background-image: url("../assets/parallax/dinner_parallax.jpg");
   min-height: 100vh;
 }
+
+
 
 @media only screen and (max-width: 736px) {
   .basic_info_section {
