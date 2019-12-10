@@ -40,8 +40,8 @@
           </parallax-element>
 
           <parallax-element
-            :parallaxStrength="5"
-            type="rotation"
+            :parallaxStrength="30"
+            type="translation"
             tag="img"
             class="absolute"
             :src="img2"
@@ -49,8 +49,8 @@
           </parallax-element>
 
           <parallax-element
-            :parallaxStrength="-10"
-            type="depth"
+            :parallaxStrength="-40"
+            type="translation"
             tag="img"
             class="absolute"
             :src="img3"
@@ -61,7 +61,7 @@
           <transition name="puff">
             <parallax-element
               v-if="show"
-              :parallaxStrength="10"
+              :parallaxStrength="20"
               type="depth"
               tag="img"
               class="absolute"
@@ -73,7 +73,7 @@
           </transition>
 
           <parallax-element
-            :parallaxStrength="20"
+            :parallaxStrength="60"
             type="rotation"
             tag="img"
             class="absolute"
