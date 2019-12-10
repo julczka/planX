@@ -9,7 +9,7 @@
 
 
     <section class="second_section">
-        <img class="heroimg" src="../assets/heroimg/getready_hero.svg" alt="">
+        <img class="heroimg1" src="../assets/heroimg/getready_hero.svg" alt="">
         <h1>Prepare yourself!</h1>
         <div class="second_section_text">
             <p>
@@ -24,9 +24,6 @@
     
 
     <section class="third_section">
-      <div class="hero_image"></div>
-      
-
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
@@ -63,7 +60,7 @@
       </div>
     </section>
 
-    <div class="aliens_section"></div>
+    <div class="fourth_section"></div>
 
    
   </div>
@@ -72,25 +69,6 @@
 
 
 <style lang="scss">
-
-
-
-.second_section {
-  width: 100%;
-  height: 50vh;
-  flex-direction:column;
-  background-color:#000137;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  padding: 0 1em;
-  .second_section_text{
-      width:30%;
-      height:50%
-  }
-
-}
-
 
 .container {
   position: relative;
@@ -112,7 +90,7 @@
 
 
 
-.first_section,.aliens_section {
+.first_section,.fourth_section {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -121,7 +99,7 @@
 }
 
 .first_section {
-  background-image: url("../assets/parallax/bg3.jpg");
+  background-image: url("../assets/parallax/launch_parallax.jpg");
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -130,29 +108,50 @@
   color: white;
 
   .heroimg {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
   }
   
 }
+
+.second_section {
+  width: 100%;
+  height: 70vh;
+  flex-direction:column;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  box-sizing: border-box;
+  padding: 0 1em;
+  background: rgb(45,34,115);
+background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
+  .heroimg1{
+  width:150px;
+  height:150px;
+}
+  .second_section_text{
+      width:30%;
+      height:50%
+  }
+
+}
+
 
 .third_section {
   width: 100%;
   height: 170vh;
   display:flex;
   align-items:flex-end;
+  justify-content:center;
   flex-direction:column;
-  
+  background-color:#2d2273;
   .hero_image {
     width: 100%;
-    height: 10%;
+    height: 18%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(0,0,54);
-    background: linear-gradient(180deg, rgba(0,0,54,1) 0%, #2D2273 100%);
-
     .heroimg {
       width: 200px;
       height: 200px;
@@ -167,8 +166,9 @@
   .content_container {
     display: flex;
     width: 100%;
-    height: 45%;
+    height: 48%;
     align-items: center;
+    background-color:#2D2273;
     &:nth-child(2) {
       flex-direction: row-reverse;
     }
@@ -217,8 +217,8 @@
   }
 }
 
-.aliens_section {
-  background-image: url("../assets/parallax/bg2.jpg");
+.fourth_section {
+  background-image: url("../assets/parallax/dinner_parallax.jpg");
   min-height: 100vh;
 }
 

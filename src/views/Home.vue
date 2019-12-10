@@ -237,11 +237,11 @@ export default {
   name: "home",
   data() {
     return {
-      img1: require("@/assets/paralax/1.png"),
-      img2: require("@/assets/paralax/2.png"),
-      img3: require("@/assets/paralax/3.png"),
-      img4: require("@/assets/paralax/4.png"),
-      img5: require("@/assets/paralax/5.png")
+      img1: require("@/assets/mouseparallax/1.png"),
+      img2: require("@/assets/mouseparallax/2.png"),
+      img3: require("@/assets/mouseparallax/3.png"),
+      img4: require("@/assets/mouseparallax/4.png"),
+      img5: require("@/assets/mouseparallax/5.png")
     };
   }
 };
