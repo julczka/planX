@@ -81,6 +81,19 @@
             id="kurwa"
           >
           </parallax-element>
+         <!-- <transition name="puff">
+          <parallax-element
+            :parallaxStrength="30"
+            type="translation"
+            tag="h1"
+            class="absolute"
+            :key="selectedPlanet"
+             v-if="show"
+            
+          > {{selectedPlanet}}
+          </parallax-element>
+           </transition> -->
+
         </parallax-container>
       </div>
     </div>

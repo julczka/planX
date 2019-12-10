@@ -73,6 +73,7 @@
       </div>
     </div>
 
+
      <div class="row">
       <div class="container-illu">
         
@@ -145,7 +146,8 @@
       </div>
     </div>
 
- <div class="row">
+
+     <div class="row">
       <div class="container-illu">
         
           <!-- <div id="container"> -->
@@ -216,6 +218,151 @@
         </div>
       </div>
     </div>
+
+     <div class="row">
+      <div class="container-illu">
+        
+          <!-- <div id="container"> -->
+          <parallax-container class="container">
+            <parallax-element
+              :parallaxStrength="-50"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img1"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="50"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img2"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="30"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img3"
+              id="kurwa"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="-10"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img4"
+              id="kurwa"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="60"
+              type="depth"
+              tag="p"
+              class="absolute"
+            >
+              LALALALA
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="20"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img5"
+              id="kurwa"
+            >
+            </parallax-element>
+          </parallax-container>
+        
+      </div>
+      <div class="container-text text-right">
+        <div class="text-controls">
+          <h1>Planets</h1>
+          <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+        </div>
+      </div>
+    </div>
+
+     <div class="row">
+      <div class="container-illu">
+        
+          <!-- <div id="container"> -->
+          <parallax-container class="container">
+            <parallax-element
+              :parallaxStrength="-50"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img1"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="50"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img2"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="30"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img3"
+              id="kurwa"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="-10"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img4"
+              id="kurwa"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="60"
+              type="depth"
+              tag="p"
+              class="absolute"
+            >
+              LALALALA
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="20"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img5"
+              id="kurwa"
+            >
+            </parallax-element>
+          </parallax-container>
+        
+      </div>
+      <div class="container-text text-left">
+        <div class="text-controls">
+          <h1>Planets</h1>
+          <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+        </div>
+      </div>
+    </div>
+
    
   </div>
 </template>
@@ -250,6 +397,8 @@ export default {
 <style lang="scss" scoped>
 .home {
   height: 100%;
+
+  
 }
 
 .row {
@@ -258,9 +407,10 @@ export default {
   align-items:center;
   padding: 4em 1em;
   
-  &:nth-child(2) {
+  &:nth-child(2n) {
     flex-direction: row-reverse;
   }
+  
 
 }
 
