@@ -97,7 +97,7 @@
         </parallax-container>
       </div>
     </div>
-    <span> Selected {{ selectedPlanet }} </span>
+    <!-- <span> Selected {{ selectedPlanet }} </span> -->
   </div>
 
   <!-- <h1>I'm going to:</h1>
@@ -190,6 +190,8 @@ export default {
   align-items: center;
   justify-content: space-around;
   height: 90vh;
+  background: rgb(0,0,21);
+background: linear-gradient(270deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
   
 }
 
@@ -290,4 +292,58 @@ export default {
     opacity: 0;
   }
 }
+
+
+
+@media only screen and (max-width: 1340px) {
+.container {
+  
+  height: 600px;
+  width: 600px;
+  
+}
+
+.img-container {
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 990px) {
+
+
+
+.choice-row {
+  flex-direction: column-reverse;
+   height: auto;
+  background: rgb(0,0,21);
+background: linear-gradient(180deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
+}
+
+.choice-container {
+  width: 90%
+
+   
+
+ 
+  }
+
+  .choice-container-color {
+    width: 100%;
+  }
+
+
+  .selector-container {
+    flex-direction: row;
+
+   .selector {
+      margin: 0em;
+    }
+
+  }
+
+}
+
+
+
+
 </style>
