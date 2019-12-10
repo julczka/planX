@@ -40,7 +40,7 @@
           </parallax-element>
 
           <parallax-element
-            :parallaxStrength="30"
+            :parallaxStrength="15"
             type="translation"
             tag="img"
             class="absolute"
@@ -61,7 +61,7 @@
           <transition name="puff">
             <parallax-element
               v-if="show"
-              :parallaxStrength="20"
+              :parallaxStrength="15"
               type="depth"
               tag="img"
               class="absolute"
