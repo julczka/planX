@@ -296,7 +296,7 @@ export default {
   display:flex;
   flex-direction:column;
   justify-content:flex-start;
-  height:150vh;
+  height:100vh;
 }
 .img-container{
   width:100%;
@@ -309,7 +309,7 @@ export default {
 
 .choice-container-text{
   width:100%;
-  height:1%;
+  height:100%;
   h1{
 font-size:28px;
 margin:0;
@@ -336,6 +336,9 @@ padding:0;
 .container{
 height:500px;
 width:600px;
+}
+.img-container{
+  height:80%;
 }
 }
 
