@@ -147,10 +147,10 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
   background-color:#2d2273;
   .hero_image {
     width: 100%;
-    height: 18%;
+    height: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
     .heroimg {
       width: 200px;
