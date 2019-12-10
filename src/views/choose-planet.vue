@@ -213,7 +213,18 @@ background: linear-gradient(270deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%)
   
   }
 
-  .selector-container {
+  
+
+  &-text {
+    width: 90%;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+.selector-container {
     width: 80%;
     display: flex;
     align-items: center;
@@ -224,15 +235,6 @@ background: linear-gradient(270deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%)
       margin: 2em;
     }
   }
-
-  &-text {
-    width: 90%;
-
-    h1 {
-      font-size: 3rem;
-    }
-  }
-}
 
 .img-container {
   height: 100%;
@@ -313,10 +315,10 @@ background: linear-gradient(270deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%)
 
 
 .choice-row {
-  flex-direction: column-reverse;
+  flex-direction: column;
    height: auto;
   background: rgb(0,0,21);
-background: linear-gradient(180deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
+background: linear-gradient(0deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
 }
 
 .choice-container {
@@ -333,10 +335,10 @@ background: linear-gradient(180deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%)
 
 
   .selector-container {
-    flex-direction: row;
+    flex-direction: column;
 
    .selector {
-      margin: 0em;
+      margin: 1em;
     }
 
   }
