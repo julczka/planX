@@ -9,7 +9,7 @@
 
 
     <section class="second_section">
-        <img class="heroimg1" src="../assets/heroimg/getready_hero.svg" alt="">
+        <img class="heroimg" src="../assets/heroimg/getready_hero.svg" alt="">
         <h1>Prepare yourself!</h1>
         <div class="second_section_text">
             <p>
@@ -25,6 +25,9 @@
 
     <section class="third_section">
       <div class="content_container">
+         <div class="graphic_banner">
+          <img class="photo" src="../assets/photos/rocketlaunch.jpg" alt="" />
+        </div>
         <div class="text_banner">
           <div class="text_control">
             <h1>Launch from earth</h1>
@@ -36,12 +39,11 @@
             </p>
           </div>
         </div>
-
-        <div class="graphic_banner">
-          <img class="photo" src="../assets/photos/rocketlaunch.jpg" alt="" />
-        </div>
       </div>
       <div class="content_container">
+        <div class="graphic_banner">
+          <img class="photo" src="../assets/photos/orbitrip.jpg" alt="" />
+        </div>
         <div class="text_banner">
           <div class="text_control">
             <h1>Trip to the orbit</h1>
@@ -53,20 +55,25 @@
             </p>
           </div>
         </div>
-
-        <div class="graphic_banner">
-          <img class="photo" src="../assets/photos/orbitrip.jpg" alt="" />
-        </div>
       </div>
     </section>
 
     <div class="fourth_section">
-
+      <img class="heroimg" src="../assets/heroimg/dinner_hero.svg" alt="">
+      <h1>Dinner at the orbit</h1>
+      <div class="second_section_text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Exercitationem assumenda rem officiis? Reprehenderit veniam
+        inventore itaque amet facere libero adipisci dolore explicabo,
+        pariatur aperiam quasi odit minus, ad deleniti corrupti.
+      </p>
+      </div>
     </div>
 
 <section class="second_section">
-        <img class="heroimg1" src="../assets/heroimg/getready_hero.svg" alt="">
-        <h1>Prepare yourself!</h1>
+        <img class="heroimg" src="../assets/heroimg/hibernation_hero.svg" alt="">
+        <h1>Hibernation</h1>
         <div class="second_section_text">
             <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -83,9 +90,12 @@
 
     <section class="third_section">
       <div class="content_container">
+        <div class="graphic_banner">
+          <img class="photo" src="../assets/photos/hibernation.png" alt="" />
+        </div>
         <div class="text_banner">
           <div class="text_control">
-            <h1>Launch from earth</h1>
+            <h1>How it works</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
               natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
@@ -93,16 +103,15 @@
               nobis vero cumque quam?
             </p>
           </div>
-        </div>
-
-        <div class="graphic_banner">
-          <img class="photo" src="../assets/photos/rocketlaunch.jpg" alt="" />
         </div>
       </div>
       <div class="content_container">
+        <div class="graphic_banner">
+          <img class="photo" src="../assets/photos/hibernation2.jpg" alt="" />
+        </div>
         <div class="text_banner">
           <div class="text_control">
-            <h1>Trip to the orbit</h1>
+            <h1>Is it safe?s</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
               natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
@@ -111,11 +120,33 @@
             </p>
           </div>
         </div>
-        <div class="graphic_banner">
-          <img class="photo" src="../assets/photos/orbitrip.jpg" alt="" />
-        </div>
       </div>
     </section>
+    <section class="landing_section">
+        <img class="heroimg" src="../assets/heroimg/landing_hero.svg" alt="">
+        <h1>Landing</h1>
+        <div class="second_section_text">
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Veniam, odit nemo. Voluptatem placeat doloribus minima assumenda 
+            laborum praesentium incidunt ipsum itaque quis, explicabo, illo
+            repellat, consequatur veritatis soluta excepturi. Quod.
+            </p>
+        </div>
+    </section>
+
+     <div class="fourth_section">
+      <img class="heroimg" src="../assets/heroimg/dinner_hero.svg" alt="">
+      <h1>Dinner at the orbit</h1>
+      <div class="second_section_text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Exercitationem assumenda rem officiis? Reprehenderit veniam
+        inventore itaque amet facere libero adipisci dolore explicabo,
+        pariatur aperiam quasi odit minus, ad deleniti corrupti.
+      </p>
+      </div>
+    </div>
 
     
    
@@ -144,6 +175,12 @@
   justify-content: center;
 }
 
+.heroimg {
+    width: 130px;
+    height: 130px;
+    margin:20px;
+  }
+
 
 
 .first_section,.fourth_section {
@@ -162,17 +199,11 @@
   align-items: center;
   justify-content: center;
   color: white;
-
-  .heroimg {
-    width: 130px;
-    height: 130px;
-  }
-  
 }
 
 .second_section {
   width: 100%;
-  height: 70vh;
+  height:auto;
   flex-direction:column;
   display: flex;
   justify-content: center;
@@ -185,12 +216,18 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
   width:150px;
   height:150px;
 }
-  .second_section_text{
-      width:30%;
-      height:50%
-  }
 
 }
+
+.second_section_text{
+      width:50%;
+      height:30%
+  }
+
+  .heroimg {
+      width: 100px;
+      height: 100px;
+    }
 
 
 .third_section {
@@ -208,10 +245,6 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
     flex-direction: column;
     justify-content:flex-end;
     align-items: center;
-    .heroimg {
-      width: 200px;
-      height: 200px;
-    }
     h1 {
       
       color: white;
@@ -258,7 +291,7 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
     background: #2D2273;
 .text_control {
         width: 50%;
-        height: 50%;
+        height: 30%;
       }
       h1 {
         
@@ -276,7 +309,24 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
 .fourth_section {
   background-image: url("../assets/parallax/dinner_parallax.jpg");
   min-height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
 }
+
+.landing_section{
+   width: 100%;
+  height:auto;
+  flex-direction:column;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  box-sizing: border-box;
+  padding: 0 1em;
+  background-color:#2D2273;
+}
+
 
 
 
