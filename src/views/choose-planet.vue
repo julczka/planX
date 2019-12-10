@@ -56,7 +56,7 @@
               :src="img2"
             >
             </parallax-element>
-                  <transition name="fade">
+                  <transition name="puff" >
 
                         <parallax-element
                          v-if="show"
@@ -65,6 +65,7 @@
                           tag="img"
                           class="absolute"
                           :src="planetImage"
+                          :key="planetImage"
                           id="kurwa"
                         >
                         </parallax-element>
@@ -270,10 +271,42 @@ components: {
   justify-content: center;
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
+
+
+.puff-enter-active {
+	animation: puff-in-center 0.6s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
+
+.puff-leave-active {
+	animation: puff-out-center 0.6s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
 }
+
+@keyframes puff-in-center {
+  0% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes puff-out-center {
+  0% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+}
+
+
+
 </style>
