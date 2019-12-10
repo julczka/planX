@@ -7,7 +7,7 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="-50"
+              :parallaxStrength="20"
               type="depth"
               tag="img"
               class="absolute"
@@ -16,7 +16,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="50"
+              :parallaxStrength="25"
               type="depth"
               tag="img"
               class="absolute"
@@ -25,41 +25,39 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="30"
+              :parallaxStrength="25"
               type="depth"
               tag="img"
               class="absolute"
               :src="img3"
-              id="kurwa"
+              id="I want to sleep...."
             >
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="-10"
+              :parallaxStrength="35"
               type="depth"
               tag="img"
               class="absolute"
               :src="img4"
-              id="kurwa"
             >
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="60"
+              :parallaxStrength="50"
               type="depth"
               tag="p"
               class="absolute"
             >
-              LALALALA
+              
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="20"
+              :parallaxStrength="40"
               type="depth"
               tag="img"
               class="absolute"
               :src="img5"
-              id="kurwa"
             >
             </parallax-element>
           </parallax-container>
@@ -79,20 +77,20 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="-50"
+              :parallaxStrength="25"
               type="depth"
               tag="img"
               class="absolute"
-              :src="img1"
+              :src="ship1"
             >
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="50"
+              :parallaxStrength="40"
               type="depth"
               tag="img"
               class="absolute"
-              :src="img2"
+              :src="ship2"
             >
             </parallax-element>
 
@@ -101,37 +99,34 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="img3"
-              id="kurwa"
+              :src="ship4"
             >
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="-10"
+              :parallaxStrength="50"
               type="depth"
               tag="img"
               class="absolute"
-              :src="img4"
-              id="kurwa"
+              :src="ship5"
             >
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="60"
+              :parallaxStrength="10"
               type="depth"
               tag="p"
               class="absolute"
             >
-              LALALALA
+              
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="20"
+              :parallaxStrength="40"
               type="depth"
               tag="img"
               class="absolute"
-              :src="img5"
-              id="kurwa"
+              :src="ship6"
             >
             </parallax-element>
           </parallax-container>
@@ -139,7 +134,7 @@
       </div>
       <div class="container-text text-right">
         <div class="text-controls">
-          <h1>Planets</h1>
+          <h1>Spaceships</h1>
           <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
         </div>
       </div>
@@ -155,7 +150,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="img1"
+              :src="ship1"
             >
             </parallax-element>
 
@@ -164,7 +159,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="img2"
+              :src="ship1"
             >
             </parallax-element>
 
@@ -173,8 +168,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="img3"
-              id="kurwa"
+              :src="ship3"
             >
             </parallax-element>
 
@@ -183,8 +177,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="img4"
-              id="kurwa"
+              :src="ship4"
             >
             </parallax-element>
 
@@ -194,7 +187,7 @@
               tag="p"
               class="absolute"
             >
-              LALALALA
+            
             </parallax-element>
 
             <parallax-element
@@ -202,8 +195,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="img5"
-              id="kurwa"
+              :src="ship5"
             >
             </parallax-element>
           </parallax-container>
@@ -237,11 +229,24 @@ export default {
   name: "home",
   data() {
     return {
-      img1: require("@/assets/mouseparallax/1.png"),
-      img2: require("@/assets/mouseparallax/2.png"),
-      img3: require("@/assets/mouseparallax/3.png"),
-      img4: require("@/assets/mouseparallax/4.png"),
-      img5: require("@/assets/mouseparallax/5.png")
+      
+      img1: require("@/assets/mouseparallax/planets/06_background.png"),
+      img2: require("@/assets/mouseparallax/planets/05_stars.png"),
+      img3: require("@/assets/mouseparallax/planets/04_keppler.png"),
+      img4: require("@/assets/mouseparallax/planets/03_gliese.png"),
+      img5: require("@/assets/mouseparallax/planets/02_proxima.png"),
+      img6: require("@/assets/mouseparallax/planets/01_comet.png"),
+
+      ship1: require("@/assets/mouseparallax/ships/06_background.png"),
+      ship2: require("@/assets/mouseparallax/ships/05_asteroids.png"),
+      ship3: require("@/assets/mouseparallax/ships/04_light.png"),
+      ship4: require("@/assets/mouseparallax/ships/03_star.png"),
+      ship5: require("@/assets/mouseparallax/ships/02_spacejet.png"),
+      ship6: require("@/assets/mouseparallax/ships/01_mothership.png"),
+
+     
+
+
     };
   }
 };
