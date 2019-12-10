@@ -345,56 +345,15 @@ background: linear-gradient(0deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
 
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
 .container {
   
   height: 400px;
   width: 400px;
-=======
-
-
-=======
-@media only screen and (max-width: 736px) {
-.choice-row{
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  height:100vh;
-}
-.img-container{
-  width:100%;
-  height:50%;
-}
-
-.choice-container-color{
-  width:100%;
-}
-
-.choice-container-text{
-  width:100%;
-  height:100%;
-  h1{
-font-size:28px;
-margin:0;
-padding:0;
-  }
->>>>>>> b4a94192103240a7c31ba18fbd745e542de45ff7
   
 }
 }
 
-<<<<<<< HEAD
-=======
-.container{
-height:500px;
-width:600px;
-}
-.img-container{
-  height:80%;
-}
-}
->>>>>>> c41a2280e15988d9669b4ceb09f07c3067b26310
->>>>>>> b4a94192103240a7c31ba18fbd745e542de45ff7
+
 
 </style>
