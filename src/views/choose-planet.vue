@@ -39,8 +39,9 @@
 
                   <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="-50"
-              type="depth"
+           
+              :parallaxStrength="-5"
+              type="rotation"
               tag="img"
               class="absolute"
               :src="img1"
@@ -48,16 +49,18 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="50"
-              type="depth"
+              :parallaxStrength="5"
+              type="rotation"
               tag="img"
               class="absolute"
               :src="img2"
             >
             </parallax-element>
+                  <transition name="fade">
 
                         <parallax-element
-                          :parallaxStrength="30"
+                         v-if="show"
+                          :parallaxStrength="10"
                           type="depth"
                           tag="img"
                           class="absolute"
@@ -65,8 +68,8 @@
                           id="kurwa"
                         >
                         </parallax-element>
-
-            <parallax-element
+                  </transition>
+            <!-- <parallax-element
               :parallaxStrength="-10"
               type="depth"
               tag="img"
@@ -74,20 +77,13 @@
               :src="img4"
               id="kurwa"
             >
-            </parallax-element>
+            </parallax-element> -->
 
-            <parallax-element
-              :parallaxStrength="60"
-              type="depth"
-              tag="p"
-              class="absolute"
-            >
-              LALALALA
-            </parallax-element>
+            
 
             <parallax-element
               :parallaxStrength="20"
-              type="depth"
+              type="rotation"
               tag="img"
               class="absolute"
               :src="img5"
@@ -153,16 +149,16 @@ components: {
 
    data () { 
      return {
-    
+    show: true,
     selectedPlanet: '',
     planets: ["Gliese 667Cc", "Kepler-22b", "Proxima Centauri B"],
     img: require('@/assets/planets/Earth.jpg'),
 
-    img1: require("@/assets/mouseparallax/1.png"),
-      img2: require("@/assets/mouseparallax/2.png"),
-      img3: require("@/assets/mouseparallax/3.png"),
-      img4: require("@/assets/mouseparallax/4.png"),
-      img5: require("@/assets/mouseparallax/5.png")
+    img1: require("@/assets/planet_choice/1.png"),
+      img2: require("@/assets/planet_choice/2.png"),
+      //img3: require("@/assets/planet_choice/3.png"),
+      img4: require("@/assets/planet_choice/4.png"),
+      img5: require("@/assets/planet_choice/5.png")
 
     }
   },
@@ -220,7 +216,7 @@ components: {
 }
 
 .choice-container {
-  background: blue;
+  
   height: 100%;
   width: 40%;
   display: flex;
@@ -249,7 +245,7 @@ components: {
 }
 
 .img-container {
-  background: red;
+  
   height: 100%;
   width: 60%;
   display: flex;
@@ -257,5 +253,27 @@ components: {
   justify-content: space-around;
 }
 
+.container {
+  position: relative;
+  height: 800px;
+  width: 800px;
+  z-index: 1;
+}
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>
