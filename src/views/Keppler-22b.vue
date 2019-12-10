@@ -3,7 +3,7 @@
     <section class="basic_info_section">
       <div class="planet_container">
         <model-gltf
-          src="/models/gliese/scene.gltf"
+          src="/models/kepler_22_b/scene.gltf"
           :backgroundAlpha="bgAlpha"
           :backgroundColor="bgColor"
           :rotation="rotation"
