@@ -12,7 +12,7 @@
       </div>
       <div class="info_container">
         <div class="info-text">
-          <h1>Kepler-22b</h1>
+          <h1>Proxima Centauri B</h1>
           <h2>Basic info:</h2>
 
           <ul>
@@ -94,7 +94,7 @@
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/parallax/eso1333a.jpg" alt="" />
+          <img class="planet" src="../assets/photos/kepler1.jpg" alt="" />
         </div>
       </div>
       <div class="content_container">
@@ -111,7 +111,7 @@
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/planets/kepler-22b.png" alt="" />
+          <img class="planet" src="../assets/photos/kepler1.jpg" alt="" />
         </div>
       </div>
     </section>
@@ -144,6 +144,7 @@
 import { ModelGltf } from "vue-3d-model";
 import blinkingButton from "@/components/blinkingButton.vue";
 
+
 export default {
   name: "page",
   components: {
@@ -152,11 +153,11 @@ export default {
   },
   data() {
     return {
-      img1: require("@/assets/paralax/1.png"),
-      img2: require("@/assets/paralax/2.png"),
-      img3: require("@/assets/paralax/3.png"),
-      img4: require("@/assets/paralax/4.png"),
-      img5: require("@/assets/paralax/5.png"),
+      img1: require("@/assets/mouseparallax/1.png"),
+      img2: require("@/assets/mouseparallax/2.png"),
+      img3: require("@/assets/mouseparallax/3.png"),
+      img4: require("@/assets/mouseparallax/4.png"),
+      img5: require("@/assets/mouseparallax/5.png"),
 
       bgColor: "#ff0",
       bgAlpha: 0,
@@ -183,4 +184,13 @@ export default {
 
 <style lang="scss">
 @import "@/styles/_planets.scss";
+.environment_section {
+  background-image: url("../assets/parallax/proxima_parallax.jpg");
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
 </style>
