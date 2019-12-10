@@ -56,6 +56,17 @@
               :src="img2"
             >
             </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="-10"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="img3"
+              id="kurwa"
+            >
+            </parallax-element>
+
                   <transition name="puff" >
 
                         <parallax-element
@@ -70,15 +81,7 @@
                         >
                         </parallax-element>
                   </transition>
-            <!-- <parallax-element
-              :parallaxStrength="-10"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img4"
-              id="kurwa"
-            >
-            </parallax-element> -->
+            
 
             
 
@@ -157,8 +160,8 @@ components: {
 
     img1: require("@/assets/planet_choice/1.png"),
       img2: require("@/assets/planet_choice/2.png"),
-      //img3: require("@/assets/planet_choice/3.png"),
-      img4: require("@/assets/planet_choice/4.png"),
+      img3: require("@/assets/planet_choice/3.png"),
+      //img4: require("@/assets/planet_choice/4.png"),
       img5: require("@/assets/planet_choice/5.png")
 
     }
