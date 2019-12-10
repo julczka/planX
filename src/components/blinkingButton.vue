@@ -13,7 +13,8 @@ name: 'b-button',
 
   props: {
     color: String,
-    animation: Boolean
+    animation: Boolean,
+    
   }
    
 };
@@ -60,6 +61,9 @@ name: 'b-button',
   }
 }
 
+
+
+
 @keyframes blink {
   0% {
     transform:scale3d(1,1,1);
@@ -70,6 +74,8 @@ name: 'b-button',
     opacity:0;
   }
 }
+
+
 
 .purple {
 text-shadow:1px 1px 0 #2D2273;
@@ -88,15 +94,7 @@ text-shadow:1px 1px 0 #2D2273;
     background-color:#F46558;
   }
 
-   &:hover{
-    background:$bgcolor;
-    color:#4B39BF;
-    letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
-}
+  
 }
 
 .green {

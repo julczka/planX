@@ -40,11 +40,7 @@ export default {
 		path: '/',
 		icon: 'ion-ios-home'
       },
-      {
-        text: 'About',
-		path: '/about',
-		icon: 'ion-ios-at'
-      },
+     
       {
         text: 'Choose planet',
 		path: '/choose-planet',
@@ -64,9 +60,16 @@ export default {
 
       {
         text: 'Extraterrestial Life',
-		path: '/trip-summary',
+		path: '/life',
 		icon: 'ion-ios-paw'
       },
+
+       {
+        text: 'About',
+		path: '/about',
+		icon: 'ion-ios-at'
+      },
+
     ]
   })
   

@@ -19,7 +19,8 @@
 
 
 
-  <span> Selected  {{ planetName }} {{ selectedPlanet }} </span> -->
+   -->
+<span> Selected {{ selectedPlanet }} </span>
 
   <multiselect
       v-model="selectedPlanet"
@@ -32,9 +33,11 @@
     >
     </multiselect>
 
-<router-link :to="selectedPlanet">
+<router-link :to="selectedPlanet"
+>
      <b-button
        class="purple_hover"
+       @click.native="persist"
        >Go to planet</b-button></router-link>
   </div>
 
@@ -58,7 +61,7 @@ components: {
 
    data () { 
      return {
-    planetName: '',
+    
     selectedPlanet: '',
     planets: ["Gliese 667Cc", "Kepler-22b", "Proxima Centauri B"],
 
