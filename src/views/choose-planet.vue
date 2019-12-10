@@ -290,4 +290,53 @@ export default {
     opacity: 0;
   }
 }
+
+@media only screen and (max-width: 736px) {
+.choice-row{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  height:150vh;
+}
+.img-container{
+  width:100%;
+  height:50%;
+}
+
+.choice-container-color{
+  width:100%;
+}
+
+.choice-container-text{
+  width:100%;
+  height:1%;
+  h1{
+font-size:28px;
+margin:0;
+padding:0;
+  }
+  
+}
+.selector-container{
+  display:flex;
+  flex-direction:row;
+  font-size:10px;
+  width:30%;
+  height:10%;
+}
+.choice-container{
+  width:100%;
+  height:20%;
+  justify-content:flex-start;
+}
+.multiselect.selector{
+  width:70%;
+}
+
+.container{
+height:500px;
+width:600px;
+}
+}
+
 </style>
