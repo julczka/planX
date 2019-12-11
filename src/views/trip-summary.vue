@@ -93,7 +93,7 @@
         </div>
         <div class="text_banner">
           <div class="text_control">
-            <h1>Is it safe?s</h1>
+            <h1>Is it safe?</h1>
             <p>
              While in the hibernation chamber you will be safe from all events as the ship will be managed in turns by all the staff in the very ship.
             </p>
