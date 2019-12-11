@@ -139,6 +139,8 @@ export default {
 };
 
 
+
+
 .container {
   position: relative;
   height: 400px;
@@ -156,5 +158,14 @@ export default {
   justify-content: center;
 }
 
+@media screen and (max-width: 759px) {
+  .about-row {
+    flex-direction: column;
+  }
+
+  .about-text-container {
+  width: 80%;
+};
+}
 
 </style>
