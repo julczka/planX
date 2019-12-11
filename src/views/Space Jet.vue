@@ -110,14 +110,14 @@
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/kepler1.jpg" alt="" />
+          <img class="planet" src="../assets/photos/warpspeed.jpg" alt="" />
         </div>
       </div>
     </section>
 
     <div class="aliens_section">
       <div class="aliens_section_text">
-        <h2>Expecting aliens?</h2>
+        <h2>Space travelling technology</h2>
         <h3>They may look different then you imagined</h3>
         <p>
           When we think about extraterrestial life, we usally picture it as
@@ -202,7 +202,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 $color: rgba(255,255,242,1);
 $bgcolor: rgba(0,0,21,1);
 
@@ -435,7 +435,6 @@ $bgcolor: rgba(0,0,21,1);
     justify-content: center;
     flex-direction: column;
     text-shadow: 0 0 10px $bgcolor;
-    background: linear-gradient(45deg, rgba(0, 0, 21, 1) 0%, #2d2273 100%);
     padding: 2em;
     position: relative;
     right: 23%;

@@ -91,7 +91,7 @@
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/kepler1.jpg" alt="" />
+          <img class="planet" src="../assets/photos/spaceview.png" alt="" />
         </div>
       </div>
       <div class="content_container">
@@ -107,14 +107,14 @@
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/kepler1.jpg" alt="" />
+          <img class="planet" src="../assets/photos/spaceroom.jpg" alt="" />
         </div>
       </div>
     </section>
 
     <div class="aliens_section">
       <div class="aliens_section_text">
-        <h2>Expecting aliens?</h2>
+        <h2>Space travelling technology?</h2>
         <h3>They may look different then you imagined</h3>
         <p>
           When we think about extraterrestial life, we usally picture it as
