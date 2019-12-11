@@ -65,7 +65,7 @@
       </div>
       <div class="container-text text-left">
         <div class="text-controls">
-          <h1>Planets</h1>
+          <h1>Begin your interstellar journey</h1>
           <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
         </div>
         <div class="btn_container">
