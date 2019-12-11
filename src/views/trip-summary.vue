@@ -111,16 +111,20 @@
         </div>
     </section>
 
-     <div class="fourth_section">
+     <div class="fifth_section">
       <img class="heroimg" src="../assets/heroimg/dinner_hero.svg" alt="">
-      <h1>Dinner at the orbit</h1>
-      <div class="second_section_text">
+      <h1>Will there be life on {{selectedPlanet}}?</h1>
+      <div class="fifth_section_text">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Exercitationem assumenda rem officiis? Reprehenderit veniam
-        inventore itaque amet facere libero adipisci dolore explicabo,
-        pariatur aperiam quasi odit minus, ad deleniti corrupti.
+        {{selectedPlanet}} is an unexplored destination. It is most likely capable of sustaining life, but will it be anything like we know from Earth? Will there be lush forests filled with multiple species of animals or a primordial ocean that will reveal its living nature only under the microscope? This question for now remains unanswered. Click below to learn more about how scientists look for life on planets lightyears away from us. 
       </p>
+
+      <router-link :to="'/life'">
+              <b-button class="purple_hover"
+                >Life on other planets</b-button
+              ></router-link
+            >
+    
       </div>
     </div>
 
@@ -131,7 +135,14 @@
 
 
 <script>
+import blinkingButton from "@/components/blinkingButton.vue";
+
 export default {
+
+  components: { 
+    "b-button": blinkingButton,
+ },
+
   data () { 
      return {
     selectedShip: '',
@@ -159,6 +170,10 @@ export default {
 
 
 <style lang="scss">
+
+a {
+  text-decoration: none;
+}
 
 .container {
   position: relative;
@@ -318,6 +333,15 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
   flex-direction:column;
 }
 
+.fifth_section {
+  background-image: url("../assets/parallax/trip-final-parallax.jpg");
+  min-height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
 .landing_section{
    width: 100%;
    height:100vh;
@@ -331,7 +355,13 @@ background: rgb(4,3,59);
 background: linear-gradient(0deg, rgba(4,3,59,1) 47%, rgba(45,34,115,1) 92%);
 }
 
-
+.fifth_section_text {
+  width: 40%;
+  flex-direction:column;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
 
 
 @media only screen and (max-width: 736px) {
@@ -376,7 +406,7 @@ background: linear-gradient(0deg, rgba(4,3,59,1) 47%, rgba(45,34,115,1) 92%);
       height:40%;
     background: #2D2273;
     .text_control{
-      width:100%;
+      width:90%;
       h1 {
         
         font-size: 40px;
@@ -401,8 +431,14 @@ background: linear-gradient(0deg, rgba(4,3,59,1) 47%, rgba(45,34,115,1) 92%);
 
 .second_section_text{
   font-size:18px;
-  width:100%;
+  width:90%;
 }
+
+.fifth_section_text {
+  width: 90%;
+  
+}
+
 }
   
 

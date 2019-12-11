@@ -23,9 +23,9 @@
 			</li>
 
 			<div class="social">
-				<!-- <i class="icon ion-logo-facebook socIcon"></i> -->
+				<a href="https://github.com/julczka/local-storage-test" target="_blank">
 				<i class="icon ion-logo-github socIcon"></i>
-				<!-- <i class="icon ion-logo-youtube socIcon"></i> -->
+				</a>
 			</div>
 
 		</ul>
@@ -45,6 +45,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+a {
+	text-decoration: none;
+	color: $color;
+}
 
 nav {
 	height: 80px;
