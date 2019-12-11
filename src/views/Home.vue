@@ -534,7 +534,7 @@ justify-content: flex-end;
   display:flex;
   flex-direction: column;
 
- &:nth-child(2) {
+ &:nth-child(2n) {
     flex-direction: column;
   }
 
