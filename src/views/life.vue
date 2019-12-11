@@ -4,7 +4,7 @@
 
     <div class="first_section">
         <img class="heroimg" src="../assets/heroimg/paw_hero.svg" alt=""/>
-        <h1>Extra-terrestrial life</h1> 
+        <h1>Eextraterrestrial life</h1> 
     </div>
 
 
