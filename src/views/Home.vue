@@ -7,7 +7,7 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="10"
+              :parallaxStrength="5"
               type="depth"
               tag="img"
               class="absolute"
@@ -16,8 +16,8 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="15"
-              type="depth"
+              :parallaxStrength="20"
+              type="rotation"
               tag="img"
               class="absolute"
               :src="img2"
@@ -25,8 +25,8 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="25"
-              type="depth"
+              :parallaxStrength="-10"
+              type="translation"
               tag="img"
               class="absolute"
               :src="img3"
@@ -35,8 +35,8 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="30"
-              type="depth"
+              :parallaxStrength="15"
+              type="translation"
               tag="img"
               class="absolute"
               :src="img4"
@@ -44,8 +44,8 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="35"
-              type="depth"
+              :parallaxStrength="-10"
+              type="translation"
               tag="p"
               class="absolute"
             >
@@ -66,12 +66,13 @@
       <div class="container-text text-left">
         <div class="text-controls">
           <h1>Begin your interstellar journey</h1>
-          <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+          <p>
+Do you dream about going to space? Now you can. Choose from three exciting exoplanet destinations. Each of these worlds hide incredible secrets.            </p>
         </div>
         <div class="btn_container">
            <router-link :to="'/choose-planet'">
               <b-button class="purple_hover" @click.native="persist"
-                >Go to planet</b-button
+                >Choose the planet</b-button
           ></router-link>
         </div>
       </div>
@@ -84,7 +85,7 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="15"
+              :parallaxStrength="5"
               type="depth"
               tag="img"
               class="absolute"
@@ -93,8 +94,8 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="45"
-              type="depth"
+              :parallaxStrength="-25"
+              type="rotation"
               tag="img"
               class="absolute"
               :src="ship2"
@@ -103,7 +104,7 @@
 
             <parallax-element
               :parallaxStrength="10"
-              type="depth"
+              type="translation"
               tag="img"
               class="absolute"
               :src="ship4"
@@ -111,7 +112,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="50"
+              :parallaxStrength="-20"
               type="depth"
               tag="img"
               class="absolute"
@@ -119,17 +120,10 @@
             >
             </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="10"
-              type="depth"
-              tag="p"
-              class="absolute"
-            >
-              
-            </parallax-element>
+            
 
             <parallax-element
-              :parallaxStrength="35"
+              :parallaxStrength="30"
               type="depth"
               tag="img"
               class="absolute"
@@ -142,12 +136,16 @@
       <div class="container-text text-right">
         <div class="text-controls">
           <h1>Spaceships</h1>
-          <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+          <p>
+
+            Our company offers both luxurious and fast means of interstellar transportation. Have a look at our space ships. Go for the ship that suits your needs. 
+          </p>
+
         </div>
          <div class="btn_container_2n">
            <router-link :to="'/choose-ship'">
               <b-button class="purple_hover" @click.native="persist"
-                >Go to planet</b-button
+                >Choose the spaceship</b-button
           ></router-link>
         </div>
       </div>
@@ -160,7 +158,7 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="10"
+              :parallaxStrength="-10"
               type="depth"
               tag="img"
               class="absolute"
@@ -168,18 +166,11 @@
             >
             </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="10"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="life1"
-            >
-            </parallax-element>
+          
 
             <parallax-element
               :parallaxStrength="30"
-              type="depth"
+              type="rotation"
               tag="img"
               class="absolute"
               :src="life2"
@@ -188,7 +179,7 @@
 
             <parallax-element
               :parallaxStrength="-10"
-              type="depth"
+              type="translation"
               tag="img"
               class="absolute"
               :src="life3"
@@ -196,16 +187,16 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="60"
-              type="depth"
-              tag="p"
+              :parallaxStrength="-50"
+              type="translation"
+              tag="img"
               class="absolute"
+              :src="life4"
             >
-            
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="20"
+              :parallaxStrength="30"
               type="depth"
               tag="img"
               class="absolute"
@@ -218,12 +209,13 @@
       <div class="container-text text-left">
         <div class="text-controls">
           <h1>Life on other planets</h1>
-          <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+          <p>Read more about the life outside our solar-system and see what you can expect on other planets. But do not worry. These aliens most likely will not abduct you.</p>
+
         </div>
          <div class="btn_container">
            <router-link :to="'/life'">
               <b-button class="purple_hover" @click.native="persist"
-                >Go to planet</b-button
+                >Learn more</b-button
           ></router-link>
         </div>
       </div>
@@ -235,8 +227,8 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="10"
-              type="depth"
+              :parallaxStrength="-40"
+              type="translation"
               tag="img"
               class="absolute"
               :src="trip1"
@@ -245,7 +237,7 @@
 
             <parallax-element
               :parallaxStrength="30"
-              type="depth"
+              type="translation"
               tag="img"
               class="absolute"
               :src="trip2"
@@ -254,11 +246,11 @@
 
             <parallax-element
               :parallaxStrength="30"
-              type="depth"
+              type="translation"
               tag="img"
               class="absolute"
               :src="trip3"
-              id="kurwa"
+              
             >
             </parallax-element>
 
@@ -268,7 +260,7 @@
               tag="img"
               class="absolute"
               :src="trip4"
-              id="kurwa"
+              
             >
             </parallax-element>
 
@@ -278,12 +270,12 @@
       <div class="container-text text-right">
         <div class="text-controls">
           <h1>Your trip</h1>
-          <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+          <p>How is the journey going to feel like? What will it be like after you leave Earth? Read the detailed description of your trip to outer space. </p>
         </div>
          <div class="btn_container_2n">
            <router-link :to="'/trip-summary'">
-              <b-button class="purple_hover" @click.native="persist"
-                >Go to planet</b-button
+              <b-button class="purple_hover"
+                >Trip summary</b-button
           ></router-link>
         </div>
       </div>
@@ -305,7 +297,7 @@
 
             <parallax-element
               :parallaxStrength="30"
-              type="depth"
+              type="rotation"
               tag="img"
               class="absolute"
               :src="about2"
@@ -318,7 +310,7 @@
               tag="img"
               class="absolute"
               :src="about3"
-              id="kurwa"
+              
             >
             </parallax-element>
 
@@ -328,7 +320,7 @@
               tag="img"
               class="absolute"
               :src="about4"
-              id="kurwa"
+              
             >
             </parallax-element>
 
@@ -355,13 +347,13 @@
       </div>
       <div class="container-text text-left">
         <div class="text-controls">
-          <h1>About</h1>
-          <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+          <h1>About us</h1>
+          <p>Are you curious who is responsible for this amazing corner of the web? Check out the developers and read what the site is about.</p>
         </div>
          <div class="btn_container">
            <router-link :to="'/about'">
               <b-button class="purple_hover" @click.native="persist"
-                >Go to planet</b-button
+                >Meet the makers</b-button
           ></router-link>
         </div>
       </div>
