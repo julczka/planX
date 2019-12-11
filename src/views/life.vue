@@ -24,7 +24,7 @@
     <section class="third_section">
       <div class="content_container">
          <div class="graphic_banner">
-          <img class="photo" src="../assets/photos/rocketlaunch.jpg" alt="" />
+          <img class="photo" src="../assets/photos/water-life.jpg" alt="" />
         </div>
         <div class="text_banner">
           <div class="text_control">
@@ -39,7 +39,7 @@ main ingredient of life.
       </div>
       <div class="content_container">
         <div class="graphic_banner">
-          <img class="photo" src="../assets/photos/orbitrip.jpg" alt="" />
+          <img class="photo" src="../assets/photos/planets-life.jpg" alt="" />
         </div>
         <div class="text_banner">
           <div class="text_control">
@@ -87,7 +87,7 @@ out, there are plethora of other possible worlds where we may one day live.
 
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 a {
   text-decoration: none;
@@ -128,7 +128,7 @@ a {
 }
 
 .first_section {
-  background-image: url("../assets/parallax/launch_parallax.jpg");
+  background-image: url("../assets/parallax/life-parallax.jpg");
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -243,7 +243,7 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
 }
 
 .fourth_section {
-  background-image: url("../assets/parallax/dinner_parallax.jpg");
+  background-image: url("../assets/parallax/tardigrade-parallax.jpg");
   min-height: 100vh;
   display:flex;
   justify-content:center;
