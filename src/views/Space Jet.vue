@@ -15,9 +15,9 @@
           <h1>SpaceJet</h1>
           <h2>Basic info:</h2>
           <ul>
-            <li>587.1 light years</li>
-            <li>290 days to orbit its host star</li>
-            <li>2,4x times gravity of Earth</li>
+            <li>Cryogenic hibernation with Interactive Dreaming</li>
+            <li>SpaceJet suits for outer-space maintenance</li>
+            <li>Great acceleration of 0 to 99% of c (Speed of Light) in 1h</li>
           </ul>
         </div>
         <div class="stats_container">
@@ -27,7 +27,7 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -47,9 +47,9 @@
             <h2>Price</h2>
             <div class="rating">
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star-outline"></i>
+              <i class="icon ion-ios-star-outline"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -62,13 +62,11 @@
       <h1>Origin</h1>
       <div class="environment_info">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          corporis similique, animi ut numquam odit quidem deleniti atque autem,
-          repellendus eius incidunt voluptas quod rat nulla esse! Dolor, fuga
-          corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Asperiores corporis similique, animi ut numquam odit quidem deleniti
-          atque autem, repellendus eius incidunt voluptas quod rat nulla esse!
-          Dolor, fuga corrupti!
+          Taking the design from an F16-Falcon fighter-jet as inspiration 
+          and slapping in some space grade, top speed jets, makes it for the fastest flying jet on Earth 
+          and the first jet to reach the orbit of the solar system 
+          faster than the Voyager 1 which has done it in 35 years, 
+          while SpaceJet has done it in just 5. It has seats for 5 people, excluding staff and pilots.
         </p>
       </div>
     </div>
