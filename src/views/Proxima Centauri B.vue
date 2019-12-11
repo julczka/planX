@@ -16,9 +16,11 @@
           <h2>Basic info:</h2>
 
           <ul>
-            <li>587.1 light years</li>
-            <li>290 days to orbit its host star</li>
-            <li>2,4x times gravity of Earth</li>
+            <li>4,24 light years away</li>
+            <li>Orbiting a triple star system, takes 11 days to complete its orbit</li>
+            <li>1.3x gravity of Earth</li>
+            <li>-39 Celsius equilibrium </li>
+            <li>Approximately 20-30% wider radius of Earth</li>
           </ul>
         </div>
         <div class="stats_container">
@@ -26,9 +28,9 @@
             <h2>Air quality</h2>
             <div class="rating">
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star-outline"></i>
+              <i class="icon ion-ios-star-outline"></i>
+              <i class="icon ion-ios-star-outline"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -39,7 +41,7 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -48,9 +50,9 @@
             <h2>Life potential</h2>
             <div class="rating">
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star-outline"></i>
+              <i class="icon ion-ios-star-outline"></i>
+              <i class="icon ion-ios-star-outline"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -63,13 +65,7 @@
       <h1>Environment</h1>
       <div class="environment_info">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          corporis similique, animi ut numquam odit quidem deleniti atque autem,
-          repellendus eius incidunt voluptas quod rat nulla esse! Dolor, fuga
-          corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Asperiores corporis similique, animi ut numquam odit quidem deleniti
-          atque autem, repellendus eius incidunt voluptas quod rat nulla esse!
-          Dolor, fuga corrupti!
+          With the inclination of about 90 degrees, Proxima Centauri b has a side of planet that is facing its star tidally locked. With one side in scorching hot, and another side freezing cold, on the sliver between these sides, you will experience warm sunlight and a cold breeze on your back. It is called terminator line. If you’re lucky, you may find some lifeform under the surface. And if the planet has a thick atmosphere, the warm air and the cold air from the back of the planet, you will have enough circulation to have temperature equilibrium, meaning that there is a place on this Earth-neighbour, a equator per se, where life may exist. You will need a good suit to roam the surface. 
         </p>
       </div>
     </div>
@@ -83,12 +79,9 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Ice waterfalls</h1>
+            <h1>Neighbour</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+              Being the nearest solar system to Earth, this planet is relatively right next-door. If you don’t want to go too far, this planet is perfect for a spacetrip right across the border. 
             </p>
           </div>
         </div>
@@ -100,12 +93,9 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Thrombocyte</h1>
+            <h1>Birthday less than every two weeks</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+             Proxima Centauri b orbits its sun every 11 days. You can look forward to having birthday parties less than fortnight in between. 
             </p>
           </div>
         </div>

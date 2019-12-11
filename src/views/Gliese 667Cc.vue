@@ -16,9 +16,11 @@
           <h2>Basic info:</h2>
 
           <ul>
-            <li>587.1 light years</li>
-            <li>290 days to orbit its host star</li>
-            <li>2,4x times gravity of Earth</li>
+            <li>24 light years away</li>
+            <li>Orbiting a red dwarf, a triple star system, taking 28 days to orbit around. </li>
+            <li>3,7x gravity of Earth</li>
+            <li>54% bigger radius than of the Earth, a Super-Earth</li>
+            <li>In the constellation of Scorpius</li>
           </ul>
         </div>
         <div class="stats_container">
@@ -28,7 +30,7 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -38,8 +40,8 @@
             <div class="rating">
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star-outline"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -50,7 +52,7 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -63,13 +65,12 @@
       <h1>Environment</h1>
       <div class="environment_info">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          corporis similique, animi ut numquam odit quidem deleniti atque autem,
-          repellendus eius incidunt voluptas quod rat nulla esse! Dolor, fuga
-          corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Asperiores corporis similique, animi ut numquam odit quidem deleniti
-          atque autem, repellendus eius incidunt voluptas quod rat nulla esse!
-          Dolor, fuga corrupti!
+          Gliese 667Cc is named the fourth most Earth-like planet. But it is tidally locked with its host star.  it has one side permanently facing the sun, the other shrouded in eternal darkness. 
+In between the eternal sunshine and permanent night, there is grey zone called terminator line. On the sliver of line, you will have never-ending sunrise, and the cold of night on your back. Here on that ring of equilibrium, you may meet alien life. 
+The gravity on this planet is punishing. You will carry almost four people at your own weight. You will feel a lot heavier. If you’re planning to go to Gliese 667Cc, you will need to do some serious exercise before you get here. But you will have few years where you get to train at the ship before and after your hibernation during the trip. 
+On you ship you will have all the equipment you will need to maintain and/or build your physique, in order to handle the immense gravity that is on this planet. 
+For this journey we will work up to the same g’s as Gliese 667Cc, so that you will adapt to the gravity of this world. When you inevitably arrive at the Earth-cousin, you won’t feel as much difference as you would without the training. 
+
         </p>
       </div>
     </div>
@@ -83,12 +84,11 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Ice waterfalls</h1>
+            <h1>Gym world</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+             This is the perfect planet for your exercise needs. As the gravity of the planet is around 4 times higher than Earth, every push-up here, you would have made 4 push-up back on Earth. 
+That being said, you will need a serious gradual training to sustain high-g environment. If you’re up to the challenge. 
+
             </p>
           </div>
         </div>
@@ -100,12 +100,11 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Thrombocyte</h1>
+            <h1>Three suns</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+             Gliese 667Cc is orbiting a star, and that star is orbiting a pair of stars. Because of the planet is tidally locked, like our moon back on Earth, it has a side that is permanently facing one side towards the sun. Meaning, it is always sunrise or sunset depending on the way you’re looking at it. 
+Either way, the view will be out of this world.
+
             </p>
           </div>
         </div>

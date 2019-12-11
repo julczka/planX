@@ -19,6 +19,8 @@
             <li>587.1 light years</li>
             <li>290 days to orbit its host star</li>
             <li>2,4x times gravity of Earth</li>
+            <li>22 degree Celsius equilibrium</li>
+            <li>Cygnus constellation</li>
           </ul>
         </div>
         <div class="stats_container">
@@ -28,7 +30,7 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -39,7 +41,7 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star-outline"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -50,7 +52,7 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star-outline"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -63,13 +65,12 @@
       <h1>Environment</h1>
       <div class="environment_info">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          corporis similique, animi ut numquam odit quidem deleniti atque autem,
-          repellendus eius incidunt voluptas quod rat nulla esse! Dolor, fuga
-          corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Asperiores corporis similique, animi ut numquam odit quidem deleniti
-          atque autem, repellendus eius incidunt voluptas quod rat nulla esse!
-          Dolor, fuga corrupti!
+        It is going to be very humid and wet. Keppler 22b is likely to be nearly identical to Earth, if Earth didn’t have continents. Being around 22 degrees Celsius, it is likely to have lukewarm oceans. 
+If it lacks atmosphere like Earth, it will feel like winter near Northpole.
+If it has atmosphere like ours, it will be warm. It will feel like being in a room temperature, but pretty warm for a planet like Earth. 
+But if it has greenhouse effect like Venus, the place will be around 400 degree Celsius. 
+Some even named this planet “Namek” from the anime-series, Dragonball Z. Mainly because of the greenish tint to the planet, that strangely resembles this very planet. 
+
         </p>
       </div>
     </div>
@@ -83,12 +84,9 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Ice waterfalls</h1>
+            <h1>Perfect for fishing trip</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+              Keppler 22b is a water world. This will make the perfect trip. In a world of water, you may have a vast ocean to fish from. 
             </p>
           </div>
         </div>
@@ -100,12 +98,9 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Thrombocyte</h1>
+            <h1>Scuba dive</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+              You want a clean ocean and rich, warm waters. This is why Keppler 22b is a perfect world for you to do scuba diving. We will have enough equipment for you in the ship. 
             </p>
           </div>
         </div>
