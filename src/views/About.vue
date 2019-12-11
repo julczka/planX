@@ -90,19 +90,20 @@
 
 <script>
 
-
+import { ParallaxContainer, ParallaxElement } from "vue-mouse-parallax";
 
 
 
 export default {
   components: { 
-    
+    ParallaxContainer,
+    ParallaxElement,
      
     },
 
     data () {
       return {
-          img1: require("@/assets/mouseparallax/team/1.png"),
+      img1: require("@/assets/mouseparallax/team/1.png"),
       img2: require("@/assets/mouseparallax/team/2.png"),
       img3: require("@/assets/mouseparallax/team/3.png"),
       img4: require("@/assets/mouseparallax/team/4.png"),
