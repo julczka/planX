@@ -7,6 +7,7 @@
           :backgroundAlpha="bgAlpha"
           :backgroundColor="bgColor"
           :rotation="rotation"
+          :scale="scale"
           @on-load="onLoad"
         ></model-gltf>
       </div>
@@ -186,6 +187,12 @@ export default {
         x: 0.4,
         y: -Math.PI / 2,
         z: 0
+      },
+
+      scale: {
+        x: 0.7,
+        y: 0.7,
+        z: 0.7,
       }
     };
   },
