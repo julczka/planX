@@ -31,7 +31,7 @@
       <div class="img-container">
         <parallax-container class="container">
           <parallax-element
-            :parallaxStrength="-5"
+            :parallaxStrength="-3"
             type="rotation"
             tag="img"
             class="absolute"
@@ -48,7 +48,7 @@
           >
           </parallax-element>
 
-          <parallax-element
+          <!-- <parallax-element
             :parallaxStrength="-40"
             type="translation"
             tag="img"
@@ -56,29 +56,29 @@
             :src="img3"
             id="kurwa"
           >
-          </parallax-element>
+          </parallax-element> -->
 
           <transition name="puff">
             <parallax-element
               v-if="show"
-              :parallaxStrength="15"
+              :parallaxStrength="20"
               type="depth"
               tag="img"
               class="absolute"
-              :src="planetImage"
-              :key="planetImage"
+              :src="shipImage"
+              :key="shipImage"
               
             >
             </parallax-element>
           </transition>
 
           <parallax-element
-            :parallaxStrength="60"
-            type="rotation"
+            :parallaxStrength="15"
+            type="translation"
             tag="img"
             class="absolute"
-            :src="img5"
-            id="kurwa"
+            :src="img4"
+            
           >
           </parallax-element>
           <!-- <transition name="puff">
@@ -112,10 +112,19 @@ export default {
   data() {
     return {
       selectedShip: "",
+      show: true,
       //value: null,
       // imgSource:'',
       //img: require(ships.img),
-      ships: ["Space Cruiser", "Space Jet"]
+      ships: ["Space Cruiser", "Space Jet"],
+
+      
+
+      img1: require("@/assets/ship-choice/1.png"),
+      img2: require("@/assets/ship-choice/2.png"),
+      //img3: require("@/assets/ship_choice/3.png"),
+      img4: require("@/assets/ship-choice/4.png"),
+      //img5: require("@/assets/ship_choice/5.png")
     };
   },
 
@@ -129,7 +138,7 @@ export default {
       const fileName = this.selectedShip.toLowerCase();
 
       // Request the image as a webpack module by using `require`
-      return require(`@/assets/spaceships/${fileName}.jpg`);
+      return require(`@/assets/ship-choice/${fileName}.png`);
     }
   },
 
