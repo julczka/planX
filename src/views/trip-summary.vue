@@ -4,7 +4,7 @@
 
     <div class="first_section">
         <img class="heroimg" src="../assets/heroimg/yourtrip_hero.svg" alt=""/>
-        <h1>Your space trip starts right now!</h1> 
+        <h1>Your trip to {{ selectedPlanet }} starts right now!</h1> 
     </div>
 
 
@@ -13,10 +13,7 @@
         <h1>Prepare yourself!</h1>
         <div class="second_section_text">
             <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Veniam, odit nemo. Voluptatem placeat doloribus minima assumenda 
-            laborum praesentium incidunt ipsum itaque quis, explicabo, illo
-            repellat, consequatur veritatis soluta excepturi. Quod.
+            {{selectedShip}} is ready to launch. We have prepared the space suits for you to use at the launch and landing parts only. Otherwise, the space suits shall be stored in our changing rooms. Food and accommodation will be assured by the PlaneX staff. 
             </p>
         </div>
     </section>
@@ -32,10 +29,7 @@
           <div class="text_control">
             <h1>Launch from earth</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+              The launch of {{ selectedShip }} will occur every month from Earth. It is then when you should always have the space suit equipped. 
             </p>
           </div>
         </div>
@@ -48,10 +42,7 @@
           <div class="text_control">
             <h1>Trip to the orbit</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+              The hardest part of the trip is the flight to Earth's orbit. This is because of the high G-forces. Getting to Earth's orbit will most probably knock you out for a couple of minutes but once the {{selectedShip}} reaches escape velocity from the planet, it’ll all come back to normal and you can resume the normal activity in space.
             </p>
           </div>
         </div>
@@ -63,10 +54,7 @@
       <h1>Dinner at the orbit</h1>
       <div class="second_section_text">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Exercitationem assumenda rem officiis? Reprehenderit veniam
-        inventore itaque amet facere libero adipisci dolore explicabo,
-        pariatur aperiam quasi odit minus, ad deleniti corrupti.
+        Dinner will be served at the canteen, restaurants or the quick snack vending machines, located throughout the {{selectedShip}} center area.
       </p>
       </div>
     </div>
@@ -76,10 +64,7 @@
         <h1>Hibernation</h1>
         <div class="second_section_text">
             <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Veniam, odit nemo. Voluptatem placeat doloribus minima assumenda 
-            laborum praesentium incidunt ipsum itaque quis, explicabo, illo
-            repellat, consequatur veritatis soluta excepturi. Quod.
+           You will go into a very deep sleep in the middle of your trip, but you will have a virtual reality dream and you can still work on your stuff while asleep because your brain will still be active as long as you’re in the hibernation chamber.
             </p>
         </div>
     </section>
@@ -97,10 +82,7 @@
           <div class="text_control">
             <h1>How it works</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+             Once you have arrived at the hibernation chamber, all you can do is sit tight, relax and get a real good night’s sleep. The only difference being it’ll be a very, very long sleep. To wake up for some real-life matter, you can tell your brain to do that while asleep.
             </p>
           </div>
         </div>
@@ -113,10 +95,7 @@
           <div class="text_control">
             <h1>Is it safe?s</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+             While in the hibernation chamber you will be safe from all events as the ship will be managed in turns by all the staff in the very ship.
             </p>
           </div>
         </div>
@@ -127,10 +106,7 @@
         <h1>Landing</h1>
         <div class="second_section_text">
             <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Veniam, odit nemo. Voluptatem placeat doloribus minima assumenda 
-            laborum praesentium incidunt ipsum itaque quis, explicabo, illo
-            repellat, consequatur veritatis soluta excepturi. Quod.
+            Once the ship has landed on {{selectedPlanet}}, all hibernation chambers will stop working and open its doors with a message from the ship saying: You have arrived at your destination.
             </p>
         </div>
     </section>
@@ -159,23 +135,23 @@ export default {
   data () { 
      return {
     selectedShip: '',
-    planetName: '',
+    selectedPlanet: '',
     }
   },
   mounted() {
     if (localStorage.selectedShip) {
       this.selectedShip = localStorage.selectedShip;
     }
-     if (localStorage.planetName) {
-      this.planetName = localStorage.planetName;
+     if (localStorage.selectedPlanet) {
+      this.selectedPlanet = localStorage.selectedPlanet;
     }
   },
   watch: {
     selectedShip(newselectedShip) {
       localStorage.selectedShip = newselectedShip;
     },
-    planetName(newPlanetName) {
-      localStorage.planetName = newPlanetName;
+    selectedPlanet(newselectedPlanet) {
+      localStorage.selectedPlanet = newselectedPlanet;
     }
   },
 }
