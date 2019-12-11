@@ -15,9 +15,9 @@
           <h1>Space Cruiser</h1>
           <h2>Basic info:</h2>
           <ul>
-            <li>587.1 light years</li>
-            <li>290 days to orbit its host star</li>
-            <li>2,4x times gravity of Earth</li>
+            <li>Restaurant at the center of the ship</li>
+            <li>G-Ball Arena (basketball, soccer, dodgeball)</li>
+            <li>Swimming Pool</li>
           </ul>
         </div>
         <div class="stats_container">
@@ -27,7 +27,7 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star-outline"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -38,8 +38,8 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
-              <i class="icon ion-ios-star-outline"></i>
+              <i class="icon ion-ios-star"></i>
+              <i class="icon ion-ios-star"></i>
             </div>
           </div>
 
@@ -49,7 +49,7 @@
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star"></i>
-              <i class="icon ion-ios-star-half"></i>
+              <i class="icon ion-ios-star"></i>
               <i class="icon ion-ios-star-outline"></i>
             </div>
           </div>
@@ -59,16 +59,14 @@
 
     <div class="environment_section">
       <img class="heroimg" src="../assets/heroimg/rocket_hero.svg" alt="" />
-      <h1>Origin</h1>
+      <h1>History</h1>
       <div class="environment_info">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          corporis similique, animi ut numquam odit quidem deleniti atque autem,
-          repellendus eius incidunt voluptas quod rat nulla esse! Dolor, fuga
-          corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Asperiores corporis similique, animi ut numquam odit quidem deleniti
-          atque autem, repellendus eius incidunt voluptas quod rat nulla esse!
-          Dolor, fuga corrupti!
+          Designing the cruiser started in 2035, and the final prototype was built in 2058.
+          The manufacturing process began in 2062, and the ship was finished in the year 2087.
+          Using the pressure-resistant stainless titanium and lightweight, temperature proof aluminum,
+          makes it the lightest ship that goes into space. The price for such a beauty is a whopping $10.5 Billion 
+          ($10.500.000.000)
         </p>
       </div>
     </div>
@@ -82,12 +80,12 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Ice waterfalls</h1>
+            <h1>Cruise Control</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+              The PlanX SpaceCruiser has a constant speed of 20% of the speed of light.
+              This will make for a relaxing experience throughout the observable Universe
+              and for some stunning shots taken with your cameras. You can sightsee
+              from all windows at the center of the ship.
             </p>
           </div>
         </div>
@@ -99,12 +97,11 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Thrombocyte</h1>
+            <h1>Enormous Capacity</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+              The SpaceCruiser has space for up to 300 passengers
+              and 20 reserved spots for the assisting staff
+              60 rooms are available for everyone in the ship.
             </p>
           </div>
         </div>

@@ -59,14 +59,16 @@
 
     <div class="environment_section">
       <img class="heroimg" src="../assets/heroimg/rocket_hero.svg" alt="" />
-      <h1>Origin</h1>
+      <h1>History</h1>
       <div class="environment_info">
         <p>
-          Taking the design from an F16-Falcon fighter-jet as inspiration 
-          and slapping in some space grade, top speed jets, makes it for the fastest flying jet on Earth 
-          and the first jet to reach the orbit of the solar system 
-          faster than the Voyager 1 which has done it in 35 years, 
-          while SpaceJet has done it in just 5. It has seats for 5 people, excluding staff and pilots.
+          The SpaceJet’s designing process began in 2029, 
+          and with a lot of iterations and propositions, feedback and such, 
+          the final design was approved and came to reality in 2037, 
+          just 8 short years from start to finish. The ship was built in 2042, 
+          after all materials have arrived and were ready to be put together. 
+          The jet was finished in the year 2047, 5 years from 0 to ship. 
+          The price for this aerodynamic greatness is around the $3.2 Billion ($3.200.000.000).
         </p>
       </div>
     </div>
@@ -80,12 +82,12 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Ice waterfalls</h1>
+            <h1>G-Gym</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+              The Gravity Gym, or as we call it, The G-Gym, is a gravity gym made for you
+              to train in Earth Gravity, while outside of space. 
+              This place will prevent muscle mass loss and
+              keep you in shape at all times.
             </p>
           </div>
         </div>
@@ -97,12 +99,12 @@
       <div class="content_container">
         <div class="text_banner">
           <div class="text_control">
-            <h1>Thrombocyte</h1>
+            <h1>Acceleration</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
-              natus. Ratione ipsam sunt, molestiae sit ex suscipit officiis
-              assumenda culpa corporis excepturi provident, quis quos debitis
-              nobis vero cumque quam?
+              This is the fastest accelerating jet made on our planet Earth.
+              Its acceleration is at a mind-boggling 0 to 99% of the Speed of Light
+              in just 1 hour. This means the acceleration is so strong, you might pass out
+              in the middle of acceleration from the planet to the orbit.
             </p>
           </div>
         </div>
