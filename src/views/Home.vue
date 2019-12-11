@@ -1,360 +1,351 @@
 <template>
   <div class="home">
-
     <div class="row">
       <div class="container-illu">
         
-          <!-- <div id="container"> -->
-          <parallax-container class="container">
-            <parallax-element
-              :parallaxStrength="5"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img1"
-            >
-            </parallax-element>
+        <parallax-container class="container">
+          <parallax-element
+            :parallaxStrength="5"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="img1"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="20"
-              type="rotation"
-              tag="img"
-              class="absolute"
-              :src="img2"
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="20"
+            type="rotation"
+            tag="img"
+            class="absolute"
+            :src="img2"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="-10"
-              type="translation"
-              tag="img"
-              class="absolute"
-              :src="img3"
-              id="I want to sleep...."
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="-10"
+            type="translation"
+            tag="img"
+            class="absolute"
+            :src="img3"
+            id="I want to sleep...."
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="15"
-              type="translation"
-              tag="img"
-              class="absolute"
-              :src="img4"
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="15"
+            type="translation"
+            tag="img"
+            class="absolute"
+            :src="img4"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="-10"
-              type="translation"
-              tag="p"
-              class="absolute"
-            >
-              
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="-10"
+            type="translation"
+            tag="p"
+            class="absolute"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="35"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img5"
-            >
-            </parallax-element>
-          </parallax-container>
-        
+          <parallax-element
+            :parallaxStrength="35"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="img5"
+          >
+          </parallax-element>
+        </parallax-container>
       </div>
       <div class="container-text text-left">
         <div class="text-controls">
           <h1>Begin your interstellar journey</h1>
           <p>
-Do you dream about going to space? Now you can. Choose from three exciting exoplanet destinations. Each of these worlds hide incredible secrets.            </p>
+            Do you dream about going to space? Now you can. Choose from three
+            exciting exoplanet destinations. Each of these worlds hide
+            incredible secrets.
+          </p>
         </div>
         <div class="btn_container">
-           <router-link :to="'/choose-planet'">
-              <b-button class="purple_hover" @click.native="persist"
-                >Choose the planet</b-button
-          ></router-link>
+          <router-link :to="'/choose-planet'">
+            <b-button class="purple_hover" @click.native="persist"
+              >Choose the planet</b-button
+            ></router-link
+          >
         </div>
       </div>
     </div>
 
-
-     <div class="row">
+    <div class="row">
       <div class="container-illu">
-        
-          <!-- <div id="container"> -->
-          <parallax-container class="container">
-            <parallax-element
-              :parallaxStrength="5"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="ship1"
-            >
-            </parallax-element>
+       
+        <parallax-container class="container">
+          <parallax-element
+            :parallaxStrength="5"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="ship1"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="-25"
-              type="rotation"
-              tag="img"
-              class="absolute"
-              :src="ship2"
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="-25"
+            type="rotation"
+            tag="img"
+            class="absolute"
+            :src="ship2"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="10"
-              type="translation"
-              tag="img"
-              class="absolute"
-              :src="ship4"
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="10"
+            type="translation"
+            tag="img"
+            class="absolute"
+            :src="ship4"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="-20"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="ship5"
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="-20"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="ship5"
+          >
+          </parallax-element>
 
-            
-
-            <parallax-element
-              :parallaxStrength="30"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="ship6"
-            >
-            </parallax-element>
-          </parallax-container>
-        
+          <parallax-element
+            :parallaxStrength="30"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="ship6"
+          >
+          </parallax-element>
+        </parallax-container>
       </div>
       <div class="container-text text-right">
         <div class="text-controls">
           <h1>Spaceships</h1>
           <p>
-
-            Our company offers both luxurious and fast means of interstellar transportation. Have a look at our space ships. Go for the ship that suits your needs. 
+            Our company offers both luxurious and fast means of interstellar
+            transportation. Have a look at our space ships. Go for the ship that
+            suits your needs.
           </p>
-
         </div>
-         <div class="btn_container_2n">
-           <router-link :to="'/choose-ship'">
-              <b-button class="purple_hover" @click.native="persist"
-                >Choose the spaceship</b-button
-          ></router-link>
+        <div class="btn_container_2n">
+          <router-link :to="'/choose-ship'">
+            <b-button class="purple_hover" @click.native="persist"
+              >Choose the spaceship</b-button
+            ></router-link
+          >
         </div>
       </div>
     </div>
 
-
-     <div class="row">
+    <div class="row">
       <div class="container-illu">
         
-          <!-- <div id="container"> -->
-          <parallax-container class="container">
-            <parallax-element
-              :parallaxStrength="-10"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="life1"
-            >
-            </parallax-element>
+        <parallax-container class="container">
+          <parallax-element
+            :parallaxStrength="-10"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="life1"
+          >
+          </parallax-element>
 
-          
+          <parallax-element
+            :parallaxStrength="30"
+            type="rotation"
+            tag="img"
+            class="absolute"
+            :src="life2"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="30"
-              type="rotation"
-              tag="img"
-              class="absolute"
-              :src="life2"
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="-10"
+            type="translation"
+            tag="img"
+            class="absolute"
+            :src="life3"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="-10"
-              type="translation"
-              tag="img"
-              class="absolute"
-              :src="life3"
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="-50"
+            type="translation"
+            tag="img"
+            class="absolute"
+            :src="life4"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="-50"
-              type="translation"
-              tag="img"
-              class="absolute"
-              :src="life4"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="30"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="life5"
-            >
-            </parallax-element>
-          </parallax-container>
-        
+          <parallax-element
+            :parallaxStrength="30"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="life5"
+          >
+          </parallax-element>
+        </parallax-container>
       </div>
       <div class="container-text text-left">
         <div class="text-controls">
           <h1>Life on other planets</h1>
-          <p>Read more about the life outside our solar-system and see what you can expect on other planets. But do not worry. These aliens most likely will not abduct you.</p>
-
+          <p>
+            Read more about the life outside our solar-system and see what you
+            can expect on other planets. But do not worry. These aliens most
+            likely will not abduct you.
+          </p>
         </div>
-         <div class="btn_container">
-           <router-link :to="'/life'">
-              <b-button class="purple_hover" @click.native="persist"
-                >Learn more</b-button
-          ></router-link>
+        <div class="btn_container">
+          <router-link :to="'/life'">
+            <b-button class="purple_hover" @click.native="persist"
+              >Learn more</b-button
+            ></router-link
+          >
         </div>
       </div>
     </div>
 
-     <div class="row">
+    <div class="row">
       <div class="container-illu">
-        
-          <!-- <div id="container"> -->
-          <parallax-container class="container">
-            <parallax-element
-              :parallaxStrength="-40"
-              type="translation"
-              tag="img"
-              class="absolute"
-              :src="trip1"
-            >
-            </parallax-element>
+      
+        <parallax-container class="container">
+          <parallax-element
+            :parallaxStrength="-40"
+            type="translation"
+            tag="img"
+            class="absolute"
+            :src="trip1"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="30"
-              type="translation"
-              tag="img"
-              class="absolute"
-              :src="trip2"
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="30"
+            type="translation"
+            tag="img"
+            class="absolute"
+            :src="trip2"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="30"
-              type="translation"
-              tag="img"
-              class="absolute"
-              :src="trip3"
-              
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="30"
+            type="translation"
+            tag="img"
+            class="absolute"
+            :src="trip3"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="40"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="trip4"
-              
-            >
-            </parallax-element>
-
-          </parallax-container>
-        
+          <parallax-element
+            :parallaxStrength="40"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="trip4"
+          >
+          </parallax-element>
+        </parallax-container>
       </div>
       <div class="container-text text-right">
         <div class="text-controls">
           <h1>Your trip</h1>
-          <p>How is the journey going to feel like? What will it be like after you leave Earth? Read the detailed description of your trip to outer space. </p>
+          <p>
+            How is the journey going to feel like? What will it be like after
+            you leave Earth? Read the detailed description of your trip to outer
+            space.
+          </p>
         </div>
-         <div class="btn_container_2n">
-           <router-link :to="'/trip-summary'">
-              <b-button class="purple_hover"
-                >Trip summary</b-button
-          ></router-link>
+        <div class="btn_container_2n">
+          <router-link :to="'/trip-summary'">
+            <b-button class="purple_hover">Trip summary</b-button></router-link
+          >
         </div>
       </div>
     </div>
 
-     <div class="row">
+    <div class="row">
       <div class="container-illu">
-        
-          <!-- <div id="container"> -->
-          <parallax-container class="container">
-            <parallax-element
-              :parallaxStrength="10"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="about1"
-            >
-            </parallax-element>
+       
+        <parallax-container class="container">
+          <parallax-element
+            :parallaxStrength="10"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="about1"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="30"
-              type="rotation"
-              tag="img"
-              class="absolute"
-              :src="about2"
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="30"
+            type="rotation"
+            tag="img"
+            class="absolute"
+            :src="about2"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="20"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="about3"
-              
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="20"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="about3"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="20"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="about4"
-              
-            >
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="20"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="about4"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="30"
-              type="depth"
-              tag="p"
-              class="absolute"
-            >
-              
-            </parallax-element>
+          <parallax-element
+            :parallaxStrength="30"
+            type="depth"
+            tag="p"
+            class="absolute"
+          >
+          </parallax-element>
 
-            <parallax-element
-              :parallaxStrength="35"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="about5"
-              id="kurwa"
-            >
-            </parallax-element>
-          </parallax-container>
-        
+          <parallax-element
+            :parallaxStrength="35"
+            type="depth"
+            tag="img"
+            class="absolute"
+            :src="about5"
+          >
+          </parallax-element>
+        </parallax-container>
       </div>
       <div class="container-text text-left">
         <div class="text-controls">
           <h1>About us</h1>
-          <p>Are you curious who is responsible for this amazing corner of the web? Check out the developers and read what the site is about.</p>
+          <p>
+            Are you curious who is responsible for this amazing corner of the
+            web? Check out the developers and read what the site is about.
+          </p>
         </div>
-         <div class="btn_container">
-           <router-link :to="'/about'">
-              <b-button class="purple_hover" @click.native="persist"
-                >Meet the makers</b-button
-          ></router-link>
+        <div class="btn_container">
+          <router-link :to="'/about'">
+            <b-button class="purple_hover" @click.native="persist"
+              >Meet the makers</b-button
+            ></router-link
+          >
         </div>
       </div>
     </div>
@@ -363,24 +354,20 @@ Do you dream about going to space? Now you can. Choose from three exciting exopl
 
 <script>
 // @ is an alias to /src
-//import HelloWorld from '@/components/HelloWorld.vue'
-import Vue from "vue";
+
 import { ParallaxContainer, ParallaxElement } from "vue-mouse-parallax";
 import blinkingButton from "@/components/blinkingButton.vue";
-Vue.component("parallax-container", ParallaxContainer);
-Vue.component("parallax-element", ParallaxElement);
 
 export default {
   components: {
     ParallaxContainer,
     ParallaxElement,
-    "b-button": blinkingButton,
+    "b-button": blinkingButton
   },
 
   name: "home",
   data() {
     return {
-      
       img1: require("@/assets/mouseparallax/planets/06_background.png"),
       img2: require("@/assets/mouseparallax/planets/05_stars.png"),
       img3: require("@/assets/mouseparallax/planets/04_keppler.png"),
@@ -405,16 +392,12 @@ export default {
       trip2: require("@/assets/mouseparallax/yourtrip/03_fire.png"),
       trip3: require("@/assets/mouseparallax/yourtrip/02_rocket.png"),
       trip4: require("@/assets/mouseparallax/yourtrip/01_debris.png"),
-      
 
       about1: require("@/assets/mouseparallax/about/05_bg.png"),
       about2: require("@/assets/mouseparallax/about/04_logo.png"),
       about3: require("@/assets/mouseparallax/about/03_coffe.png"),
       about4: require("@/assets/mouseparallax/about/02_creep.png"),
-      about5: require("@/assets/mouseparallax/about/01_baller.png"),
-     
-
-
+      about5: require("@/assets/mouseparallax/about/01_baller.png")
     };
   }
 };
@@ -423,21 +406,17 @@ export default {
 <style lang="scss" scoped>
 .home {
   height: 100%;
-
-  
 }
 
 .row {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   padding: 4em 1em;
-  
+
   &:nth-child(2n) {
     flex-direction: row-reverse;
   }
-  
-
 }
 
 .container-illu {
@@ -445,7 +424,6 @@ export default {
   align-items: center;
   justify-content: center;
   width: 50%;
-  
 }
 
 .container {
@@ -465,41 +443,39 @@ export default {
   justify-content: center;
 }
 
-
 .container-text {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   width: 50%;
-  a{
-    text-decoration:none;
+  a {
+    text-decoration: none;
   }
-.btn_container{
-  width:50%;
-  height:50%;
-  display:flex;
-  justify-content:flex-end;
-}
-  
+  .btn_container {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
 
-  p{
+  p {
     text-justify: inter-character;
   }
 }
-.btn_container_2n{
-  width:50%;
-  height:50%;
-  display:flex;
-  justify-content:flex-start;
+.btn_container_2n {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .text-left {
-justify-content: flex-start;
+  justify-content: flex-start;
   text-align: left;
 }
 
 .text-right {
-justify-content: flex-end;
+  justify-content: flex-end;
   text-align: right;
 }
 
@@ -508,46 +484,32 @@ justify-content: flex-end;
 }
 
 @media screen and (max-width: 1200px) {
-
-.container {
-  
-  height: 400px;
-  width: 400px;
-  
-}
-
-
+  .container {
+    height: 400px;
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 759px) {
-
-
-.row {
-  display:flex;
-  flex-direction: column;
-
- &:nth-child(2n) {
+  .row {
+    display: flex;
     flex-direction: column;
-  }
 
+    &:nth-child(2n) {
+      flex-direction: column;
+    }
+  }
+  .container-illu {
+    width: 100%;
+  }
+  .container-text {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-left .text-right p h1 {
+    //justify-content: center;
+    text-align: center;
+  }
 }
-.container-illu {
-  width: 100%;
-  }
-.container-text {
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-
-  }
- .text-left .text-right p h1 {
-  //justify-content: center;
-  text-align: center;
- }
-
-
-}
-
-
-
 </style>
