@@ -135,7 +135,28 @@
       
     </div>
 
-    <section class="section section-dark"></section>
+    <section class="section section-dark">
+
+       <div class="container-link">
+
+        <h2>Fancy different ship?</h2>
+       <router-link :to="'/choose-ship'"> <b-button class="purple animation">Go back</b-button> </router-link>
+
+      </div>
+
+      <div class="container-link">
+        <h2>or...</h2>
+      </div>
+
+      <div class="container-link">
+
+        <h2>See your trip summary</h2>
+        <router-link :to="'/trip-summary'"> <b-button class="purple animation"> Click here</b-button> </router-link>
+
+
+      </div>
+
+    </section>
   </div>
 </template>
 
@@ -434,6 +455,24 @@ $bgcolor: rgba(0,0,21,1);
   }
 }
 
+.section-dark {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30vh;
+}
+
+.container-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height:100%;
+
+  h2 {
+    font-size: 2rem;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   .basic_info_section {
@@ -565,6 +604,32 @@ $bgcolor: rgba(0,0,21,1);
         width: 80%;
         text-shadow: 0 0 5px $bgcolor;
       }
+    }
+  }
+
+   .section-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+  }
+  
+  .container-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   height: 20%;
+  
+    h2 {
+      font-size: 1.5rem;
+      padding-right: 1em;
+      margin: .2em;
+    }
+
+    h3 {
+      margin: .1em;
     }
   }
 }
