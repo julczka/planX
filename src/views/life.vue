@@ -62,7 +62,7 @@ out, there are plethora of other possible worlds where we may one day live.
         There is difference between extra-terrestrial intelligence and extra-terrestrial life. The extra-
         terrestrial intelligence is essentially a civilisation that can receive and transmit radio signals.
         The probability of a civilisation can even be calculated.
-        (Insert Drake’s Equation photo here)
+        
         Extra-terrestrial life is much simpler. We are looking at similar to early plant and ocean life back on
         Earth. Either single-cellular or simple multi-cellular life-forms.
       </p>
@@ -243,7 +243,7 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
 }
 
 .fourth_section {
-  background-image: url("../assets/parallax/tardigrade-parallax.jpg");
+  background-image: url("../assets/parallax/drake-parallax.jpg");
   min-height: 100vh;
   display:flex;
   justify-content:center;
