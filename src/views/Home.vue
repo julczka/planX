@@ -7,7 +7,7 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="20"
+              :parallaxStrength="10"
               type="depth"
               tag="img"
               class="absolute"
@@ -16,7 +16,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="25"
+              :parallaxStrength="15"
               type="depth"
               tag="img"
               class="absolute"
@@ -35,7 +35,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="35"
+              :parallaxStrength="30"
               type="depth"
               tag="img"
               class="absolute"
@@ -44,7 +44,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="50"
+              :parallaxStrength="35"
               type="depth"
               tag="p"
               class="absolute"
@@ -53,7 +53,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="40"
+              :parallaxStrength="35"
               type="depth"
               tag="img"
               class="absolute"
@@ -68,6 +68,12 @@
           <h1>Planets</h1>
           <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
         </div>
+        <div class="btn_container">
+           <router-link :to="'/choose-planet'">
+              <b-button class="purple_hover" @click.native="persist"
+                >Go to planet</b-button
+          ></router-link>
+        </div>
       </div>
     </div>
 
@@ -78,7 +84,7 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="25"
+              :parallaxStrength="15"
               type="depth"
               tag="img"
               class="absolute"
@@ -87,7 +93,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="40"
+              :parallaxStrength="45"
               type="depth"
               tag="img"
               class="absolute"
@@ -96,7 +102,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="30"
+              :parallaxStrength="10"
               type="depth"
               tag="img"
               class="absolute"
@@ -123,7 +129,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="40"
+              :parallaxStrength="35"
               type="depth"
               tag="img"
               class="absolute"
@@ -137,6 +143,12 @@
         <div class="text-controls">
           <h1>Spaceships</h1>
           <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+        </div>
+         <div class="btn_container_2n">
+           <router-link :to="'/choose-ship'">
+              <b-button class="purple_hover" @click.native="persist"
+                >Go to planet</b-button
+          ></router-link>
         </div>
       </div>
     </div>
@@ -208,77 +220,11 @@
           <h1>Life on other planets</h1>
           <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
         </div>
-      </div>
-    </div>
-
-     <div class="row">
-      <div class="container-illu">
-        
-          <!-- <div id="container"> -->
-          <parallax-container class="container">
-            <parallax-element
-              :parallaxStrength="-50"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img1"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="50"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img2"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="30"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img3"
-              id="kurwa"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="-10"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img4"
-              id="kurwa"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="60"
-              type="depth"
-              tag="p"
-              class="absolute"
-            >
-              LALALALA
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="20"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img5"
-              id="kurwa"
-            >
-            </parallax-element>
-          </parallax-container>
-        
-      </div>
-      <div class="container-text text-right">
-        <div class="text-controls">
-          <h1>Planets</h1>
-          <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+         <div class="btn_container">
+           <router-link :to="'/life'">
+              <b-button class="purple_hover" @click.native="persist"
+                >Go to planet</b-button
+          ></router-link>
         </div>
       </div>
     </div>
@@ -289,7 +235,67 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="-20"
+              :parallaxStrength="10"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="trip1"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="30"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="trip2"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="30"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="trip3"
+              id="kurwa"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="40"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="trip4"
+              id="kurwa"
+            >
+            </parallax-element>
+
+          </parallax-container>
+        
+      </div>
+      <div class="container-text text-right">
+        <div class="text-controls">
+          <h1>Your trip</h1>
+          <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
+        </div>
+         <div class="btn_container_2n">
+           <router-link :to="'/trip-summary'">
+              <b-button class="purple_hover" @click.native="persist"
+                >Go to planet</b-button
+          ></router-link>
+        </div>
+      </div>
+    </div>
+
+     <div class="row">
+      <div class="container-illu">
+        
+          <!-- <div id="container"> -->
+          <parallax-container class="container">
+            <parallax-element
+              :parallaxStrength="10"
               type="depth"
               tag="img"
               class="absolute"
@@ -307,7 +313,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="30"
+              :parallaxStrength="20"
               type="depth"
               tag="img"
               class="absolute"
@@ -317,7 +323,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="-10"
+              :parallaxStrength="20"
               type="depth"
               tag="img"
               class="absolute"
@@ -327,7 +333,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="60"
+              :parallaxStrength="30"
               type="depth"
               tag="p"
               class="absolute"
@@ -336,7 +342,7 @@
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="20"
+              :parallaxStrength="35"
               type="depth"
               tag="img"
               class="absolute"
@@ -352,10 +358,14 @@
           <h1>About</h1>
           <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
         </div>
+         <div class="btn_container">
+           <router-link :to="'/about'">
+              <b-button class="purple_hover" @click.native="persist"
+                >Go to planet</b-button
+          ></router-link>
+        </div>
       </div>
     </div>
-
-   
   </div>
 </template>
 
@@ -364,13 +374,15 @@
 //import HelloWorld from '@/components/HelloWorld.vue'
 import Vue from "vue";
 import { ParallaxContainer, ParallaxElement } from "vue-mouse-parallax";
+import blinkingButton from "@/components/blinkingButton.vue";
 Vue.component("parallax-container", ParallaxContainer);
 Vue.component("parallax-element", ParallaxElement);
 
 export default {
   components: {
     ParallaxContainer,
-    ParallaxElement
+    ParallaxElement,
+    "b-button": blinkingButton,
   },
 
   name: "home",
@@ -397,11 +409,11 @@ export default {
       life4: require("@/assets/mouseparallax/life/02_trilobite.png"),
       life5: require("@/assets/mouseparallax/life/01_fish.png"),
 
-
-
-
-
-
+      trip1: require("@/assets/mouseparallax/yourtrip/04_bg.png"),
+      trip2: require("@/assets/mouseparallax/yourtrip/03_fire.png"),
+      trip3: require("@/assets/mouseparallax/yourtrip/02_rocket.png"),
+      trip4: require("@/assets/mouseparallax/yourtrip/01_debris.png"),
+      
 
       about1: require("@/assets/mouseparallax/about/05_bg.png"),
       about2: require("@/assets/mouseparallax/about/04_logo.png"),
@@ -464,15 +476,29 @@ export default {
 
 .container-text {
   display: flex;
+  flex-direction:column;
   align-items: center;
-  
   width: 50%;
-
+  a{
+    text-decoration:none;
+  }
+.btn_container{
+  width:50%;
+  height:50%;
+  display:flex;
+  justify-content:flex-end;
+}
   
 
   p{
     text-justify: inter-character;
   }
+}
+.btn_container_2n{
+  width:50%;
+  height:50%;
+  display:flex;
+  justify-content:flex-start;
 }
 
 .text-left {
@@ -503,7 +529,9 @@ justify-content: flex-end;
 
 @media screen and (max-width: 759px) {
 
+
 .row {
+  display:flex;
   flex-direction: column;
 
  &:nth-child(2) {
