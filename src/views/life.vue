@@ -3,13 +3,13 @@
 
 
     <div class="first_section">
-        <img class="heroimg" src="../assets/heroimg/yourtrip_hero.svg" alt=""/>
+        <img class="heroimg" src="../assets/heroimg/paw_hero.svg" alt=""/>
         <h1>Extra-terrestrial life</h1> 
     </div>
 
 
     <section class="second_section">
-        <img class="heroimg" src="../assets/heroimg/getready_hero.svg" alt="">
+        <img class="heroimg" src="../assets/heroimg/origin_hero.svg" alt="">
         <h1>Our origin</h1>
         <div class="second_section_text">
             <p>
@@ -55,7 +55,7 @@ out, there are plethora of other possible worlds where we may one day live.
     </section>
     
     <div class="fourth_section">
-      <img class="heroimg" src="../assets/heroimg/dinner_hero.svg" alt="">
+      <img class="heroimg" src="../assets/heroimg/bacteria_hero.svg" alt="">
       <h1>What can we expect?</h1>
       <div class="second_section_text">
       <p>
@@ -70,7 +70,7 @@ out, there are plethora of other possible worlds where we may one day live.
     </div>
 
     <section class="second_section">
-        <img class="heroimg" src="../assets/heroimg/hibernation_hero.svg" alt="">
+        <img class="heroimg" src="../assets/heroimg/possibilities_hero.svg" alt="">
         <h1>Is it possible?</h1>
         <div class="second_section_text">
             <p>
