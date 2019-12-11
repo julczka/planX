@@ -129,8 +129,9 @@
         </p>
 
         <h3>Want to know more?</h3>
-
+        <router-link :to="'/life'">
         <b-button class="purple_hover">Click here</b-button>
+        </router-link>
       </div>
 
       
