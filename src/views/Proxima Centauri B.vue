@@ -139,7 +139,24 @@
     <section class="section section-dark">
 
 
-        
+      <div class="container-link">
+
+        <h2>Fancy different planet?</h2>
+       <router-link :to="'/choose-planet'"> <b-button class="purple_hover">Go back</b-button> </router-link>
+
+      </div>
+
+      <div class="container-link">
+        <h2>or...</h2>
+      </div>
+
+      <div class="container-link">
+
+        <h2>Choose your ship</h2>
+        <router-link :to="'/choose-ship'"> <b-button class="purple_hover"> Click here</b-button> </router-link>
+
+
+      </div>
 
 
     </section>

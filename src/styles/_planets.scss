@@ -1,6 +1,9 @@
 $color: rgba(255,255,242,1);
 $bgcolor: rgba(0,0,21,1);
 
+a {
+  text-decoration: none;
+}
 
 .basic_info_section {
   width: 100%;
@@ -245,9 +248,21 @@ $bgcolor: rgba(0,0,21,1);
 .section-dark {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  height: 30vh;
 }
 
+.container-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height:100%;
+
+  h2 {
+    font-size: 2rem;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   .basic_info_section {
@@ -381,4 +396,32 @@ $bgcolor: rgba(0,0,21,1);
       }
     }
   }
+
+  .section-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+  }
+  
+  .container-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   height: 20%;
+  
+    h2 {
+      font-size: 1.5rem;
+      padding-right: 1em;
+      margin: .2em;
+    }
+
+    h3 {
+      margin: .1em;
+    }
+  }
+
+
 }
