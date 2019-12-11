@@ -195,6 +195,10 @@ background: linear-gradient(270deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%)
   
 }
 
+a {
+  text-decoration: none;
+}
+
 .choice-container {
   height: 100%;
   width: 40%;
@@ -263,34 +267,76 @@ background: linear-gradient(270deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%)
 
 .puff-enter-active {
   animation: puff-in-center 0.6s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  -webkit-animation: puff-in-center 0.6s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 .puff-leave-active {
   animation: puff-out-center 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+  -webkit-animation: puff-out-center 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
 }
 
-@keyframes puff-in-center {
+@-webkit-keyframes puff-in-center {
   0% {
-    transform: scale(2);
-    filter: blur(4px);
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
     opacity: 0;
   }
   100% {
-    transform: scale(1);
-    filter: blur(0px);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
     opacity: 1;
   }
 }
 
-@keyframes puff-out-center {
+@-webkit-keyframes puff-out-center {
   0% {
-    transform: scale(1);
-    filter: blur(0px);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
     opacity: 1;
   }
   100% {
-    transform: scale(2);
-    filter: blur(4px);
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+}
+@keyframes puff-out-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
     opacity: 0;
   }
 }
