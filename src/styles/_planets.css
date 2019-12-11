@@ -57,6 +57,7 @@
 
 .info_container .info-text ul {
   list-style-image: require("../assets/icons/bullet.svg");
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .info_container .info-text li {
@@ -249,30 +250,50 @@ h1 {
     display: flex;
     flex-direction: column;
   }
+  .basic_info_section .info_container {
+    width: 90%;
+    height: 40%;
+    padding-left: 0;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .basic_info_section .info_container .stats_container {
+    width: 60%;
+  }
   .basic_info_section .planet_container {
     width: 100%;
+    height: 60%;
   }
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 770px) {
   .basic_info_section {
     display: flex;
     flex-direction: column;
+    height: auto;
   }
   .basic_info_section .planet_container {
+    height: 50%;
     width: 100%;
   }
   .basic_info_section .info_container {
+    height: 50%;
     width: 100%;
     align-items: center;
     padding-bottom: 4em;
     padding-left: 0;
+    flex-direction: column;
   }
   .basic_info_section .info_container h1 {
     text-align: center;
   }
   .basic_info_section .info_container ul {
     padding-inline-start: 20px;
+  }
+  .basic_info_section .info_container .stats_container {
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
   .environment_section {
     padding-top: 3em;

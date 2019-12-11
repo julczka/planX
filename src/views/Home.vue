@@ -148,20 +148,20 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="-50"
+              :parallaxStrength="10"
               type="depth"
               tag="img"
               class="absolute"
-              :src="ship1"
+              :src="life1"
             >
             </parallax-element>
 
             <parallax-element
-              :parallaxStrength="50"
+              :parallaxStrength="10"
               type="depth"
               tag="img"
               class="absolute"
-              :src="ship1"
+              :src="life1"
             >
             </parallax-element>
 
@@ -170,7 +170,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="ship3"
+              :src="life2"
             >
             </parallax-element>
 
@@ -179,7 +179,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="ship4"
+              :src="life3"
             >
             </parallax-element>
 
@@ -197,7 +197,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="ship5"
+              :src="life5"
             >
             </parallax-element>
           </parallax-container>
@@ -205,7 +205,7 @@
       </div>
       <div class="container-text text-left">
         <div class="text-controls">
-          <h1>Planets</h1>
+          <h1>Life on other planets</h1>
           <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
         </div>
       </div>
@@ -289,20 +289,11 @@
           <!-- <div id="container"> -->
           <parallax-container class="container">
             <parallax-element
-              :parallaxStrength="-50"
+              :parallaxStrength="-20"
               type="depth"
               tag="img"
               class="absolute"
-              :src="img1"
-            >
-            </parallax-element>
-
-            <parallax-element
-              :parallaxStrength="50"
-              type="depth"
-              tag="img"
-              class="absolute"
-              :src="img2"
+              :src="about1"
             >
             </parallax-element>
 
@@ -311,7 +302,16 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="img3"
+              :src="about2"
+            >
+            </parallax-element>
+
+            <parallax-element
+              :parallaxStrength="30"
+              type="depth"
+              tag="img"
+              class="absolute"
+              :src="about3"
               id="kurwa"
             >
             </parallax-element>
@@ -321,7 +321,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="img4"
+              :src="about4"
               id="kurwa"
             >
             </parallax-element>
@@ -332,7 +332,7 @@
               tag="p"
               class="absolute"
             >
-              LALALALA
+              
             </parallax-element>
 
             <parallax-element
@@ -340,7 +340,7 @@
               type="depth"
               tag="img"
               class="absolute"
-              :src="img5"
+              :src="about5"
               id="kurwa"
             >
             </parallax-element>
@@ -349,7 +349,7 @@
       </div>
       <div class="container-text text-left">
         <div class="text-controls">
-          <h1>Planets</h1>
+          <h1>About</h1>
           <p>Corpus callosum paroxysm of global death rings of Uranus how far away emerged into consciousness cosmic ocean. Bits of moving fluff two ghostly white figures in coveralls and helmets are soflty dancing made in the interiors of collapsing stars great turbulent clouds.</p>
         </div>
       </div>
@@ -391,6 +391,23 @@ export default {
       ship5: require("@/assets/mouseparallax/ships/02_spacejet.png"),
       ship6: require("@/assets/mouseparallax/ships/01_mothership.png"),
 
+      life1: require("@/assets/mouseparallax/life/05_bg.png"),
+      life2: require("@/assets/mouseparallax/life/04_croc.png"),
+      life3: require("@/assets/mouseparallax/life/03_plants.png"),
+      life4: require("@/assets/mouseparallax/life/02_trilobite.png"),
+      life5: require("@/assets/mouseparallax/life/01_fish.png"),
+
+
+
+
+
+
+
+      about1: require("@/assets/mouseparallax/about/05_bg.png"),
+      about2: require("@/assets/mouseparallax/about/04_logo.png"),
+      about3: require("@/assets/mouseparallax/about/03_coffe.png"),
+      about4: require("@/assets/mouseparallax/about/02_creep.png"),
+      about5: require("@/assets/mouseparallax/about/01_baller.png"),
      
 
 
