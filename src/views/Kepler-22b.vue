@@ -116,7 +116,7 @@ Some even named this planet “Namek” from the anime-series, Dragonball Z. Mai
         <h2>Expecting aliens?</h2>
         <h3>They may look different then you imagined</h3>
         <p>
-          When we think about extraterrestial life, we usally picture it as
+          When we think about extraterrestrial life, we usally picture it as
           little, green men in a flying saucer. Scientist look for life on
           planets other then earth, but they don't search for aliens as we
           picture them. They mostly search for creatures impossible to see with

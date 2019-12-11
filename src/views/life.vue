@@ -59,7 +59,7 @@ out, there are plethora of other possible worlds where we may one day live.
       <h1>What can we expect?</h1>
       <div class="second_section_text">
       <p>
-        There is difference between extra-terrestrial intelligence and extra-terrestrial life. The extra-
+        There is difference between extraterrestrial intelligence and extra-terrestrial life. The extra-
         terrestrial intelligence is essentially a civilisation that can receive and transmit radio signals.
         The probability of a civilisation can even be calculated.
         

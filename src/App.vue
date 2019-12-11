@@ -54,7 +54,7 @@ export default {
       },
 
       {
-        text: 'Extraterrestial Life',
+        text: 'Extraterrestrial Life',
 		path: '/life',
 		icon: 'ion-ios-paw'
       },
