@@ -114,14 +114,17 @@
 
     <div class="aliens_section">
       <div class="aliens_section_text">
-        <h2>Space travelling technology?</h2>
-        <h3>They may look different then you imagined</h3>
+       <h2>Space travelling technology</h2>
+        <h3>Why is it so difficult?</h3>
         <p>
-          When we think about extraterrestial life, we usally picture it as
-          little, green men in a flying saucer. Scientist look for life on
-          planets other then earth, but they don't search for aliens as we
-          picture them. They mostly search for creatures impossible to see with
-          a naked eye.
+          When we think about interplanetary travelling in general, it seems to be
+          almost unreachable for human mankind. However scientists from around the
+          globe are constantly working on solutions for such a obstacles as 
+          Proper Propulsion, The Ability to Hold Off the Heat or Radiation Protection.
+          The National Aeronautics and Space Administration is still working on some
+          kind of space GPS which is undoubtedly one of the priorities in the field of
+          space exploration. Nevertheless human mankind continually need some time and 
+          resources to wade through this extremely hard infliction.
         </p>
 
         <h3>Want to know more?</h3>
@@ -202,6 +205,13 @@ export default {
 <style lang="scss">
 $color: rgba(255,255,242,1);
 $bgcolor: rgba(0,0,21,1);
+
+
+a{
+  text-decoration:none;
+}
+
+
 .environment_section {
   background-image: url("../assets/parallax/dinner_parallax.jpg");
   min-height: 90vh;
@@ -431,7 +441,6 @@ $bgcolor: rgba(0,0,21,1);
     justify-content: center;
     flex-direction: column;
     text-shadow: 0 0 10px $bgcolor;
-    background: linear-gradient(45deg, rgba(0, 0, 21, 1) 0%, #2d2273 100%);
     padding: 2em;
     position: relative;
     right: 23%;
@@ -583,7 +592,6 @@ $bgcolor: rgba(0,0,21,1);
       justify-content: center;
       flex-direction: column;
       text-shadow: 0 0 10px $bgcolor;
-      background: linear-gradient(45deg, rgba(0, 0, 21, 1) 0%, #2d2273 100%);
       padding: 2em;
       position: relative;
       right: 0%;
