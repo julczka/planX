@@ -94,7 +94,7 @@ That being said, you will need a serious gradual training to sustain high-g envi
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/gliese1.png" alt="" />
+          <img class="planet" src="../assets/photos/gliese-exercise.jpg" alt="" />
         </div>
       </div>
       <div class="content_container">
@@ -110,7 +110,7 @@ Either way, the view will be out of this world.
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/gliese2.jpg" alt="" />
+          <img class="planet" src="../assets/photos/gliese-suns.jpg" alt="" />
         </div>
       </div>
     </section>

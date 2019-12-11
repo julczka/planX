@@ -87,7 +87,7 @@
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/kepler1.jpg" alt="" />
+          <img class="planet" src="../assets/photos/proxima-neighbor.jpg" alt="" />
         </div>
       </div>
       <div class="content_container">
@@ -101,7 +101,7 @@
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/kepler1.jpg" alt="" />
+          <img class="planet" src="../assets/photos/proxima-sun.jpg" alt="" />
         </div>
       </div>
     </section>

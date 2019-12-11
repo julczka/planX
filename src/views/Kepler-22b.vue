@@ -92,7 +92,7 @@ Some even named this planet “Namek” from the anime-series, Dragonball Z. Mai
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/kepler1.jpg" alt="" />
+          <img class="planet" src="../assets/photos/kepler-fishing.jpg" alt="" />
         </div>
       </div>
       <div class="content_container">
@@ -106,7 +106,7 @@ Some even named this planet “Namek” from the anime-series, Dragonball Z. Mai
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/kepler2.jpg" alt="" />
+          <img class="planet" src="../assets/photos/kepler-diving.jpg" alt="" />
         </div>
       </div>
     </section>
