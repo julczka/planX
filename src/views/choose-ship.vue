@@ -103,11 +103,14 @@
 <script>
 import Multiselect from "vue-multiselect";
 import blinkingButton from "@/components/blinkingButton.vue";
+import { ParallaxContainer, ParallaxElement } from "vue-mouse-parallax";
 
 export default {
   components: { 
     Multiselect,
     "b-button": blinkingButton,
+     ParallaxContainer,
+    ParallaxElement,
  },
   data() {
     return {
