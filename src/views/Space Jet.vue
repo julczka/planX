@@ -597,6 +597,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3em;
 
     &_text {
       width: 80%;
@@ -606,9 +607,10 @@ a{
       justify-content: center;
       flex-direction: column;
       text-shadow: 0 0 10px $bgcolor;
-      padding: 2em;
+      padding: .7em;
       position: relative;
       right: 0%;
+      box-sizing: border-box;
 
       h2 {
         font-size: 2rem;
@@ -619,8 +621,10 @@ a{
       }
 
       p {
-        width: 80%;
+        width: 90%;
+        font-size: .7rem;
         text-shadow: 0 0 5px $bgcolor;
+        text-align: left;
       }
     }
   }

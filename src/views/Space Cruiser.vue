@@ -211,10 +211,12 @@ export default {
 
 <style lang="scss">
 
+
+
+
 a{
   text-decoration:none;
 }
-
 
 .environment_section {
   background-image: url("../assets/parallax/dinner_parallax.jpg");
@@ -571,13 +573,16 @@ a{
         width: 100%;
         height: 50%;
 
+        .text_control {
+          width: 80%;
+        }
+
         
       }
 
       .graphic_banner {
         width: 100%;
         height: 50%;
-        align-items:flex-start;
         .planet{
           width:100%;
           height:90%;
@@ -586,7 +591,7 @@ a{
     }
   }
 
-   .attractions_section .hero_image h1 {
+  .attractions_section .hero_image h1 {
     font-size: 2rem;
   }
 
@@ -600,6 +605,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3em;
 
     &_text {
       width: 80%;
@@ -609,9 +615,10 @@ a{
       justify-content: center;
       flex-direction: column;
       text-shadow: 0 0 10px $bgcolor;
-      padding: 2em;
+      padding: .7em;
       position: relative;
       right: 0%;
+      box-sizing: border-box;
 
       h2 {
         font-size: 2rem;
@@ -622,13 +629,15 @@ a{
       }
 
       p {
-        width: 80%;
+        width: 90%;
+        font-size: .7rem;
         text-shadow: 0 0 5px $bgcolor;
+        text-align: left;
       }
     }
   }
 
-   .section-dark {
+  .section-dark {
     display: flex;
     align-items: center;
     justify-content: center;

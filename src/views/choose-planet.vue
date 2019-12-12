@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="choose-planet">
     <div class="choice-row">
       <div class="choice-container">
         <div class="choice-container-color">

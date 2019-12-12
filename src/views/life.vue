@@ -1,5 +1,5 @@
 <template>
-  <div class="planet_page">
+  <div class="life">
 
 
     <div class="first_section">

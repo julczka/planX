@@ -1,5 +1,4 @@
-$color: rgba(255,255,242,1);
-$bgcolor: rgba(0,0,21,1);
+
 
 a {
   text-decoration: none;
@@ -312,6 +311,10 @@ a {
       padding-left: 0;
       flex-direction: column;
 
+      .info-text {
+        margin-left:6.5em;
+      };
+
       h1 {
         text-align: center;
       }
@@ -333,6 +336,8 @@ a {
 
     .environment_info {
       width: 80%;
+      text-align: left;
+      margin-left: 4em;
     }
   }
 
@@ -352,7 +357,18 @@ a {
 
       .text_banner {
         width: 100%;
-        height: 50%;
+        
+        
+        .text_control {
+
+          width: 80%;
+
+          p {text-align: left;
+            margin-left: 1em;}
+
+        }
+
+        
 
         
       }
@@ -384,7 +400,7 @@ a {
     justify-content: center;
 
     &_text {
-      width: 80%;
+      width: 70%;
       height: 50%;
       display: flex;
       align-items: center;
@@ -405,8 +421,10 @@ a {
       }
 
       p {
-        width: 80%;
-        text-shadow: 0 0 5px $bgcolor;
+        width: 100%;
+        text-align: left;
+        font-size: .7rem;
+
       }
     }
   }

@@ -150,7 +150,7 @@ nav {
 			width: 300px;
 			flex-direction: column;
 			justify-content: flex-start;
-			left: -240px;
+			left: -260px;
 			transition: 300ms ease all;
 			top: 80px;
 			//background-color: azure;
@@ -174,9 +174,9 @@ nav {
 
 			a {
 				flex-direction: row;
-				margin-left: 20px;
+				margin-left: 10px;
 				justify-content: space-between;
-				margin-right: 13px;
+				margin-right: 5px;
 			}
 		}
 	}
