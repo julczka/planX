@@ -148,9 +148,7 @@ export default {
   methods: {
     persist() {
       localStorage.selectedPlanet = this.selectedPlanet;
-      console.log(localStorage.selectedPlanet + " localstorage Planet");
-      console.log(this.selectedPlanet + " this planet");
-      console.log(name);
+      
     }
   }
 };
