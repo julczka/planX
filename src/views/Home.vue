@@ -3,13 +3,16 @@
     <div class="row">
       <div class="container-illu">
         
-        <parallax-container class="container">
+        <parallax-container class="container" 
+        
+        style="-webkit-transform-style: preserve-3d;">
           <parallax-element
             :parallaxStrength="5"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="img1"
+            style="z-index: 2;"
           >
           </parallax-element>
 
@@ -19,6 +22,7 @@
             tag="img"
             class="absolute"
             :src="img2"
+            style="z-index: 3;"
           >
           </parallax-element>
 
@@ -29,6 +33,7 @@
             class="absolute"
             :src="img3"
             id="I want to sleep...."
+            style="z-index: 4;"
           >
           </parallax-element>
 
@@ -38,23 +43,19 @@
             tag="img"
             class="absolute"
             :src="img4"
+            style="z-index: 5;"
           >
           </parallax-element>
 
-          <parallax-element
-            :parallaxStrength="-10"
-            type="translation"
-            tag="p"
-            class="absolute"
-          >
-          </parallax-element>
+          
 
           <parallax-element
             :parallaxStrength="35"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="img5"
+            style="z-index: 6;"
           >
           </parallax-element>
         </parallax-container>
@@ -84,7 +85,7 @@
         <parallax-container class="container">
           <parallax-element
             :parallaxStrength="5"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="ship1"
@@ -111,7 +112,7 @@
 
           <parallax-element
             :parallaxStrength="-20"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="ship5"
@@ -120,7 +121,7 @@
 
           <parallax-element
             :parallaxStrength="30"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="ship6"
@@ -153,7 +154,7 @@
         <parallax-container class="container">
           <parallax-element
             :parallaxStrength="-10"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="life1"
@@ -189,7 +190,7 @@
 
           <parallax-element
             :parallaxStrength="30"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="life5"
@@ -221,7 +222,7 @@
       
         <parallax-container class="container">
           <parallax-element
-            :parallaxStrength="-40"
+            :parallaxStrength="-30"
             type="translation"
             tag="img"
             class="absolute"
@@ -230,7 +231,7 @@
           </parallax-element>
 
           <parallax-element
-            :parallaxStrength="30"
+            :parallaxStrength="20"
             type="translation"
             tag="img"
             class="absolute"
@@ -239,7 +240,7 @@
           </parallax-element>
 
           <parallax-element
-            :parallaxStrength="30"
+            :parallaxStrength="20"
             type="translation"
             tag="img"
             class="absolute"
@@ -248,8 +249,8 @@
           </parallax-element>
 
           <parallax-element
-            :parallaxStrength="40"
-            type="depth"
+            :parallaxStrength="10"
+            type="translation"
             tag="img"
             class="absolute"
             :src="trip4"
@@ -280,7 +281,7 @@
         <parallax-container class="container">
           <parallax-element
             :parallaxStrength="10"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="about1"
@@ -298,7 +299,7 @@
 
           <parallax-element
             :parallaxStrength="20"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="about3"
@@ -307,24 +308,18 @@
 
           <parallax-element
             :parallaxStrength="20"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="about4"
           >
           </parallax-element>
 
-          <parallax-element
-            :parallaxStrength="30"
-            type="depth"
-            tag="p"
-            class="absolute"
-          >
-          </parallax-element>
+        
 
           <parallax-element
             :parallaxStrength="35"
-            type="depth"
+            type="translation"
             tag="img"
             class="absolute"
             :src="about5"

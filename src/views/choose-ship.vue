@@ -40,7 +40,7 @@
           </parallax-element>
 
           <parallax-element
-            :parallaxStrength="15"
+            :parallaxStrength="7"
             type="translation"
             tag="img"
             class="absolute"
@@ -48,21 +48,13 @@
           >
           </parallax-element>
 
-          <!-- <parallax-element
-            :parallaxStrength="-40"
-            type="translation"
-            tag="img"
-            class="absolute"
-            :src="img3"
-            id="kurwa"
-          >
-          </parallax-element> -->
+      
 
           <transition name="puff">
             <parallax-element
               v-if="show"
               :parallaxStrength="20"
-              type="depth"
+              type="translation"
               tag="img"
               class="absolute"
               :src="shipImage"
@@ -73,7 +65,7 @@
           </transition>
 
           <parallax-element
-            :parallaxStrength="15"
+            :parallaxStrength="-15"
             type="translation"
             tag="img"
             class="absolute"
@@ -81,22 +73,11 @@
             
           >
           </parallax-element>
-          <!-- <transition name="puff">
-          <parallax-element
-            :parallaxStrength="30"
-            type="translation"
-            tag="h1"
-            class="absolute"
-            :key="selectedPlanet"
-             v-if="show"
-            
-          > {{selectedPlanet}}
-          </parallax-element>
-           </transition> -->
+         
         </parallax-container>
       </div>
     </div>
-    <!-- <span> Selected {{ selectedPlanet }} </span> -->
+  
   </div>
 </template>
 

@@ -54,20 +54,20 @@
             tag="img"
             class="absolute"
             :src="img3"
-            id="kurwa"
+            
           >
           </parallax-element>
 
           <transition name="puff">
             <parallax-element
               v-if="show"
-              :parallaxStrength="15"
-              type="depth"
+              :parallaxStrength="-15"
+              type="translation"
               tag="img"
               class="absolute"
               :src="planetImage"
               :key="planetImage"
-              id="kurwa"
+             
             >
             </parallax-element>
           </transition>
@@ -78,44 +78,18 @@
             tag="img"
             class="absolute"
             :src="img5"
-            id="kurwa"
+            
           >
           </parallax-element>
-         <!-- <transition name="puff">
-          <parallax-element
-            :parallaxStrength="30"
-            type="translation"
-            tag="h1"
-            class="absolute"
-            :key="selectedPlanet"
-             v-if="show"
-            
-          > {{selectedPlanet}}
-          </parallax-element>
-           </transition> -->
+        
 
         </parallax-container>
       </div>
     </div>
-    <!-- <span> Selected {{ selectedPlanet }} </span> -->
+    
   </div>
 
-  <!-- <h1>I'm going to:</h1>
-    <select v-model="selectedPlanet">
-    <option disabled value="">Please select one</option>
-    <option>Proxima Centauri B</option>
-    <option>Keppler-22b</option>
-    <option>Gliese 667CC</option>
-  </select>
-
-   <router-link :to="selectedPlanet">
-    <button @click="persist">Save</button>
-   </router-link>
  
-
-
-
-   -->
 </template>
 
 <script>
@@ -136,12 +110,12 @@ export default {
       show: true,
       selectedPlanet: "",
       planets: ["Gliese 667Cc", "Kepler-22b", "Proxima Centauri B"],
-      img: require("@/assets/planets/Earth.jpg"),
+      
 
       img1: require("@/assets/planet_choice/1.png"),
       img2: require("@/assets/planet_choice/2.png"),
       img3: require("@/assets/planet_choice/3.png"),
-      //img4: require("@/assets/planet_choice/4.png"),
+   
       img5: require("@/assets/planet_choice/5.png")
     };
   },
