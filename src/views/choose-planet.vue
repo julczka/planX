@@ -394,6 +394,12 @@ background: linear-gradient(0deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
 }
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    height: 300px;
+  width: 300px;
+  }
+}
 
 
 

@@ -304,4 +304,42 @@ a {
     }
   }
 }
+
+@media screen and (max-width: 759px) {
+ .choice-container {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  &-color {
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 70%;
+  width: 80%;
+  
+  }
+
+  
+
+  &-text {
+    width: 90%;
+
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
+}
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 300px;
+  width: 300px;
+  }
+}
 </style>
