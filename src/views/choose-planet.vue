@@ -30,7 +30,7 @@
       </div>
 
       <div class="img-container">
-        <parallax-container class="container">
+        <parallax-container class="paralax-container">
           <parallax-element
             :parallaxStrength="-5"
             type="rotation"
@@ -317,7 +317,7 @@ a {
 
 
 @media only screen and (max-width: 1340px) {
-.container {
+.paralax-container {
   
   height: 600px;
   width: 600px;
@@ -396,7 +396,7 @@ background: linear-gradient(0deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
 }
 
 @media screen and (max-width: 600px) {
-  .container {
+  .paralax-container {
     height: 300px;
   width: 300px;
   }
