@@ -39,7 +39,7 @@
 
             <parallax-element
               :parallaxStrength="10"
-              type="depth"
+              type="translation"
               tag="img"
               class="absolute"
               :src="img2"
@@ -58,7 +58,7 @@
 
             <parallax-element
               :parallaxStrength="-10"
-              type="depth"
+              type="translation"
               tag="img"
               class="absolute"
               :src="img4"
@@ -72,7 +72,7 @@
               tag="img"
               class="absolute"
               :src="img5"
-              id="kurwa"
+              
             >
             </parallax-element>
           </parallax-container>
