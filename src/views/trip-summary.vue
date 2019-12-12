@@ -447,7 +447,7 @@ a {
 
 
   .landing_section {
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 100%;
     display: flex;
     justify-content: center;

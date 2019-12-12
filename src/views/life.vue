@@ -269,7 +269,7 @@ a {
 
     width: 70%;
     text-align: left;
-    margin-left: 1.3em;
+    margin-left: 1em;
   }
 
   .third_section {
@@ -304,8 +304,12 @@ a {
         padding: 1em 0;
         .text_control {
           width: 75%;
-          text-align: left;
+          
           margin-left: 1.2em;
+
+          p {
+            text-align: left;
+          }
           
         }
       }
@@ -319,7 +323,9 @@ a {
     justify-content: center;
     height: auto;
   }
-
+  .fourth_section p {
+    margin: 0;
+  }
   
 
   .fifth_section_text {

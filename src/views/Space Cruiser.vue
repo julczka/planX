@@ -581,7 +581,7 @@ a{
 
       .graphic_banner {
         width: 100%;
-        height: 50%;
+        height: auto;
         .planet{
           width:100%;
           height:90%;
