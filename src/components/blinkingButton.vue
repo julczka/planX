@@ -31,7 +31,7 @@ name: 'b-button',
   justify-content: center;
   height:2.5em;
   border: 0;
-  font-size:1rem;
+  font-size:1.2rem;
   padding: .5em 1.5em;
   border-radius: 3px;
   cursor: pointer;

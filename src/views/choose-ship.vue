@@ -20,7 +20,7 @@
             </multiselect>
 
             <router-link :to="selectedShip">
-              <b-button class="purple_hover" @click.native="persist"
+              <b-button class="purple animation" @click.native="persist"
                 >Go to ship</b-button
               ></router-link
             >
@@ -167,6 +167,8 @@ export default {
 a {
   text-decoration: none;
 }
+
+
 
 .choice-container {
   height: 100%;

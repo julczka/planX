@@ -20,7 +20,7 @@
             </multiselect>
 
             <router-link :to="selectedPlanet">
-              <b-button class="purple_hover" @click.native="persist"
+              <b-button class="purple animation" @click.native="persist"
                 >Go to planet</b-button
               ></router-link
             >
