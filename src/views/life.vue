@@ -303,9 +303,11 @@ background: linear-gradient(0deg, rgba(4,3,59,1) 47%, rgba(45,34,115,1) 92%);
     justify-content:flex-start;
     align-items: center;
       .graphic_banner{
+        height:70%;
+        width:100%;
           .photo {
-        width: 93.5vh;
-        height:85vh;
+        width:100%;
+        height:90%;
       }
       
       }
