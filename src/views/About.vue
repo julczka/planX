@@ -169,4 +169,11 @@ export default {
 };
 }
 
+@media screen and (max-width: 320px) {
+  .container {
+    height: 200px;
+    width: 200px;
+  }
+}
+
 </style>

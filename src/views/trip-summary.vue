@@ -313,13 +313,9 @@ background: linear-gradient(0deg, rgba(45,34,115,1) 15%, rgba(2,2,57,1) 99%);
       }
       h1 {
         
-        font-size: 40px;
+        font-size: 3rem;
       }
-      p {
-        
-        font-size: 16px;
-        margin: 20px;
-      }
+      
     }
   }
 }
@@ -365,16 +361,24 @@ background: linear-gradient(0deg, rgba(4,3,59,1) 47%, rgba(45,34,115,1) 92%);
 
 
 @media only screen and (max-width: 736px) {
-  .basic_info_section {
-    display: flex;
-    flex-direction: column;
-    .planet_container {
-      width: 100%;
-    }
-    .info_container {
-      width: 100%;
-    }
+  
+  .first_section h1 {
+    width: 90%;
   }
+
+  .second_section h1 {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+   .second_section p {
+    
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  
+
   .third_section {
     height:300vh;
     .content_container {
@@ -411,11 +415,11 @@ background: linear-gradient(0deg, rgba(4,3,59,1) 47%, rgba(45,34,115,1) 92%);
       width:90%;
       h1 {
         
-        font-size: 40px;
+        font-size: 2rem;
       }
       p {
-        font-size:18px;
-        margin: 8px;
+        font-size:1rem;
+        margin: .5em;
       }
     }
     }
@@ -438,7 +442,12 @@ background: linear-gradient(0deg, rgba(4,3,59,1) 47%, rgba(45,34,115,1) 92%);
 
 .fifth_section_text {
   width: 90%;
+  padding-bottom: 1em;
   
+}
+
+.fifth_section {
+  padding-bottom: 2em;
 }
 
 }

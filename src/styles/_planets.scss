@@ -53,6 +53,7 @@ a {
   box-sizing: border-box;
   .info-text {
     text-align: left;
+    margin: 2em;
 
     h1 {
       font-size: 3em;
@@ -367,6 +368,14 @@ a {
     }
   }
 
+  .attractions_section .hero_image h1 {
+    font-size: 2rem;
+  }
+
+  .attractions_section .content_container .text_banner h1 {
+    font-size: 2rem;
+  }
+
   .aliens_section {
     background-image: url("../assets/parallax/alien_hero.jpg");
     min-height: 92vh;
@@ -418,7 +427,7 @@ a {
    height: 20%;
   
     h2 {
-      font-size: 1.5rem;
+      font-size: 1rem;
       padding-right: 1em;
       margin: .2em;
     }

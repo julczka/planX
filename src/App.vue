@@ -107,7 +107,7 @@ h3 {
 
 p {
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
