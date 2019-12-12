@@ -84,9 +84,6 @@ nav {
 			display: flex;
 			flex-direction: row-reverse;
 			align-items: center;
-			
-
-			
 
 			
 		}

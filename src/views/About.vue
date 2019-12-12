@@ -27,7 +27,7 @@
       </div>
 
       <div class="about-container-paralax">
-        <parallax-container class="container">
+        <parallax-container class="about-paralx-container">
             <parallax-element
               :parallaxStrength="-10"
               type="rotation"
@@ -137,12 +137,15 @@ export default {
 
 .about-text-container {
   width: 30%;
+  
+  
+  p{text-align: left;}
 };
 
 
 
 
-.container {
+.about-paralx-container {
   position: relative;
   height: 400px;
   width: 400px;
@@ -165,14 +168,15 @@ export default {
   }
 
   .about-text-container {
-  width: 80%;
+  width: 70%;
+  
 };
 }
 
-@media screen and (max-width: 320px) {
-  .container {
-    height: 200px;
-    width: 200px;
+@media screen and (max-width: 400px) {
+ .about-paralx-container {
+    height: 300px;
+    width: 300px;
   }
 }
 

@@ -1,7 +1,7 @@
 <template>
-  <div class="planet_page">
+  <div class="ship_page">
     <section class="basic_info_section">
-      <div class="planet_container">
+      <div class="ship_container">
         <model-gltf
           src="/models/spaceCruiser/scene.gltf"
           :backgroundAlpha="bgAlpha"
@@ -113,8 +113,8 @@
       </div>
     </section>
 
-    <div class="aliens_section">
-      <div class="aliens_section_text">
+    <div class="technology_section">
+      <div class="technology_section_text">
        <h2>Space travelling technology</h2>
         <h3>Why is it so difficult?</h3>
         <p>
@@ -237,7 +237,7 @@ a{
   background: linear-gradient(180deg, rgba(0, 0, 21, 1) 0%, #2d2273 100%);
 }
 
-.planet_container {
+.ship_container {
   width: 50%;
   height: 100%;
   display: flex;
@@ -320,7 +320,7 @@ a{
 }
 
 .environment_section,
-.aliens_section {
+.technology_section {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -431,7 +431,7 @@ a{
   }
 }
 
-.aliens_section {
+.technology_section {
   background-image: url("../assets/parallax/ship_parallax.jpg");
   min-height: 92vh;
   display: flex;
@@ -503,7 +503,7 @@ a{
 
     }
 
-    .planet_container {
+    .ship_container {
       width: 100%;
       height: 60%;
 
@@ -517,7 +517,7 @@ a{
     flex-direction: column;
     height: auto;
 
-    .planet_container {
+    .ship_container {
       height: 50%;
       width: 100%;
     }
@@ -594,8 +594,8 @@ a{
     font-size: 2rem;
   }
 
-  .aliens_section {
-    background-image: url("../assets/parallax/alien_hero.jpg");
+  .technology_section {
+    background-image: url("../assets/parallax/ship_parallax.jpg");
     min-height: 92vh;
     display: flex;
     align-items: center;
