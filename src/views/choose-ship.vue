@@ -140,9 +140,7 @@ export default {
   methods: {
     persist() {
       localStorage.selectedShip = this.selectedShip;
-      console.log(localStorage.planetName + " localstorage Planet");
-      console.log(localStorage.selectedShip + " localStorage Ship");
-      console.log(this.selectedShip + " this Ship");
+     
     }
   }
 };
