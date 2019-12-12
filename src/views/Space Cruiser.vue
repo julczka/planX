@@ -580,6 +580,11 @@ a{
       .graphic_banner {
         width: 100%;
         height: 50%;
+        align-items:flex-start;
+        .planet{
+          width:100%;
+          height:90%;
+        }
       }
     }
   }
