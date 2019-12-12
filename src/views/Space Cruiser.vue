@@ -247,23 +247,7 @@ a{
   align-items: center;
 }
 
-.container {
-  position: relative;
-  height: 600px;
-  width: 600px;
-  z-index: 1;
-}
 
-.absolute {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .info_container {
   width: 50%;
@@ -538,6 +522,11 @@ a{
       padding-left: 0;
       flex-direction: column;
 
+      .info-text {
+        width: 75%;
+        margin-left: 1em;
+      }
+
       h1 {
         text-align: center;
       }
@@ -580,8 +569,11 @@ a{
         width: 100%;
         height: 50%;
 
+
         .text_control {
-          width: 80%;
+          width: 75%;
+          text-align: left;
+          margin-left: 2.2em;
         }
 
         

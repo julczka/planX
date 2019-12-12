@@ -567,8 +567,11 @@ a{
         width: 100%;
         height: 50%;
 
+
         .text_control {
-          width: 80%;
+          width: 75%;
+          text-align: left;
+          margin-left: 2.2em;
         }
 
         
