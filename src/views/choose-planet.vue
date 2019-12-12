@@ -20,7 +20,7 @@
             </multiselect>
 
             <router-link :to="selectedPlanet">
-              <b-button class="purple_hover" @click.native="persist"
+              <b-button class="purple animation" @click.native="persist"
                 >Go to planet</b-button
               ></router-link
             >
@@ -148,9 +148,7 @@ export default {
   methods: {
     persist() {
       localStorage.selectedPlanet = this.selectedPlanet;
-      console.log(localStorage.selectedPlanet + " localstorage Planet");
-      console.log(this.selectedPlanet + " this planet");
-      console.log(name);
+      
     }
   }
 };

@@ -20,7 +20,7 @@
             </multiselect>
 
             <router-link :to="selectedShip">
-              <b-button class="purple_hover" @click.native="persist"
+              <b-button class="purple animation" @click.native="persist"
                 >Go to ship</b-button
               ></router-link
             >
@@ -140,9 +140,7 @@ export default {
   methods: {
     persist() {
       localStorage.selectedShip = this.selectedShip;
-      console.log(localStorage.planetName + " localstorage Planet");
-      console.log(localStorage.selectedShip + " localStorage Ship");
-      console.log(this.selectedShip + " this Ship");
+     
     }
   }
 };
@@ -167,6 +165,8 @@ export default {
 a {
   text-decoration: none;
 }
+
+
 
 .choice-container {
   height: 100%;
