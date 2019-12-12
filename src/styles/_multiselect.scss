@@ -355,3 +355,20 @@ $multiselectTagsBorderRadius: 0.3125rem;
   opacity: 0;
   max-height: 0 !important;
 }
+
+@media screen and (max-width: 759px) {
+  .multiselect__single {
+    font-family: inherit;
+    font-size: .5rem;
+    font-weight: lighter;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .multiselect__single {
+    font-family: inherit;
+    font-size: .5rem;
+    font-weight: lighter;
+  }
+}
+

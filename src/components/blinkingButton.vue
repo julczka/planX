@@ -145,5 +145,16 @@ text-shadow:1px 1px 0 #2D2273;
 }
 }
 
+@media screen and (max-width: 759px) {
+  .main-button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-button {
+    font-size: .7rem;
+  }
+}
 
 </style>

@@ -222,7 +222,7 @@ body {
 @media screen and (max-width: 759px) {
 
 body {
-  font-size: 16px;
+  font-size: 10px;
 }
 
 

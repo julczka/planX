@@ -363,6 +363,37 @@ background: linear-gradient(0deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
 
 }
 
+@media screen and (max-width: 759px) {
+ .choice-container {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  &-color {
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 70%;
+  width: 80%;
+  
+  }
+
+  
+
+  &-text {
+    width: 90%;
+
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
+}
+}
+
 
 
 

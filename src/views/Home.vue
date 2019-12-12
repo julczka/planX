@@ -494,6 +494,12 @@ export default {
       flex-direction: column;
     }
   }
+
+  .container {
+    height: 350px;
+    width: 350px;
+  }
+
   .container-illu {
     width: 100%;
   }
@@ -507,4 +513,15 @@ export default {
     text-align: center;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .container {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+
+
+
 </style>
