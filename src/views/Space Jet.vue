@@ -207,8 +207,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$color: rgba(255,255,242,1);
-$bgcolor: rgba(0,0,21,1);
+
 
 
 a{
@@ -584,6 +583,14 @@ a{
     }
   }
 
+  .attractions_section .hero_image h1 {
+    font-size: 2rem;
+  }
+
+  .attractions_section .content_container .text_banner h1 {
+    font-size: 2rem;
+  }
+
   .aliens_section {
     background-image: url("../assets/parallax/alien_hero.jpg");
     min-height: 92vh;
@@ -618,7 +625,7 @@ a{
     }
   }
 
-   .section-dark {
+  .section-dark {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -634,7 +641,7 @@ a{
    height: 20%;
   
     h2 {
-      font-size: 1.5rem;
+      font-size: 1rem;
       padding-right: 1em;
       margin: .2em;
     }
