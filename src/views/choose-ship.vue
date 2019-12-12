@@ -15,6 +15,7 @@
               :allow-empty="false"
               :showLabels="false"
               :preselectFirst="true"
+              :searchable="false"
               class="selector"
             >
             </multiselect>
