@@ -358,7 +358,7 @@ a{
 
 .attractions_section {
   width: 100%;
-  height: 170vh;
+  height: auto;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
@@ -372,10 +372,12 @@ a{
     align-items: center;
     background: rgb(0, 0, 54);
     background: linear-gradient(180deg, rgba(0, 0, 54, 1) 0%, #2d2273 100%);
+    padding: 2em 0;
 
     .heroimg {
       width: 100px;
       height: 100px;
+      
     }
     h1 {
       color: white;
@@ -386,8 +388,11 @@ a{
   .content_container {
     display: flex;
     width: 100%;
-    height: 40%;
+    height: auto;
     align-items: center;
+    background-color:#2D2273;
+    //padding: 2em 0;
+
 
     &:nth-child(2) {
       flex-direction: row-reverse;
@@ -416,7 +421,8 @@ a{
       align-items: center;
       flex-direction: column;
       width: 50%;
-      height: 100%;
+      height: auto;
+      padding: 2em 0em;
 
       background: #2d2273;
       .text_control {
@@ -470,7 +476,8 @@ a{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 30vh;
+  height: auto;
+  padding: 1em 0;
 }
 
 .container-link {
@@ -561,7 +568,7 @@ a{
   }
 
   .attractions_section {
-    height: 300vh;
+    height: auto;
     .content_container {
       flex-direction: column;
       display: flex;
@@ -642,7 +649,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 30vh;
+    height: auto;
   }
   
   .container-link {

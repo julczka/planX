@@ -228,7 +228,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
-  padding: 0 1em;
+  padding: 1em 1em;
   background: rgb(45, 34, 115);
   background: linear-gradient(
     0deg,
@@ -253,12 +253,13 @@ a {
 
 .third_section {
   width: 100%;
-  height: 150vh;
+  height: auto;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   flex-direction: column;
   background-color: #2d2273;
+  
   .hero_image {
     width: 100%;
     height: 20%;
@@ -278,6 +279,7 @@ a {
     height: 100%;
     align-items: center;
     background-color: #2d2273;
+    padding: 1em 0;
     &:nth-child(2) {
       flex-direction: row-reverse;
     }
@@ -309,7 +311,7 @@ a {
 
       background: #2d2273;
       .text_control {
-        width: 50%;
+        width: 80%;
         height: 30%;
       }
       h1 {
@@ -339,13 +341,13 @@ a {
 
 .landing_section {
   width: 100%;
-  height: 100vh;
+  height: auto;
   flex-direction: column;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  box-sizing: border-box;
-  padding: 0 1em;
+  
+  padding: 3em 0em;
   background: rgb(4, 3, 59);
   background: linear-gradient(
     0deg,
@@ -397,7 +399,7 @@ a {
   }
 
   .third_section {
-    height: 300vh;
+    height: auto;
     
     .content_container {
       flex-direction: column;
@@ -445,17 +447,19 @@ a {
 
 
   .landing_section {
-    font-size: 18px;
+    font-size: 1.5rem;
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 120vh;
+    height: auto;
+
   }
 
   .second_section_text {
     
     width: 80%;
     text-align: left;
+    margin-left: 1em;
   }
 
   .fifth_section_text {
