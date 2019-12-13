@@ -143,8 +143,9 @@ background: radial-gradient(circle, rgba(95,73,242,1) 24%, rgba(75,57,191,1) 100
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.2s ease 0.2s;
+    transition: all 0.3s ease 0.1s;
      transform: scale(1.1);
+     box-shadow: black 10px 10px 10px ;
     transition-timing-function: ease-out;
 }
 }
