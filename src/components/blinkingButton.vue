@@ -134,13 +134,17 @@ text-shadow:1px 1px 0 #2D2273;
   }
 
    &:hover{
-    background:#5F49F2;
+   background: rgb(95,73,242);
+background: radial-gradient(circle, rgba(95,73,242,1) 24%, rgba(75,57,191,1) 100%);
     color:white;
-    border:2px solid #5F49F2;
+    display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0.2s;
+     transform: scale(1.1);
     transition-timing-function: ease-out;
 }
 }
