@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="choose-planet">
     <div class="choice-row">
       <div class="choice-container">
         <div class="choice-container-color">
@@ -15,6 +15,7 @@
               :allow-empty="false"
               :showLabels="false"
               :preselectFirst="true"
+              :searchable="false"
               class="selector"
             >
             </multiselect>
@@ -29,7 +30,7 @@
       </div>
 
       <div class="img-container">
-        <parallax-container class="container">
+        <parallax-container class="planet-paralax-container">
           <parallax-element
             :parallaxStrength="-5"
             type="rotation"
@@ -161,7 +162,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 90vh;
+  height: 91vh;
   background: rgb(0,0,21);
 background: linear-gradient(270deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
   
@@ -220,7 +221,7 @@ a {
   justify-content: space-around;
 }
 
-.container {
+.planet-paralax-container {
   position: relative;
   height: 800px;
   width: 800px;
@@ -316,7 +317,7 @@ a {
 
 
 @media only screen and (max-width: 1340px) {
-.container {
+.planet-paralax-container {
   
   height: 600px;
   width: 600px;
@@ -328,7 +329,7 @@ a {
 }
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1050px) {
 
 
 
@@ -395,7 +396,7 @@ background: linear-gradient(0deg, rgba(0,0,21,1) 64%,  rgba(45,34,115, 1) 90%);
 }
 
 @media screen and (max-width: 600px) {
-  .container {
+  .planet-paralax-container {
     height: 300px;
   width: 300px;
   }

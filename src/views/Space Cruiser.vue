@@ -1,7 +1,7 @@
 <template>
-  <div class="planet_page">
+  <div class="ship_page">
     <section class="basic_info_section">
-      <div class="planet_container">
+      <div class="ship_container">
         <model-gltf
           src="/models/spaceCruiser/scene.gltf"
           :backgroundAlpha="bgAlpha"
@@ -113,8 +113,8 @@
       </div>
     </section>
 
-    <div class="aliens_section">
-      <div class="aliens_section_text">
+    <div class="technology_section">
+      <div class="technology_section_text">
        <h2>Space travelling technology</h2>
         <h3>Why is it so difficult?</h3>
         <p>
@@ -211,10 +211,12 @@ export default {
 
 <style lang="scss">
 
+
+
+
 a{
   text-decoration:none;
 }
-
 
 .environment_section {
   background-image: url("../assets/parallax/dinner_parallax.jpg");
@@ -237,7 +239,7 @@ a{
   background: linear-gradient(180deg, rgba(0, 0, 21, 1) 0%, #2d2273 100%);
 }
 
-.planet_container {
+.ship_container {
   width: 50%;
   height: 100%;
   display: flex;
@@ -245,23 +247,7 @@ a{
   align-items: center;
 }
 
-.container {
-  position: relative;
-  height: 600px;
-  width: 600px;
-  z-index: 1;
-}
 
-.absolute {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .info_container {
   width: 50%;
@@ -320,7 +306,7 @@ a{
 }
 
 .environment_section,
-.aliens_section {
+.technology_section {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -356,7 +342,7 @@ a{
 
 .attractions_section {
   width: 100%;
-  height: 170vh;
+  height: auto;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
@@ -370,10 +356,12 @@ a{
     align-items: center;
     background: rgb(0, 0, 54);
     background: linear-gradient(180deg, rgba(0, 0, 54, 1) 0%, #2d2273 100%);
+    padding: 2em 0;
 
     .heroimg {
       width: 100px;
       height: 100px;
+      
     }
     h1 {
       color: white;
@@ -384,8 +372,11 @@ a{
   .content_container {
     display: flex;
     width: 100%;
-    height: 40%;
+    height: auto;
     align-items: center;
+    background-color:#2D2273;
+    //padding: 2em 0;
+
 
     &:nth-child(2) {
       flex-direction: row-reverse;
@@ -414,7 +405,8 @@ a{
       align-items: center;
       flex-direction: column;
       width: 50%;
-      height: 100%;
+      height: auto;
+      padding: 2em 0em;
 
       background: #2d2273;
       .text_control {
@@ -431,7 +423,7 @@ a{
   }
 }
 
-.aliens_section {
+.technology_section {
   background-image: url("../assets/parallax/ship_parallax.jpg");
   min-height: 92vh;
   display: flex;
@@ -468,7 +460,8 @@ a{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 30vh;
+  height: auto;
+  padding: 1em 0;
 }
 
 .container-link {
@@ -503,7 +496,7 @@ a{
 
     }
 
-    .planet_container {
+    .ship_container {
       width: 100%;
       height: 60%;
 
@@ -517,7 +510,7 @@ a{
     flex-direction: column;
     height: auto;
 
-    .planet_container {
+    .ship_container {
       height: 50%;
       width: 100%;
     }
@@ -528,6 +521,11 @@ a{
       padding-bottom: 4em;
       padding-left: 0;
       flex-direction: column;
+
+      .info-text {
+        width: 75%;
+        margin-left: 1em;
+      }
 
       h1 {
         text-align: center;
@@ -559,7 +557,7 @@ a{
   }
 
   .attractions_section {
-    height: 300vh;
+    height: auto;
     .content_container {
       flex-direction: column;
       display: flex;
@@ -571,13 +569,19 @@ a{
         width: 100%;
         height: 50%;
 
+
+        .text_control {
+          width: 75%;
+          text-align: left;
+          margin-left: 2.2em;
+        }
+
         
       }
 
       .graphic_banner {
         width: 100%;
-        height: 50%;
-        align-items:flex-start;
+        height: auto;
         .planet{
           width:100%;
           height:90%;
@@ -586,7 +590,7 @@ a{
     }
   }
 
-   .attractions_section .hero_image h1 {
+  .attractions_section .hero_image h1 {
     font-size: 2rem;
   }
 
@@ -594,12 +598,13 @@ a{
     font-size: 2rem;
   }
 
-  .aliens_section {
-    background-image: url("../assets/parallax/alien_hero.jpg");
+  .technology_section {
+    background-image: url("../assets/parallax/ship_parallax.jpg");
     min-height: 92vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3em;
 
     &_text {
       width: 80%;
@@ -609,9 +614,10 @@ a{
       justify-content: center;
       flex-direction: column;
       text-shadow: 0 0 10px $bgcolor;
-      padding: 2em;
+      padding: .7em;
       position: relative;
       right: 0%;
+      box-sizing: border-box;
 
       h2 {
         font-size: 2rem;
@@ -622,18 +628,20 @@ a{
       }
 
       p {
-        width: 80%;
+        width: 90%;
+        font-size: .7rem;
         text-shadow: 0 0 5px $bgcolor;
+        text-align: left;
       }
     }
   }
 
-   .section-dark {
+  .section-dark {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 30vh;
+    height: auto;
   }
   
   .container-link {

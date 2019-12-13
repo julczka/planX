@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="choose-ship">
     <div class="choice-row">
       <div class="choice-container">
         <div class="choice-container-color">
@@ -15,6 +15,7 @@
               :allow-empty="false"
               :showLabels="false"
               :preselectFirst="true"
+              :searchable="false"
               class="selector"
             >
             </multiselect>
@@ -29,7 +30,7 @@
       </div>
 
       <div class="img-container">
-        <parallax-container class="container">
+        <parallax-container class="ship-paralax-container">
           <parallax-element
             :parallaxStrength="-3"
             type="rotation"
@@ -214,7 +215,7 @@ a {
   justify-content: space-around;
 }
 
-.container {
+.ship-paralax-container {
   position: relative;
   height: 800px;
   width: 800px;
@@ -266,7 +267,7 @@ a {
 }
 
 @media only screen and (max-width: 1340px) {
-  .container {
+  .ship-paralax-container {
     height: 600px;
     width: 600px;
   }
@@ -276,7 +277,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1050px) {
   .choice-row {
     flex-direction: column;
     height: auto;
@@ -337,8 +338,8 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  .container {
-    height: 300px;
+  .ship-paralax-container {
+  height: 300px;
   width: 300px;
   }
 }

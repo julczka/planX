@@ -507,18 +507,49 @@ export default {
     width: 100%;
     justify-content: center;
     text-align: center;
+
+    .btn_container {
+    
+    justify-content: center;
+  }
+
+  .text-controls {
+    width: 70%;
+  }
+
   }
   .text-left .text-right p h1 {
     //justify-content: center;
     text-align: center;
   }
+  
+  .btn_container_2n {
+  
+  justify-content: center;
 }
 
-@media screen and (max-width: 320px) {
+  
+}
+
+@media screen and (max-width: 350px) {
   .container {
     height: 200px;
     width: 200px;
   }
+
+  .container-text {
+   
+
+  .text-controls {
+    width: 65%;
+  }
+
+  }
+
+  p{
+    font-size: .7rem;
+  }
+
 }
 
 
