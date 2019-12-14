@@ -123,14 +123,6 @@ body {
 }
 
 
-// .page-enter-active, .page-leave-active {
-//   transition: opacity 1s, transform 1s;
-// }
-// .page-enter, .page-leave-to {
-//   opacity: 0;
-//   transform: translateX(-30%);
-// }
-
 .page-enter-active, .page-leave-active  {
 	animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
   -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
