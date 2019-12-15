@@ -208,10 +208,5 @@ export default {
   color: white;
 }
 
-@media only screen and (max-device-width: 1366px) {
-  .proxima_environment_section {
-  
-  background-attachment: scroll;
-}
-}
+
 </style>
