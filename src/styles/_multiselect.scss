@@ -1,11 +1,11 @@
-$color1:  rgba(0,0,21,1); // change to change bcg
-$color2: rgba(45,34,115, 1);
-$color3: rgba(255,255,242,1);
-$color4: rgba(160,147,244, 1);
-$color5: rgba(75,57,191, 1);
-$color6: rgba(75,69,115, 1);
-$color7:  rgba(0,0,21,1); // change to chande bcg
-$color8: #FF6A6A;
+$color1: rgba(0, 0, 21, 1); // change to change bcg
+$color2: rgba(45, 34, 115, 1);
+$color3: rgba(255, 255, 242, 1);
+$color4: rgba(160, 147, 244, 1);
+$color5: rgba(75, 57, 191, 1);
+$color6: rgba(75, 69, 115, 1);
+$color7: rgba(0, 0, 21, 1); // change to chande bcg
+$color8: #ff6a6a;
 
 $spinnerBg: $color1;
 $spinnerBorderColor: $color2;
@@ -55,7 +55,7 @@ $multiselectTagsBorderRadius: 0.3125rem;
   &:before,
   &:after {
     position: absolute;
-    content: '';
+    content: "";
     top: 50%;
     left: 50%;
     margin: 0.875rem 0 0 0.875rem;
@@ -134,7 +134,7 @@ $multiselectTagsBorderRadius: 0.3125rem;
   background: $multiselectBg;
   padding: 1px 0 0 0.3125rem;
   width: auto;
-  transition: border .1s ease;
+  transition: border 0.1s ease;
   box-sizing: border-box;
   margin-bottom: 0.5rem;
 
@@ -190,7 +190,8 @@ $multiselectTagsBorderRadius: 0.3125rem;
     color: $multiselectTagIconColor;
     font-size: 0.875rem;
   }
-  &:focus, &:hover {
+  &:focus,
+  &:hover {
     background: $multiselectTagIconColorHover;
 
     &:after {
@@ -349,28 +350,26 @@ $multiselectTagsBorderRadius: 0.3125rem;
   }
 }
 .multiselect-transition {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.multiselect-enter, .multiselect-leave {
+.multiselect-enter,
+.multiselect-leave {
   opacity: 0;
   max-height: 0 !important;
 }
 
 @media screen and (max-width: 759px) {
- 
-
-  .multiselect, .multiselect__input, .multiselect__single {
-    
-    font-size: .5rem;
-    
+  .multiselect,
+  .multiselect__input,
+  .multiselect__single {
+    font-size: 0.5rem;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .multiselect, .multiselect__input, .multiselect__single {
-    
-    font-size: .5rem;
-    
+  .multiselect,
+  .multiselect__input,
+  .multiselect__single {
+    font-size: 0.5rem;
   }
 }
-

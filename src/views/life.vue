@@ -167,7 +167,7 @@ a {
     align-items: center;
     h1 {
       color: white;
-      
+
       margin: 0.3em;
     }
   }
@@ -259,13 +259,10 @@ a {
 }
 
 @media only screen and (max-device-width: 1366px) {
-  
-
-.first_section,
-.fourth_section {
-  
-   background-attachment: scroll;
-}
+  .first_section,
+  .fourth_section {
+    background-attachment: scroll;
+  }
 }
 
 @media only screen and (max-width: 736px) {
@@ -275,8 +272,6 @@ a {
   }
 
   .second_section_text {
-    
-
     width: 70%;
     text-align: left;
     margin-left: 1em;
@@ -314,13 +309,12 @@ a {
         padding: 1em 0;
         .text_control {
           width: 75%;
-          
+
           margin-left: 1.2em;
 
           p {
             text-align: left;
           }
-          
         }
       }
     }
@@ -336,7 +330,6 @@ a {
   .fourth_section p {
     margin: 0;
   }
-  
 
   .fifth_section_text {
     width: 90%;

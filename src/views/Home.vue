@@ -2,10 +2,10 @@
   <div class="home">
     <div class="row">
       <div class="container-illu">
-        
-        <parallax-container class="container" 
-        
-        style="-webkit-transform-style: preserve-3d;">
+        <parallax-container
+          class="container"
+          style="-webkit-transform-style: preserve-3d;"
+        >
           <parallax-element
             :parallaxStrength="5"
             type="translation"
@@ -47,8 +47,6 @@
           >
           </parallax-element>
 
-          
-
           <parallax-element
             :parallaxStrength="35"
             type="translation"
@@ -81,7 +79,6 @@
 
     <div class="row">
       <div class="container-illu">
-       
         <parallax-container class="container">
           <parallax-element
             :parallaxStrength="5"
@@ -150,7 +147,6 @@
 
     <div class="row">
       <div class="container-illu">
-        
         <parallax-container class="container">
           <parallax-element
             :parallaxStrength="-10"
@@ -219,7 +215,6 @@
 
     <div class="row">
       <div class="container-illu">
-      
         <parallax-container class="container">
           <parallax-element
             :parallaxStrength="-30"
@@ -277,7 +272,6 @@
 
     <div class="row">
       <div class="container-illu">
-       
         <parallax-container class="container">
           <parallax-element
             :parallaxStrength="10"
@@ -314,8 +308,6 @@
             :src="about4"
           >
           </parallax-element>
-
-        
 
           <parallax-element
             :parallaxStrength="35"
@@ -509,26 +501,21 @@ export default {
     text-align: center;
 
     .btn_container {
-    
-    justify-content: center;
-  }
+      justify-content: center;
+    }
 
-  .text-controls {
-    width: 70%;
-  }
-
+    .text-controls {
+      width: 70%;
+    }
   }
   .text-left .text-right p h1 {
     //justify-content: center;
     text-align: center;
   }
-  
-  .btn_container_2n {
-  
-  justify-content: center;
-}
 
-  
+  .btn_container_2n {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -538,21 +525,13 @@ export default {
   }
 
   .container-text {
-   
-
-  .text-controls {
-    width: 65%;
+    .text-controls {
+      width: 65%;
+    }
   }
 
+  p {
+    font-size: 0.7rem;
   }
-
-  p{
-    font-size: .7rem;
-  }
-
 }
-
-
-
-
 </style>

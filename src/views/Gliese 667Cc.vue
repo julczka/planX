@@ -17,7 +17,10 @@
 
           <ul>
             <li>24 light years away</li>
-            <li>Orbiting a red dwarf, a triple star system, taking 28 days to orbit around. </li>
+            <li>
+              Orbiting a red dwarf, a triple star system, taking 28 days to
+              orbit around.
+            </li>
             <li>3,7x gravity of Earth</li>
             <li>54% bigger radius than of the Earth, a Super-Earth</li>
             <li>In the constellation of Scorpius</li>
@@ -61,23 +64,43 @@
     </section>
 
     <div class="gliese_environment_section">
-      <img class="heroimg" src="../assets/heroimg/environment_hero.svg" alt="" />
+      <img
+        class="heroimg"
+        src="../assets/heroimg/environment_hero.svg"
+        alt=""
+      />
       <h1>Environment</h1>
       <div class="environment_info">
         <p>
-          Gliese 667Cc is named the fourth most Earth-like planet. But it is tidally locked with its host star.  it has one side permanently facing the sun, the other shrouded in eternal darkness. 
-In between the eternal sunshine and permanent night, there is grey zone called terminator line. On the sliver of line, you will have never-ending sunrise, and the cold of night on your back. Here on that ring of equilibrium, you may meet alien life. 
-The gravity on this planet is punishing. You will carry almost four people at your own weight. You will feel a lot heavier. If you’re planning to go to Gliese 667Cc, you will need to do some serious exercise before you get here. But you will have few years where you get to train at the ship before and after your hibernation during the trip. 
-On you ship you will have all the equipment you will need to maintain and/or build your physique, in order to handle the immense gravity that is on this planet. 
-For this journey we will work up to the same g’s as Gliese 667Cc, so that you will adapt to the gravity of this world. When you inevitably arrive at the Earth-cousin, you won’t feel as much difference as you would without the training. 
-
+          Gliese 667Cc is named the fourth most Earth-like planet. But it is
+          tidally locked with its host star. it has one side permanently facing
+          the sun, the other shrouded in eternal darkness. In between the
+          eternal sunshine and permanent night, there is grey zone called
+          terminator line. On the sliver of line, you will have never-ending
+          sunrise, and the cold of night on your back. Here on that ring of
+          equilibrium, you may meet alien life. The gravity on this planet is
+          punishing. You will carry almost four people at your own weight. You
+          will feel a lot heavier. If you’re planning to go to Gliese 667Cc, you
+          will need to do some serious exercise before you get here. But you
+          will have few years where you get to train at the ship before and
+          after your hibernation during the trip. On you ship you will have all
+          the equipment you will need to maintain and/or build your physique, in
+          order to handle the immense gravity that is on this planet. For this
+          journey we will work up to the same g’s as Gliese 667Cc, so that you
+          will adapt to the gravity of this world. When you inevitably arrive at
+          the Earth-cousin, you won’t feel as much difference as you would
+          without the training.
         </p>
       </div>
     </div>
 
     <section class="attractions_section">
       <div class="hero_image">
-        <img class="heroimg" src="../assets/heroimg/attractions_hero.svg" alt="" />
+        <img
+          class="heroimg"
+          src="../assets/heroimg/attractions_hero.svg"
+          alt=""
+        />
         <h1>Attractions</h1>
       </div>
 
@@ -86,15 +109,21 @@ For this journey we will work up to the same g’s as Gliese 667Cc, so that you 
           <div class="text_control">
             <h1>Gym world</h1>
             <p>
-             This is the perfect planet for your exercise needs. As the gravity of the planet is around 4 times higher than Earth, every push-up here, you would have made 4 push-up back on Earth. 
-That being said, you will need a serious gradual training to sustain high-g environment. If you’re up to the challenge. 
-
+              This is the perfect planet for your exercise needs. As the gravity
+              of the planet is around 4 times higher than Earth, every push-up
+              here, you would have made 4 push-up back on Earth. That being
+              said, you will need a serious gradual training to sustain high-g
+              environment. If you’re up to the challenge.
             </p>
           </div>
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/gliese-exercise.jpg" alt="" />
+          <img
+            class="planet"
+            src="../assets/photos/gliese-exercise.jpg"
+            alt=""
+          />
         </div>
       </div>
       <div class="content_container">
@@ -102,9 +131,12 @@ That being said, you will need a serious gradual training to sustain high-g envi
           <div class="text_control">
             <h1>Three suns</h1>
             <p>
-             Gliese 667Cc is orbiting a star, and that star is orbiting a pair of stars. Because of the planet is tidally locked, like our moon back on Earth, it has a side that is permanently facing one side towards the sun. Meaning, it is always sunrise or sunset depending on the way you’re looking at it. 
-Either way, the view will be out of this world.
-
+              Gliese 667Cc is orbiting a star, and that star is orbiting a pair
+              of stars. Because of the planet is tidally locked, like our moon
+              back on Earth, it has a side that is permanently facing one side
+              towards the sun. Meaning, it is always sunrise or sunset depending
+              on the way you’re looking at it. Either way, the view will be out
+              of this world.
             </p>
           </div>
         </div>
@@ -129,21 +161,18 @@ Either way, the view will be out of this world.
 
         <h3>Want to know more?</h3>
 
-         <router-link :to="'/life'">
-        <b-button class="purple_hover">Click here</b-button>
+        <router-link :to="'/life'">
+          <b-button class="purple_hover">Click here</b-button>
         </router-link>
       </div>
-
-      
     </div>
 
     <section class="section section-dark">
-
       <div class="container-link">
-
         <h2>Fancy different planet?</h2>
-       <router-link :to="'/choose-planet'"> <b-button class="purple animation">Go back</b-button> </router-link>
-
+        <router-link :to="'/choose-planet'">
+          <b-button class="purple animation">Go back</b-button>
+        </router-link>
       </div>
 
       <div class="container-link">
@@ -151,13 +180,11 @@ Either way, the view will be out of this world.
       </div>
 
       <div class="container-link">
-
         <h2>Choose your ship</h2>
-        <router-link :to="'/choose-ship'"> <b-button class="purple animation"> Click here</b-button> </router-link>
-
-
+        <router-link :to="'/choose-ship'">
+          <b-button class="purple animation"> Click here</b-button>
+        </router-link>
       </div>
-
     </section>
   </div>
 </template>
@@ -223,8 +250,7 @@ export default {
 
 @media only screen and (max-device-width: 1366px) {
   .gliese_environment_section {
-  
-  background-attachment: scroll;
-}
+    background-attachment: scroll;
+  }
 }
 </style>

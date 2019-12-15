@@ -259,7 +259,7 @@ a {
   justify-content: center;
   flex-direction: column;
   background-color: #2d2273;
-  
+
   .hero_image {
     width: 100%;
     height: 20%;
@@ -346,7 +346,7 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
+
   padding: 3em 0em;
   background: rgb(4, 3, 59);
   background: linear-gradient(
@@ -365,13 +365,10 @@ a {
 }
 
 @media only screen and (max-device-width: 1366px) {
-  
-
-.first_section,
-.fourth_section {
-  
-   background-attachment: scroll;
-}
+  .first_section,
+  .fourth_section {
+    background-attachment: scroll;
+  }
 }
 
 @media only screen and (max-width: 736px) {
@@ -381,7 +378,7 @@ a {
   }
 
   .second_section {
-    height:auto;
+    height: auto;
   }
 
   .second_section h1 {
@@ -392,7 +389,7 @@ a {
   .second_section p {
     font-size: 0.9rem;
     width: 100%;
-    margin-left: .5em;
+    margin-left: 0.5em;
     text-align: left;
   }
 
@@ -410,7 +407,7 @@ a {
 
   .third_section {
     height: auto;
-    
+
     .content_container {
       flex-direction: column;
       display: flex;
@@ -418,7 +415,7 @@ a {
       height: 90%;
       justify-content: flex-start;
       align-items: center;
-      
+
       .graphic_banner {
         width: 100%;
         height: 70%;
@@ -454,19 +451,15 @@ a {
     }
   }
 
-
-
   .landing_section {
     font-size: 1rem;
     width: 100%;
     display: flex;
     justify-content: center;
     height: auto;
-
   }
 
   .second_section_text {
-    
     width: 80%;
     text-align: left;
     margin-left: 1em;
@@ -484,7 +477,7 @@ a {
 
     h1 {
       font-size: 1.5rem;
-       width: 80%;
+      width: 80%;
     }
   }
 }

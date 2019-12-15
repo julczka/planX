@@ -6,21 +6,21 @@
 </template>
 
 <script>
-  import Multiselect from 'vue-multiselect'
+import Multiselect from "vue-multiselect";
 
-  // register globally
- // Vue.component('multiselect', Multiselect)
+// register globally
+// Vue.component('multiselect', Multiselect)
 
-  export default {
-    // OR register locally
-    components: { Multiselect },
-    data () {
-      return {
-        value: null,
-        options: ['list', 'of', 'options']
-      }
-    }
+export default {
+  // OR register locally
+  components: { Multiselect },
+  data() {
+    return {
+      value: null,
+      options: ["list", "of", "options"]
+    };
   }
+};
 </script>
 
 <!-- New step!
@@ -29,6 +29,4 @@
 @import "@/styles/_multiselect.scss";
 </style>
 
-<style>
- 
-</style>
+<style></style>

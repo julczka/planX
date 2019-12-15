@@ -62,13 +62,13 @@
       <h1>History</h1>
       <div class="environment_info">
         <p>
-          The SpaceJet’s designing process began in 2029, 
-          and with a lot of iterations and propositions, feedback and such, 
-          the final design was approved and came to reality in 2037, 
-          just 8 short years from start to finish. The ship was built in 2042, 
-          after all materials have arrived and were ready to be put together. 
-          The jet was finished in the year 2047, 5 years from 0 to ship. 
-          The price for this aerodynamic greatness is around the $3.2 Billion ($3.200.000.000).
+          The SpaceJet’s designing process began in 2029, and with a lot of
+          iterations and propositions, feedback and such, the final design was
+          approved and came to reality in 2037, just 8 short years from start to
+          finish. The ship was built in 2042, after all materials have arrived
+          and were ready to be put together. The jet was finished in the year
+          2047, 5 years from 0 to ship. The price for this aerodynamic greatness
+          is around the $3.2 Billion ($3.200.000.000).
         </p>
       </div>
     </div>
@@ -84,10 +84,10 @@
           <div class="text_control">
             <h1>G-Gym</h1>
             <p>
-              The Gravity Gym, or as we call it, The G-Gym, is a gravity gym made for you
-              to train in Earth Gravity, while outside of space. 
-              This place will prevent muscle mass loss and
-              keep you in shape at all times.
+              The Gravity Gym, or as we call it, The G-Gym, is a gravity gym
+              made for you to train in Earth Gravity, while outside of space.
+              This place will prevent muscle mass loss and keep you in shape at
+              all times.
             </p>
           </div>
         </div>
@@ -101,10 +101,11 @@
           <div class="text_control">
             <h1>Acceleration</h1>
             <p>
-              This is the fastest accelerating jet made on our planet Earth.
-              Its acceleration is at a mind-boggling 0 to 99% of the Speed of Light
-              in just 1 hour. This means the acceleration is so strong, you might pass out
-              in the middle of acceleration from the planet to the orbit.
+              This is the fastest accelerating jet made on our planet Earth. Its
+              acceleration is at a mind-boggling 0 to 99% of the Speed of Light
+              in just 1 hour. This means the acceleration is so strong, you
+              might pass out in the middle of acceleration from the planet to
+              the orbit.
             </p>
           </div>
         </div>
@@ -120,33 +121,34 @@
         <h2>Space travelling technology</h2>
         <h3>Why is it so difficult?</h3>
         <p>
-          When we think about interplanetary travelling in general, it seems to be
-          almost unreachable for human mankind. However scientists from around the
-          globe are constantly working on solutions for such a obstacles as 
-          Proper Propulsion, The Ability to Hold Off the Heat or Radiation Protection.
-          The National Aeronautics and Space Administration is still working on some
-          kind of space GPS which is undoubtedly one of the priorities in the field of
-          space exploration. Nevertheless human mankind continually need some time and 
-          resources to wade through this extremely hard infliction.
+          When we think about interplanetary travelling in general, it seems to
+          be almost unreachable for human mankind. However scientists from
+          around the globe are constantly working on solutions for such a
+          obstacles as Proper Propulsion, The Ability to Hold Off the Heat or
+          Radiation Protection. The National Aeronautics and Space
+          Administration is still working on some kind of space GPS which is
+          undoubtedly one of the priorities in the field of space exploration.
+          Nevertheless human mankind continually need some time and resources to
+          wade through this extremely hard infliction.
         </p>
 
         <h3>Want to know more?</h3>
 
-       <a href="https://www.space.com/is-interstellar-travel-possible.html" target="_blank">
-       <b-button class="purple_hover">Click here</b-button>
-       </a>
+        <a
+          href="https://www.space.com/is-interstellar-travel-possible.html"
+          target="_blank"
+        >
+          <b-button class="purple_hover">Click here</b-button>
+        </a>
       </div>
-
-      
     </div>
 
     <section class="section section-dark">
-
-       <div class="container-link">
-
+      <div class="container-link">
         <h2>Fancy different ship?</h2>
-       <router-link :to="'/choose-ship'"> <b-button class="purple animation">Go back</b-button> </router-link>
-
+        <router-link :to="'/choose-ship'">
+          <b-button class="purple animation">Go back</b-button>
+        </router-link>
       </div>
 
       <div class="container-link">
@@ -154,13 +156,11 @@
       </div>
 
       <div class="container-link">
-
         <h2>See your trip summary</h2>
-        <router-link :to="'/trip-summary'"> <b-button class="purple animation"> Click here</b-button> </router-link>
-
-
+        <router-link :to="'/trip-summary'">
+          <b-button class="purple animation"> Click here</b-button>
+        </router-link>
       </div>
-
     </section>
   </div>
 </template>
@@ -207,13 +207,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-
-
-
-
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 .jet_history_section {
@@ -229,7 +224,7 @@ a{
 .basic_info_section {
   width: 100%;
   height: 95vh;
-  background-color:$bgcolor;
+  background-color: $bgcolor;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,8 +239,6 @@ a{
   justify-content: center;
   align-items: center;
 }
-
-
 
 .info_container {
   width: 50%;
@@ -266,7 +259,7 @@ a{
 
     ul {
       list-style-image: require("../assets/icons/bullet.svg");
-      font-family: 'Montserrat Alternates', sans-serif;
+      font-family: "Montserrat Alternates", sans-serif;
     }
 
     li {
@@ -312,31 +305,28 @@ a{
   background-attachment: fixed;
 }
 
+.heroimg {
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  text-shadow: 0 0 30px $bgcolor;
+  font-size: 3em;
+}
+.environment_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 40%;
 
-
-  .heroimg {
-    width: 100px;
-    height: 100px;
+  p {
+    margin: 0.5em;
+    text-shadow: 0 0 4px black;
+    line-height: 1.6;
+    font-size: 1.1em;
   }
-  h1 {
-    text-shadow: 0 0 30px $bgcolor;
-    font-size: 3em;
-  }
-  .environment_info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    height: 40%;
-
-    p {
-      margin: 0.5em;
-      text-shadow: 0 0 4px black;
-      line-height: 1.6;
-      font-size: 1.1em;
-    }
-  }
-
+}
 
 .attractions_section {
   width: 100%;
@@ -359,7 +349,6 @@ a{
     .heroimg {
       width: 100px;
       height: 100px;
-      
     }
     h1 {
       color: white;
@@ -372,9 +361,8 @@ a{
     width: 100%;
     height: auto;
     align-items: center;
-    background-color:#2D2273;
+    background-color: #2d2273;
     //padding: 2em 0;
-
 
     &:nth-child(2) {
       flex-direction: row-reverse;
@@ -385,11 +373,11 @@ a{
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color:#2D2273;
+      background-color: #2d2273;
 
       .planet {
         width: 90%;
-        height:80%;
+        height: 80%;
       }
 
       img {
@@ -414,9 +402,10 @@ a{
       h1 {
         font-size: 3rem;
       }
-      
-      p
-      {margin:0}
+
+      p {
+        margin: 0;
+      }
     }
   }
 }
@@ -467,7 +456,7 @@ a{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height:100%;
+  height: 100%;
 
   h2 {
     font-size: 2rem;
@@ -475,20 +464,16 @@ a{
 }
 
 @media only screen and (max-device-width: 1366px) {
-  
-
-.jet_history_section,
-.technology_section {
-  
-   background-attachment: scroll;
-}
+  .jet_history_section,
+  .technology_section {
+    background-attachment: scroll;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
   .basic_info_section {
     display: flex;
     flex-direction: column;
-
 
     .info_container {
       width: 90%;
@@ -501,16 +486,14 @@ a{
       .stats_container {
         width: 60%;
       }
-
     }
 
     .ship_container {
       width: 100%;
       height: 60%;
-
-      
     }
-}}
+  }
+}
 
 @media only screen and (max-width: 770px) {
   .basic_info_section {
@@ -577,22 +560,19 @@ a{
         width: 100%;
         height: 50%;
 
-
         .text_control {
           width: 75%;
           text-align: left;
           margin-left: 2.2em;
         }
-
-        
       }
 
       .graphic_banner {
         width: 100%;
         height: 50%;
-        .planet{
-          width:100%;
-          height:90%;
+        .planet {
+          width: 100%;
+          height: 90%;
         }
       }
     }
@@ -622,7 +602,7 @@ a{
       justify-content: center;
       flex-direction: column;
       text-shadow: 0 0 10px $bgcolor;
-      padding: .7em;
+      padding: 0.7em;
       position: relative;
       right: 0%;
       box-sizing: border-box;
@@ -637,7 +617,7 @@ a{
 
       p {
         width: 90%;
-        font-size: .7rem;
+        font-size: 0.7rem;
         text-shadow: 0 0 5px $bgcolor;
         text-align: left;
       }
@@ -651,22 +631,22 @@ a{
     flex-direction: column;
     height: auto;
   }
-  
+
   .container-link {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-   height: 20%;
-  
+    height: 20%;
+
     h2 {
       font-size: 1rem;
       padding-right: 1em;
-      margin: .2em;
+      margin: 0.2em;
     }
 
     h3 {
-      margin: .1em;
+      margin: 0.1em;
     }
   }
 }

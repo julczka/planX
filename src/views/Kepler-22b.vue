@@ -61,23 +61,35 @@
     </section>
 
     <div class="kepler_environment_section">
-      <img class="heroimg" src="../assets/heroimg/environment_hero.svg" alt="" />
+      <img
+        class="heroimg"
+        src="../assets/heroimg/environment_hero.svg"
+        alt=""
+      />
       <h1>Environment</h1>
       <div class="environment_info">
         <p>
-        It is going to be very humid and wet. Keppler 22b is likely to be nearly identical to Earth, if Earth didn’t have continents. Being around 22 degrees Celsius, it is likely to have lukewarm oceans. 
-If it lacks atmosphere like Earth, it will feel like winter near Northpole.
-If it has atmosphere like ours, it will be warm. It will feel like being in a room temperature, but pretty warm for a planet like Earth. 
-But if it has greenhouse effect like Venus, the place will be around 400 degree Celsius. 
-Some even named this planet “Namek” from the anime-series, Dragonball Z. Mainly because of the greenish tint to the planet, that strangely resembles this very planet. 
-
+          It is going to be very humid and wet. Keppler 22b is likely to be
+          nearly identical to Earth, if Earth didn’t have continents. Being
+          around 22 degrees Celsius, it is likely to have lukewarm oceans. If it
+          lacks atmosphere like Earth, it will feel like winter near Northpole.
+          If it has atmosphere like ours, it will be warm. It will feel like
+          being in a room temperature, but pretty warm for a planet like Earth.
+          But if it has greenhouse effect like Venus, the place will be around
+          400 degree Celsius. Some even named this planet “Namek” from the
+          anime-series, Dragonball Z. Mainly because of the greenish tint to the
+          planet, that strangely resembles this very planet.
         </p>
       </div>
     </div>
 
     <section class="attractions_section">
       <div class="hero_image">
-        <img class="heroimg" src="../assets/heroimg/attractions_hero.svg" alt="" />
+        <img
+          class="heroimg"
+          src="../assets/heroimg/attractions_hero.svg"
+          alt=""
+        />
         <h1>Attractions</h1>
       </div>
 
@@ -86,13 +98,18 @@ Some even named this planet “Namek” from the anime-series, Dragonball Z. Mai
           <div class="text_control">
             <h1>Perfect for fishing trip</h1>
             <p>
-              Keppler 22b is a water world. This will make the perfect trip. In a world of water, you may have a vast ocean to fish from. 
+              Keppler 22b is a water world. This will make the perfect trip. In
+              a world of water, you may have a vast ocean to fish from.
             </p>
           </div>
         </div>
 
         <div class="graphic_banner">
-          <img class="planet" src="../assets/photos/kepler-fishing.jpg" alt="" />
+          <img
+            class="planet"
+            src="../assets/photos/kepler-fishing.jpg"
+            alt=""
+          />
         </div>
       </div>
       <div class="content_container">
@@ -100,7 +117,9 @@ Some even named this planet “Namek” from the anime-series, Dragonball Z. Mai
           <div class="text_control">
             <h1>Scuba dive</h1>
             <p>
-              You want a clean ocean and rich, warm waters. This is why Keppler 22b is a perfect world for you to do scuba diving. We will have enough equipment for you in the ship. 
+              You want a clean ocean and rich, warm waters. This is why Keppler
+              22b is a perfect world for you to do scuba diving. We will have
+              enough equipment for you in the ship.
             </p>
           </div>
         </div>
@@ -125,21 +144,18 @@ Some even named this planet “Namek” from the anime-series, Dragonball Z. Mai
 
         <h3>Want to know more?</h3>
 
-         <router-link :to="'/life'">
-        <b-button class="purple_hover">Click here</b-button>
+        <router-link :to="'/life'">
+          <b-button class="purple_hover">Click here</b-button>
         </router-link>
       </div>
-
-      
     </div>
 
     <section class="section section-dark">
-
       <div class="container-link">
-
         <h2>Fancy different planet?</h2>
-       <router-link :to="'/choose-planet'"> <b-button class="purple animation">Go back</b-button> </router-link>
-
+        <router-link :to="'/choose-planet'">
+          <b-button class="purple animation">Go back</b-button>
+        </router-link>
       </div>
 
       <div class="container-link">
@@ -147,13 +163,11 @@ Some even named this planet “Namek” from the anime-series, Dragonball Z. Mai
       </div>
 
       <div class="container-link">
-
         <h2>Choose your ship</h2>
-        <router-link :to="'/choose-ship'"> <b-button class="purple animation"> Click here</b-button> </router-link>
-
-
+        <router-link :to="'/choose-ship'">
+          <b-button class="purple animation"> Click here</b-button>
+        </router-link>
       </div>
-
     </section>
   </div>
 </template>
@@ -218,8 +232,7 @@ export default {
 
 @media only screen and (max-device-width: 1366px) {
   .kepler_environment_section {
-  
-  background-attachment: scroll;
-}
+    background-attachment: scroll;
+  }
 }
 </style>

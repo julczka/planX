@@ -4,53 +4,53 @@
     @mousemove="getMousePosition"
     @mouseleave="parallaxStop"
     @mouseenter="parallaxStart"
-    :style="{perspective: `${perspective}px`}"
+    :style="{ perspective: `${perspective}px` }"
   >
     <slot></slot>
   </component>
 </template>
 
 <script>
-import throttle from '../lib/throttle';
+import throttle from "../lib/throttle";
 
 export default {
-  name: 'ParallaxContainer',
+  name: "ParallaxContainer",
   provide() {
     const context = {};
 
-    Object.defineProperty(context, 'mousePosition', {
+    Object.defineProperty(context, "mousePosition", {
       enumerable: true,
-      get: () => this.mousePosition,
+      get: () => this.mousePosition
     });
 
-    Object.defineProperty(context, 'isHovering', {
+    Object.defineProperty(context, "isHovering", {
       enumerable: true,
-      get: () => this.isHovering,
+      get: () => this.isHovering
     });
 
-    Object.defineProperty(context, 'isHoverable', {
+    Object.defineProperty(context, "isHoverable", {
       enumerable: true,
-      get: () => this.isHoverable,
+      get: () => this.isHoverable
     });
 
-    Object.defineProperty(context, 'didEnter', {
+    Object.defineProperty(context, "didEnter", {
       enumerable: true,
-      get: () => this.didEnter,
+      get: () => this.didEnter
     });
 
-    Object.defineProperty(context, 'animationDuration', {
+    Object.defineProperty(context, "animationDuration", {
       enumerable: true,
-      get: () => this.animationDuration,
+      get: () => this.animationDuration
     });
 
-    Object.defineProperty(context, 'easing', {
+    Object.defineProperty(context, "easing", {
       enumerable: true,
-      get: () => this.easing,
+      get: () => this.easing
     });
 
-    Object.defineProperty(context, 'shape', {
+    Object.defineProperty(context, "shape", {
       enumerable: true,
-      get: () => this.shape,
+      get: () => this.shape
     });
 
     return { context };
@@ -59,32 +59,32 @@ export default {
     return {
       mousePosition: {
         x: 0,
-        y: 0,
+        y: 0
       },
       isHovering: false,
       isHoverable: false,
       attemptedHover: false,
       didEnter: false,
-      shape: null,
+      shape: null
     };
   },
   props: {
     animationDuration: {
       type: Number,
-      default: 1000,
+      default: 1000
     },
     easing: {
       type: String,
-      default: 'cubic-bezier(0.23, 1, 0.32, 1)',
+      default: "cubic-bezier(0.23, 1, 0.32, 1)"
     },
     tag: {
       type: String,
-      default: 'div',
+      default: "div"
     },
     perspective: {
       type: Number,
-      default: 1000,
-    },
+      default: 1000
+    }
   },
   mounted() {
     this.shape = this.$el.getBoundingClientRect();
@@ -100,11 +100,11 @@ export default {
       const shape = this.$el.getBoundingClientRect();
       return {
         top: shape.top,
-        left: shape.left,
+        left: shape.left
       };
     },
     // eslint-disable-next-line func-names
-    getMousePosition: throttle(function (event) {
+    getMousePosition: throttle(function(event) {
       this.shape = this.$el.getBoundingClientRect();
       this.mousePosition.x = event.clientX;
       this.mousePosition.y = event.clientY;
@@ -124,7 +124,7 @@ export default {
     parallaxStop() {
       this.isHovering = false;
       this.didEnter = false;
-    },
-  },
+    }
+  }
 };
 </script>

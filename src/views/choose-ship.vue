@@ -49,8 +49,6 @@
           >
           </parallax-element>
 
-      
-
           <transition name="puff">
             <parallax-element
               v-if="show"
@@ -60,7 +58,6 @@
               class="absolute"
               :src="shipImage"
               :key="shipImage"
-              
             >
             </parallax-element>
           </transition>
@@ -71,14 +68,11 @@
             tag="img"
             class="absolute"
             :src="img4"
-            
           >
           </parallax-element>
-         
         </parallax-container>
       </div>
     </div>
-  
   </div>
 </template>
 
@@ -88,28 +82,20 @@ import blinkingButton from "@/components/blinkingButton.vue";
 import { ParallaxContainer, ParallaxElement } from "vue-mouse-parallax";
 
 export default {
-  components: { 
+  components: {
     Multiselect,
     "b-button": blinkingButton,
-     ParallaxContainer,
-    ParallaxElement,
- },
+    ParallaxContainer,
+    ParallaxElement
+  },
   data() {
     return {
       selectedShip: "",
       show: true,
-      //value: null,
-      // imgSource:'',
-      //img: require(ships.img),
       ships: ["Space Cruiser", "Space Jet"],
-
-      
-
       img1: require("@/assets/ship-choice/1.png"),
       img2: require("@/assets/ship-choice/2.png"),
-      //img3: require("@/assets/ship_choice/3.png"),
-      img4: require("@/assets/ship-choice/4.png"),
-      //img5: require("@/assets/ship_choice/5.png")
+      img4: require("@/assets/ship-choice/4.png")
     };
   },
 
@@ -141,7 +127,6 @@ export default {
   methods: {
     persist() {
       localStorage.selectedShip = this.selectedShip;
-     
     }
   }
 };
@@ -166,8 +151,6 @@ export default {
 a {
   text-decoration: none;
 }
-
-
 
 .choice-container {
   height: 100%;
@@ -307,40 +290,37 @@ a {
 }
 
 @media screen and (max-width: 759px) {
- .choice-container {
-  height: 100%;
-  width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-
-  &-color {
-    display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  height: 70%;
-  width: 80%;
-  
-  }
-
-  
-
-  &-text {
+  .choice-container {
+    height: 100%;
     width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 
-    h1 {
-      font-size: 1.2rem;
+    &-color {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 70%;
+      width: 80%;
+    }
+
+    &-text {
+      width: 90%;
+
+      h1 {
+        font-size: 1.2rem;
+      }
     }
   }
-}
 }
 
 @media screen and (max-width: 600px) {
   .ship-paralax-container {
-  height: 300px;
-  width: 300px;
+    height: 300px;
+    width: 300px;
   }
 }
 </style>

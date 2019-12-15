@@ -1,5 +1,3 @@
-
-
 a {
   text-decoration: none;
 }
@@ -7,7 +5,7 @@ a {
 .basic_info_section {
   width: 100%;
   height: 95vh;
-  background-color:$bgcolor;
+  background-color: $bgcolor;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,8 +20,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-
-
 
 .info_container {
   width: 50%;
@@ -44,8 +40,7 @@ a {
     }
 
     ul {
-      
-      font-family: 'Montserrat Alternates', sans-serif;
+      font-family: "Montserrat Alternates", sans-serif;
       width: 80%;
     }
 
@@ -91,31 +86,28 @@ a {
   background-attachment: fixed;
 }
 
+.heroimg {
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  text-shadow: 0 0 30px $bgcolor;
+  font-size: 3em;
+}
+.environment_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 40%;
 
-
-  .heroimg {
-    width: 100px;
-    height: 100px;
+  p {
+    margin: 0.5em;
+    text-shadow: 0 0 4px black;
+    line-height: 1.6;
+    font-size: 1.1em;
   }
-  h1 {
-    text-shadow: 0 0 30px $bgcolor;
-    font-size: 3em;
-  }
-  .environment_info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    height: 40%;
-
-    p {
-      margin: 0.5em;
-      text-shadow: 0 0 4px black;
-      line-height: 1.6;
-      font-size: 1.1em;
-    }
-  }
-
+}
 
 .attractions_section {
   width: 100%;
@@ -123,7 +115,7 @@ a {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-  background-color:#2D2273;
+  background-color: #2d2273;
 
   .hero_image {
     width: 100%;
@@ -162,11 +154,11 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color:#2D2273;
+      background-color: #2d2273;
 
       .planet {
         width: 90%;
-        height:80%;
+        height: 80%;
       }
 
       img {
@@ -185,7 +177,6 @@ a {
       .text_control {
         padding: 0 0 2em 0;
       }
-      
 
       background: #2d2273;
       .text_control {
@@ -195,9 +186,10 @@ a {
       h1 {
         font-size: 3rem;
       }
-      
-      p
-      {margin:0}
+
+      p {
+        margin: 0;
+      }
     }
   }
 }
@@ -236,7 +228,6 @@ a {
   }
 }
 
-
 .section-dark {
   display: flex;
   align-items: center;
@@ -249,7 +240,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height:100%;
+  height: 100%;
 
   h2 {
     font-size: 2rem;
@@ -257,19 +248,15 @@ a {
 }
 
 @media only screen and (max-device-width: 1366px) {
-  
-.aliens_section 
-{
-  
-  background-attachment: scroll;
-}
+  .aliens_section {
+    background-attachment: scroll;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
   .basic_info_section {
     display: flex;
     flex-direction: column;
-
 
     .info_container {
       width: 90%;
@@ -282,16 +269,14 @@ a {
       .stats_container {
         width: 60%;
       }
-
     }
 
     .planet_container {
       width: 100%;
       height: 60%;
-
-      
     }
-}}
+  }
+}
 
 @media only screen and (max-width: 770px) {
   .basic_info_section {
@@ -312,8 +297,8 @@ a {
       flex-direction: column;
 
       .info-text {
-        margin-left:6.5em;
-      };
+        margin-left: 6.5em;
+      }
 
       h1 {
         text-align: center;
@@ -357,27 +342,22 @@ a {
 
       .text_banner {
         width: 100%;
-        
-        
-        .text_control {
 
+        .text_control {
           width: 80%;
 
-          p {text-align: left;
-            margin-left: 1em;}
-
+          p {
+            text-align: left;
+            margin-left: 1em;
+          }
         }
-
-        
-
-        
       }
 
       .graphic_banner {
         width: 100%;
         height: auto;
-        .planet{
-          width:100%;
+        .planet {
+          width: 100%;
           height: auto;
         }
       }
@@ -423,8 +403,7 @@ a {
       p {
         width: 100%;
         text-align: left;
-        font-size: .7rem;
-
+        font-size: 0.7rem;
       }
     }
   }
@@ -436,25 +415,23 @@ a {
     flex-direction: column;
     height: auto;
   }
-  
+
   .container-link {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-   height: 20%;
-   padding: 2em 0;
-  
+    height: 20%;
+    padding: 2em 0;
+
     h2 {
       font-size: 1rem;
       padding-right: 1em;
-      margin: .2em;
+      margin: 0.2em;
     }
 
     h3 {
-      margin: .1em;
+      margin: 0.1em;
     }
   }
-
-
 }
