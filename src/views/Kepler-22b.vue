@@ -209,7 +209,17 @@ export default {
   align-items: center;
   justify-content: center;
   color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-
+@media only screen and (max-device-width: 1366px) {
+  .kepler_environment_section {
+  
+  background-attachment: scroll;
+}
+}
 </style>
