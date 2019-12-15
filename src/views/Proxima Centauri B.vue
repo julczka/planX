@@ -1,5 +1,5 @@
 <template>
-  <div class="planet_page">
+  <div class="proxima_planet_page">
     <section class="basic_info_section">
       <div class="planet_container">
         <model-gltf
@@ -60,7 +60,7 @@
       </div>
     </section>
 
-    <div class="environment_section">
+    <div class="proxima_environment_section">
       <img class="heroimg" src="../assets/heroimg/environment_hero.svg" alt="" />
       <h1>Environment</h1>
       <div class="environment_info">
@@ -198,7 +198,7 @@ export default {
 
 <style lang="scss">
 @import "@/styles/_planets.scss";
-.environment_section {
+.proxima_environment_section {
   background-image: url("../assets/parallax/proxima_parallax.jpg");
   min-height: 90vh;
   display: flex;
@@ -206,5 +206,12 @@ export default {
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .proxima_environment_section {
+  
+  background-attachment: scroll;
+}
 }
 </style>

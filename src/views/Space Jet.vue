@@ -57,7 +57,7 @@
       </div>
     </section>
 
-    <div class="environment_section">
+    <div class="jet_history_section">
       <img class="heroimg" src="../assets/heroimg/rocket_hero.svg" alt="" />
       <h1>History</h1>
       <div class="environment_info">
@@ -216,7 +216,7 @@ a{
   text-decoration:none;
 }
 
-.environment_section {
+.jet_history_section {
   background-image: url("../assets/parallax/dinner_parallax.jpg");
   min-height: 90vh;
   display: flex;
@@ -303,7 +303,7 @@ a{
   }
 }
 
-.environment_section,
+.jet_history_section,
 .technology_section {
   position: relative;
   background-position: center;
@@ -474,6 +474,16 @@ a{
   }
 }
 
+@media only screen and (max-device-width: 1366px) {
+  
+
+.jet_history_section,
+.technology_section {
+  
+   background-attachment: scroll;
+}
+}
+
 @media only screen and (max-width: 1200px) {
   .basic_info_section {
     display: flex;
@@ -540,7 +550,7 @@ a{
     }
   }
 
-  .environment_section {
+  .jet_history_section {
     padding-top: 3em;
     width: 100%;
 

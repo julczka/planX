@@ -258,6 +258,16 @@ a {
   align-items: center;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  
+
+.first_section,
+.fourth_section {
+  
+   background-attachment: scroll;
+}
+}
+
 @media only screen and (max-width: 736px) {
   .basic_info_section {
     display: flex;

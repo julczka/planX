@@ -44,7 +44,7 @@ a {
     }
 
     ul {
-      list-style-image: require("../assets/icons/bullet.svg");
+      
       font-family: 'Montserrat Alternates', sans-serif;
       width: 80%;
     }
@@ -83,7 +83,7 @@ a {
   }
 }
 
-.environment_section,
+.kepler_environment_section, .gliese_environment_section, .proxima_environment_section,
 .aliens_section {
   position: relative;
   background-position: center;
@@ -255,6 +255,14 @@ a {
   h2 {
     font-size: 2rem;
   }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  
+.aliens_section {
+  
+  background-attachment: scroll;
+}
 }
 
 @media only screen and (max-width: 1200px) {
