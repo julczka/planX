@@ -9,6 +9,7 @@
           :rotation="rotation"
           @on-load="onLoad"
         ></model-gltf>
+        
       </div>
       <div class="info_container">
         <div class="info-text">
@@ -25,6 +26,7 @@
             <li>54% bigger radius than of the Earth, a Super-Earth</li>
             <li>In the constellation of Scorpius</li>
           </ul>
+          <p>3D Model: edouard.angebault/Sketchfab</p>
         </div>
         <div class="stats_container">
           <div class="stars">

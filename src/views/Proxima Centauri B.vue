@@ -24,6 +24,7 @@
             <li>-39 Celsius equilibrium</li>
             <li>Approximately 20-30% wider radius of Earth</li>
           </ul>
+          <p>3D Model: unaipl2003/Sketchfab</p>
         </div>
         <div class="stats_container">
           <div class="stars">
