@@ -20,6 +20,7 @@
             <li>G-Ball Arena (basketball, soccer, dodgeball)</li>
             <li>Swimming Pool</li>
           </ul>
+          <p class="credits">3D Model: Peterling/BlendeSwap</p>
         </div>
         <div class="stats_container">
           <div class="stars">
@@ -230,6 +231,10 @@ a {
   align-items: center;
   box-sizing: border-box;
   background: linear-gradient(180deg, rgba(0, 0, 21, 1) 0%, #2d2273 100%);
+}
+
+.credits{
+  font-size:10px;
 }
 
 .ship_container {

@@ -19,6 +19,7 @@
             <li>SpaceJet suits for outer-space maintenance</li>
             <li>Great acceleration of 0 to 99% of c (Speed of Light) in 1h</li>
           </ul>
+          <p class="credits">3D Model: Kavabanga/BlendSwap</p>
         </div>
         <div class="stats_container">
           <div class="stars">
@@ -230,6 +231,10 @@ a {
   align-items: center;
   box-sizing: border-box;
   background: linear-gradient(180deg, rgba(0, 0, 21, 1) 0%, #2d2273 100%);
+}
+
+.credits{
+  font-size:10px;
 }
 
 .ship_container {
