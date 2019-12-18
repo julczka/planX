@@ -1,4 +1,4 @@
-# local-storage-test
+# planX
 
 ## Project setup
 ```
